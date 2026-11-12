@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:55:21Z",
+  "generated_at": "2026-11-12T16:48:15Z",
   "stats": {
     "total_tools": 48,
     "genuinely_free": 48,
@@ -4769,6 +4769,46 @@
   ],
   "discovery_runs": [
     {
+      "id": 8,
+      "run_type": "weekly",
+      "started_at": "2026-11-12T16:48:00Z",
+      "finished_at": "2026-11-12T16:48:15Z",
+      "status": "success",
+      "candidates_scanned": 45,
+      "new_tools_added": 0,
+      "rejected_fake_free": 3,
+      "duplicates_skipped": 42,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Hugging Face",
+        "Reddit",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [],
+      "summary": "Weekly report 2026-W46 generated with Top 10 rankings & PDF/CSV/XLSX."
+    },
+    {
+      "id": 7,
+      "run_type": "daily",
+      "started_at": "2026-11-12T16:47:52Z",
+      "finished_at": "2026-11-12T16:48:00Z",
+      "status": "success",
+      "candidates_scanned": 45,
+      "new_tools_added": 0,
+      "rejected_fake_free": 3,
+      "duplicates_skipped": 42,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Hugging Face",
+        "Reddit",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [],
+      "summary": "Added 0 verified tools; rejected 3 non-free/low-score."
+    },
+    {
       "id": 6,
       "run_type": "daily",
       "started_at": "2026-11-12T15:44:22Z",
@@ -4887,17 +4927,6 @@
   ],
   "rejected_candidates": [
     {
-      "id": 2,
-      "canonical_key": "web:zenodo.org/records/23918639/files/roundsquare.lean",
-      "name": "Zero",
-      "url": "https://zenodo.org/records/23918639/files/RoundSquare.lean?download=1",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T15:44:46Z"
-    },
-    {
       "id": 1,
       "canonical_key": "web:mall-bats.vercel.app",
       "name": "Mall Bats, a nostalgic tycoon game with a twitst",
@@ -4906,7 +4935,18 @@
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
-      "rejected_at": "2026-11-12T15:44:24Z"
+      "rejected_at": "2026-11-12T16:47:55Z"
+    },
+    {
+      "id": 2,
+      "canonical_key": "web:zenodo.org/records/23918639/files/roundsquare.lean",
+      "name": "Zero",
+      "url": "https://zenodo.org/records/23918639/files/RoundSquare.lean?download=1",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T16:47:55Z"
     },
     {
       "id": 5,
@@ -4917,7 +4957,7 @@
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
-      "rejected_at": "2026-11-12T15:44:24Z"
+      "rejected_at": "2026-11-12T16:47:55Z"
     },
     {
       "id": 6,
@@ -4935,10 +4975,10 @@
     {
       "id": 1,
       "week_label": "2026-W46",
-      "generated_at": "2026-11-12T15:55:21Z",
-      "markdown_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.md",
-      "pdf_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.pdf",
-      "json_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.json",
+      "generated_at": "2026-11-12T16:48:13Z",
+      "markdown_path": "/home/runner/work/pramana-ai-radar/pramana-ai-radar/data/weekly_reports/weekly-2026-W46.md",
+      "pdf_path": "/home/runner/work/pramana-ai-radar/pramana-ai-radar/data/weekly_reports/weekly-2026-W46.pdf",
+      "json_path": "/home/runner/work/pramana-ai-radar/pramana-ai-radar/data/weekly_reports/weekly-2026-W46.json",
       "top_10_keys": [
         "gh:unslothai/unsloth",
         "gh:comfy-org/comfyui",
