@@ -1,0 +1,23 @@
+# Secrets & Environment
+.env
+.env.local
+*.key
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Temporary & Logs
+logs/
+*.log
+tmp/
+temp/
+data/backups/*.db
+!data/backups/.gitkeep

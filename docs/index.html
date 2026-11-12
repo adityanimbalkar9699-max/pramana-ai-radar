@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="luminary">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pramana AI Radar — Autonomous Free AI Tools Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Persistent Left Navigation (All 18 Required Sections) -->
+    <aside class="sidebar" aria-label="Primary Navigation">
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
+            <circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M16 5v22M5 16h22" stroke="currentColor" stroke-width="1.1" opacity="0.45"/>
+            <circle cx="16" cy="16" r="4.5" fill="currentColor"/>
+            <circle cx="22.5" cy="9.5" r="2.2" fill="#047857"/>
+          </svg>
+        </div>
+        <div>
+          <div class="brand-name">PRAMANA</div>
+          <div class="brand-sub">AI Intelligence Radar</div>
+        </div>
+      </div>
+
+      <div class="hardware-pill" title="Personalized around your student hardware">
+        <span class="dot-live"></span>
+        <span>RTX 4050 6GB • 16GB RAM • Win11</span>
+      </div>
+
+      <nav class="nav-groups">
+        <div class="nav-group-label">Intelligence</div>
+        <button class="nav-item active" data-section="overview">1. Overview</button>
+        <button class="nav-item" data-section="daily">2. Daily Discoveries</button>
+        <button class="nav-item" data-section="weekly">3. Weekly Intelligence</button>
+
+        <div class="nav-group-label">Categories</div>
+        <button class="nav-item" data-section="coding">4. AI Coding Tools</button>
+        <button class="nav-item" data-section="models">5. AI Models &amp; APIs</button>
+        <button class="nav-item" data-section="image">6. Image &amp; Design</button>
+        <button class="nav-item" data-section="video">7. Video &amp; Editing</button>
+        <button class="nav-item" data-section="voice">8. Voice &amp; Audio</button>
+        <button class="nav-item" data-section="productivity">9. Productivity</button>
+        <button class="nav-item" data-section="agents">10. AI Agents</button>
+        <button class="nav-item" data-section="education">11. Education &amp; Career</button>
+
+        <div class="nav-group-label">Directories &amp; Memory</div>
+        <button class="nav-item" data-section="opensource">12. Open Source</button>
+        <button class="nav-item" data-section="free-apis">13. Free API Directory</button>
+        <button class="nav-item" data-section="pricing">14. Pricing Changes</button>
+        <button class="nav-item" data-section="saved">15. Saved Tools <span class="badge-count" id="savedCountBadge">0</span></button>
+        <button class="nav-item" data-section="search">16. Search &amp; Filters</button>
+
+        <div class="nav-group-label">Operations</div>
+        <button class="nav-item" data-section="sources">17. Research Sources</button>
+        <button class="nav-item" data-section="settings">18. Automation Settings</button>
+      </nav>
+    </aside>
+
+    <!-- Main Content Workspace -->
+    <main class="main-workspace">
+      <header class="topbar">
+        <div class="search-wrap">
+          <input id="globalSearchInput" type="search" placeholder="Search verified free AI tools, APIs, VRAM fit, licenses, use cases..." aria-label="Search tools" />
+        </div>
+
+        <div class="topbar-actions">
+          <div class="theme-switcher" role="group" aria-label="Studio Lighting Theme">
+            <button class="theme-btn active" data-theme-target="luminary" title="Apple Luminary Gallery">Luminary</button>
+            <button class="theme-btn" data-theme-target="sunset" title="Sunset Apex">Sunset</button>
+            <button class="theme-btn" data-theme-target="carbon" title="Midnight Carbon">Carbon</button>
+          </div>
+          <button id="compareDrawerBtn" class="btn btn-secondary">Compare (<span id="compareCount">0</span>)</button>
+          <div class="export-menu">
+            <button id="exportCsvBtn" class="btn btn-secondary" title="Download CSV">CSV</button>
+            <button id="exportXlsxBtn" class="btn btn-secondary" title="Download Excel">XLSX</button>
+            <button id="exportPdfBtn" class="btn btn-primary" title="Download Weekly PDF">Weekly PDF</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero / 3D Spatial Radar (Shown on Overview) -->
+      <section id="heroPanel" class="hero-panel">
+        <div class="hero-copy">
+          <span class="eyebrow">ZERO-HYPE EMPIRICAL VERIFICATION • STUDENT-FIRST</span>
+          <h1>Verified Free AI Intelligence, Built for Your Engineering Journey.</h1>
+          <p class="hero-desc">
+            Continuously discovers, audits pricing pages against fake-free trials, benchmarks RTX 4050 (6 GB VRAM) local fit,
+            and ranks genuinely free AI tools across GitHub, Hugging Face, Hacker News, and developer communities.
+          </p>
+          <div class="kpi-strip">
+            <div class="kpi-card">
+              <div class="kpi-label">Verified Free Tools</div>
+              <div class="kpi-value" id="kpiTotalTools">—</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Open Source</div>
+              <div class="kpi-value" id="kpiOpenSource">—</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Free / Local APIs</div>
+              <div class="kpi-value" id="kpiFreeApis">—</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Avg Quality Score</div>
+              <div class="kpi-value" id="kpiAvgScore">—</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-3d-wrap">
+          <canvas id="radar3dCanvas" aria-label="Interactive 3D AI Tool Constellation"></canvas>
+          <div class="canvas-caption">Interactive 3D Tool Constellation • Drag to Orbit • Elevation = Score /100</div>
+        </div>
+      </section>
+
+      <!-- Active Filter Bar -->
+      <section id="filterBar" class="filter-bar">
+        <div class="filter-group">
+          <select id="categoryFilter" aria-label="Filter by Category">
+            <option value="all">All Categories</option>
+          </select>
+          <select id="vramFilter" aria-label="Filter by Laptop Hardware Fit">
+            <option value="all">Any Hardware / Cloud</option>
+            <option value="local">Runs Locally (RTX 4050 / Win11)</option>
+            <option value="cloud">Zero-Install Cloud Free</option>
+          </select>
+          <select id="sortSelect" aria-label="Sort Tools">
+            <option value="score">Sort: Highest Score (/100)</option>
+            <option value="stars">Sort: GitHub Stars / Popularity</option>
+            <option value="newest">Sort: Discovery Date</option>
+          </select>
+        </div>
+        <div class="filter-toggles">
+          <label class="toggle-chip"><input type="checkbox" id="onlyFreeToggle" checked /> Genuinely Free Only</label>
+          <label class="toggle-chip"><input type="checkbox" id="onlyOpenSourceToggle" /> Open Source Only</label>
+          <button id="runDailyBtn" class="btn btn-accent">Run Live Discovery</button>
+        </div>
+      </section>
+
+      <!-- Dynamic Section Title & Content Root -->
+      <section class="section-header-row">
+        <div>
+          <h2 id="sectionTitle">Overview — Top Ranked Free AI Tools</h2>
+          <p id="sectionSubtitle" class="muted">Showing verified discoveries ranked out of 100 with zero fake-free trials.</p>
+        </div>
+        <div id="modeBadge" class="mode-badge">Connecting...</div>
+      </section>
+
+      <section id="mainContentArea" class="content-area"></section>
+    </main>
+  </div>
+
+  <!-- 20-Field Tool Detail Inspector Modal -->
+  <div id="toolModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modalToolName">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <span id="modalCategory" class="pill-tag"></span>
+          <h3 id="modalToolName"></h3>
+        </div>
+        <button id="closeModalBtn" class="icon-close" aria-label="Close modal">×</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Side-by-Side Comparison Modal -->
+  <div id="compareModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+    <div class="modal-card modal-wide">
+      <div class="modal-header">
+        <h3 id="compareTitle">Side-by-Side Tool Verification Matrix</h3>
+        <button id="closeCompareBtn" class="icon-close" aria-label="Close comparison">×</button>
+      </div>
+      <div id="compareBody" class="modal-body"></div>
+    </div>
+  </div>
+</body>
+</html>

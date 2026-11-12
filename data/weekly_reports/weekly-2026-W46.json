@@ -1,0 +1,1131 @@
+{
+  "week_label": "2026-W46",
+  "generated_at": "2026-11-12T10:52:17Z",
+  "top_10": [
+    {
+      "id": 1,
+      "canonical_key": "gh:unslothai/unsloth",
+      "name": "unsloth",
+      "official_website": "https://unsloth.ai/docs",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI inference platforms",
+      "short_description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+      "main_capabilities": [
+        "Agent",
+        "Ai",
+        "Chatgpt",
+        "Deepseek"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with Local OpenAI-Compatible API workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/unslothai/unsloth",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Local OpenAI-Compatible API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://unsloth.ai/docs/desktop",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using unsloth's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 96.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 20.0,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 96.5,
+        "explanation": "Score 96.5/100 \u2014 Free(24.0/25) + Usefulness(20.0/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate unsloth into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/unslothai/unsloth",
+        "https://unsloth.ai/docs"
+      ],
+      "tags": [
+        "agent",
+        "ai",
+        "chatgpt",
+        "deepseek",
+        "fine-tuning",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 79364,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:40:46Z",
+      "updated_at": "2026-11-12T10:40:46Z"
+    },
+    {
+      "id": 2,
+      "canonical_key": "gh:comfy-org/comfyui",
+      "name": "ComfyUI",
+      "official_website": "https://comfy.org/",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI inference platforms",
+      "short_description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "main_capabilities": [
+        "Ai",
+        "Comfy",
+        "Comfyui",
+        "Python"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with Python Library / Local SDK workflow support.",
+      "free_plan_details": "Open-source (GPL-3.0) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (GPL-3.0)",
+      "github_repository": "https://github.com/Comfy-Org/ComfyUI",
+      "supported_os": [
+        "Web",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "Python Library / Local SDK",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://docs.comfy.org/development/overview",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using ComfyUI's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 95.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 18.5,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 95.0,
+        "explanation": "Score 95.0/100 \u2014 Free(24.0/25) + Usefulness(18.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate ComfyUI into your ai engineering & applied ml stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "LLM Systems Engineering",
+          "RAG / Vector Search",
+          "Model Optimization",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "AI Engineering & Applied ML"
+      },
+      "sources": [
+        "https://github.com/Comfy-Org/ComfyUI",
+        "https://comfy.org/pricing/"
+      ],
+      "tags": [
+        "ai",
+        "comfy",
+        "comfyui",
+        "python",
+        "pytorch",
+        "ai engineering & applied ml"
+      ],
+      "stars": 146442,
+      "license_name": "GPL-3.0",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:40:46Z",
+      "updated_at": "2026-11-12T10:40:46Z"
+    },
+    {
+      "id": 3,
+      "canonical_key": "gh:oobabooga/textgen",
+      "name": "textgen",
+      "official_website": "https://github.com/oobabooga/textgen",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI inference platforms",
+      "short_description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private.",
+      "main_capabilities": [
+        "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% priv."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with Python Library / Local SDK workflow support.",
+      "free_plan_details": "Open-source (AGPL-3.0) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (AGPL-3.0)",
+      "github_repository": "https://github.com/oobabooga/textgen",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Python Library / Local SDK",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using textgen's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 95.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 18.5,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 95.0,
+        "explanation": "Score 95.0/100 \u2014 Free(24.0/25) + Usefulness(18.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate textgen into your ai engineering & applied ml stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "LLM Systems Engineering",
+          "RAG / Vector Search",
+          "Model Optimization",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "AI Engineering & Applied ML"
+      },
+      "sources": [
+        "https://github.com/oobabooga/textgen",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "ai",
+        "ai engineering & applied ml"
+      ],
+      "stars": 47738,
+      "license_name": "AGPL-3.0",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:40:46Z",
+      "updated_at": "2026-11-12T10:40:46Z"
+    },
+    {
+      "id": 4,
+      "canonical_key": "gh:open-webui/open-webui",
+      "name": "open-webui",
+      "official_website": "https://openwebui.com/",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI inference platforms",
+      "short_description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "main_capabilities": [
+        "Ai",
+        "Llm",
+        "Llm Ui",
+        "Llm Webui"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with direct workflow support.",
+      "free_plan_details": "Open-source (Source Available / Custom License) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Source Available (Source Available / Custom License)",
+      "github_repository": "https://github.com/open-webui/open-webui",
+      "supported_os": [
+        "Linux",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://docs.openwebui.com",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using open-webui's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 94.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 18.0,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 94.5,
+        "explanation": "Score 94.5/100 \u2014 Free(24.0/25) + Usefulness(18.0/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate open-webui into your agentic ai & multi-agent systems stack on Windows 11. Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Check Docker/WSL2 on Windows 11)",
+        "cloud_usage_necessary": "Optional",
+        "hardware_fit_notes": "Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/open-webui/open-webui",
+        "https://openwebui.com/"
+      ],
+      "tags": [
+        "ai",
+        "llm",
+        "llm-ui",
+        "llm-webui",
+        "llms",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 158455,
+      "license_name": "Source Available / Custom License",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:40:46Z",
+      "updated_at": "2026-11-12T10:40:46Z"
+    },
+    {
+      "id": 5,
+      "canonical_key": "gh:vllm-project/vllm",
+      "name": "vllm",
+      "official_website": "https://vllm.ai/",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI inference platforms",
+      "short_description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "main_capabilities": [
+        "Amd",
+        "Blackwell",
+        "Cuda",
+        "Deepseek"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with API Available (Check Tier) workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/vllm-project/vllm",
+      "supported_os": [
+        "Linux",
+        "Web",
+        "Windows",
+        "macOS"
+      ],
+      "api_availability": "API Available (Check Tier)",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://docs.vllm.ai",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using vllm's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 93.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 17.0,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 93.5,
+        "explanation": "Score 93.5/100 \u2014 Free(24.0/25) + Usefulness(17.0/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate vllm into your ai engineering & applied ml stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "LLM Systems Engineering",
+          "RAG / Vector Search",
+          "Model Optimization",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "AI Engineering & Applied ML"
+      },
+      "sources": [
+        "https://github.com/vllm-project/vllm",
+        "https://vllm.ai/"
+      ],
+      "tags": [
+        "amd",
+        "blackwell",
+        "cuda",
+        "deepseek",
+        "deepseek-v3",
+        "ai",
+        "ai engineering & applied ml"
+      ],
+      "stars": 96802,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:40:46Z",
+      "updated_at": "2026-11-12T10:40:46Z"
+    },
+    {
+      "id": 6,
+      "canonical_key": "gh:justvugg/colibri",
+      "name": "colibri",
+      "official_website": "https://justvugg.github.io/colibri/",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI inference platforms",
+      "short_description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+      "main_capabilities": [
+        "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in R."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with Local OpenAI-Compatible API workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/JustVugg/colibri",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "Local OpenAI-Compatible API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://github.com/JustVugg/colibri/blob/main/docs/qwen38.md",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using colibri's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 93.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 17.0,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 93.5,
+        "explanation": "Score 93.5/100 \u2014 Free(24.0/25) + Usefulness(17.0/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate colibri into your ai engineering & applied ml stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "LLM Systems Engineering",
+          "RAG / Vector Search",
+          "Model Optimization",
+          "C++ / Systems"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "AI Engineering & Applied ML"
+      },
+      "sources": [
+        "https://github.com/JustVugg/colibri",
+        "https://justvugg.github.io/colibri/"
+      ],
+      "tags": [
+        "ai",
+        "ai engineering & applied ml"
+      ],
+      "stars": 50098,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:40:46Z",
+      "updated_at": "2026-11-12T10:40:46Z"
+    },
+    {
+      "id": 35,
+      "canonical_key": "gh:sgl-project/sglang",
+      "name": "qvac/BotPsy",
+      "official_website": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "qvac/BotPsy-0.8B \u00b7 Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "qvac/BotPsy-0.8B \u00b7 Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language M."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with Free API workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/sgl-project/sglang",
+      "supported_os": [
+        "Linux",
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using qvac/BotPsy's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 93.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 17.0,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 93.5,
+        "explanation": "Score 93.5/100 \u2014 Free(24.0/25) + Usefulness(17.0/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate qvac/BotPsy into your agentic ai & multi-agent systems stack on Windows 11. Fits cleanly in RTX 4050 6GB VRAM using 4-bit GGUF/QLoRA quantization (~4.2-5.4 GB VRAM) + 16GB RAM. Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Quantized Q4_K_M fits 6GB VRAM)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Fits cleanly in RTX 4050 6GB VRAM using 4-bit GGUF/QLoRA quantization (~4.2-5.4 GB VRAM) + 16GB RAM.",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xu8685/qvacbotpsy08b_hugging_face_ondevice_personal/",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 38784,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:42:52Z",
+      "updated_at": "2026-11-12T10:42:52Z"
+    },
+    {
+      "id": 7,
+      "canonical_key": "gh:cherryhq/cherry-studio",
+      "name": "cherry-studio",
+      "official_website": "https://cherryai.com/",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI inference platforms",
+      "short_description": "Your AI workspace for models, agents, and productivity.",
+      "main_capabilities": [
+        "Agent Skills",
+        "Agent Workspace",
+        "Agentic Workspace",
+        "Ai Agents"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with direct workflow support.",
+      "free_plan_details": "Open-source (AGPL-3.0) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (AGPL-3.0)",
+      "github_repository": "https://github.com/CherryHQ/cherry-studio",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using cherry-studio's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 93.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 16.5,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 93.0,
+        "explanation": "Score 93.0/100 \u2014 Free(24.0/25) + Usefulness(16.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate cherry-studio into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/CherryHQ/cherry-studio",
+        "https://cherryai.com/pricing"
+      ],
+      "tags": [
+        "agent-skills",
+        "agent-workspace",
+        "agentic-workspace",
+        "ai-agents",
+        "ai-models",
+        "ai",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 53443,
+      "license_name": "AGPL-3.0",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:40:46Z",
+      "updated_at": "2026-11-12T10:40:46Z"
+    },
+    {
+      "id": 8,
+      "canonical_key": "gh:niko1221/strata",
+      "name": "Strata",
+      "official_website": "https://github.com/Niko1221/Strata",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI inference platforms",
+      "short_description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "main_capabilities": [
+        "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, O."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with direct workflow support.",
+      "free_plan_details": "Open-source (MIT) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/Niko1221/Strata",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Strata's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 92.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.0,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 10.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 92.5,
+        "explanation": "Score 92.5/100 \u2014 Free(24.0/25) + Usefulness(15.0/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(10.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Strata into your ai engineering & applied ml stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "LLM Systems Engineering",
+          "RAG / Vector Search",
+          "Model Optimization",
+          "C++ / Systems"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "AI Engineering & Applied ML"
+      },
+      "sources": [
+        "https://github.com/Niko1221/Strata",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "ai",
+        "ai engineering & applied ml"
+      ],
+      "stars": 43380,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:40:46Z",
+      "updated_at": "2026-11-12T10:40:46Z"
+    },
+    {
+      "id": 9,
+      "canonical_key": "gh:chatgptnextweb/nextchat",
+      "name": "NextChat",
+      "official_website": "https://nextchat.club/",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI inference platforms",
+      "short_description": "\u2728 Zero-config AI chat assistant. No API key needed \u2014 sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.",
+      "main_capabilities": [
+        "Calclaude",
+        "Claude",
+        "Cross Platform",
+        "Desktop"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with API Available (Check Tier) workflow support.",
+      "free_plan_details": "Open-source (MIT) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/ChatGPTNextWeb/NextChat",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "API Available (Check Tier)",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://github.com/ChatGPTNextWeb/NextChat/blob/main/README.md",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using NextChat's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 92.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.5,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 92.0,
+        "explanation": "Score 92.0/100 \u2014 Free(24.0/25) + Usefulness(15.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate NextChat into your ai engineering & applied ml stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "LLM Systems Engineering",
+          "RAG / Vector Search",
+          "Model Optimization"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "AI Engineering & Applied ML"
+      },
+      "sources": [
+        "https://github.com/ChatGPTNextWeb/NextChat",
+        "https://nextchat.club/pricing"
+      ],
+      "tags": [
+        "calclaude",
+        "claude",
+        "cross-platform",
+        "desktop",
+        "fe",
+        "ai",
+        "ai engineering & applied ml"
+      ],
+      "stars": 88948,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T10:40:46Z",
+      "updated_at": "2026-11-12T10:40:46Z"
+    }
+  ],
+  "sections": {
+    "Best Newly Discovered Free AI Tools": [
+      {
+        "name": "unsloth",
+        "score": 96.5,
+        "url": "https://unsloth.ai/docs",
+        "summary": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more."
+      },
+      {
+        "name": "ComfyUI",
+        "score": 95.0,
+        "url": "https://comfy.org/",
+        "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+      },
+      {
+        "name": "textgen",
+        "score": 95.0,
+        "url": "https://github.com/oobabooga/textgen",
+        "summary": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private."
+      },
+      {
+        "name": "open-webui",
+        "score": 94.5,
+        "url": "https://openwebui.com/",
+        "summary": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+      },
+      {
+        "name": "vllm",
+        "score": 93.5,
+        "url": "https://vllm.ai/",
+        "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+      },
+      {
+        "name": "colibri",
+        "score": 93.5,
+        "url": "https://justvugg.github.io/colibri/",
+        "summary": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own."
+      }
+    ],
+    "Best Free Coding Assistants": [
+      {
+        "name": "Zeus",
+        "score": 79.0,
+        "url": "https://thunderphone.com/blog/introducing-zeus",
+        "summary": "Show HN: Zeus \u2013 Claude Code for AI voice agents"
+      }
+    ],
+    "Best Free AI APIs and LLMs": [
+      {
+        "name": "ComfyUI",
+        "score": 95.0,
+        "url": "https://comfy.org/",
+        "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+      },
+      {
+        "name": "textgen",
+        "score": 95.0,
+        "url": "https://github.com/oobabooga/textgen",
+        "summary": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private."
+      },
+      {
+        "name": "open-webui",
+        "score": 94.5,
+        "url": "https://openwebui.com/",
+        "summary": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+      },
+      {
+        "name": "Strata",
+        "score": 92.5,
+        "url": "https://github.com/Niko1221/Strata",
+        "summary": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input."
+      },
+      {
+        "name": "NextChat",
+        "score": 92.0,
+        "url": "https://nextchat.club/",
+        "summary": "\u2728 Zero-config AI chat assistant. No API key needed \u2014 sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows."
+      }
+    ],
+    "Best Video Editing and Generation Tools": [],
+    "Best Image Generation Tools": [
+      {
+        "name": "MiniMax-H3-Image",
+        "score": 83.0,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+        "summary": "Trending open-weights model (MiniMaxAI/MiniMax-H3-Image) for text-to-image; 142,989 downloads."
+      },
+      {
+        "name": "idol",
+        "score": 82.5,
+        "url": "https://huggingface.co/speridlabs/idol",
+        "summary": "Trending open-weights model (speridlabs/idol) for image-to-3d; 28,250 downloads."
+      }
+    ],
+    "Best Voice and Audio Tools": [
+      {
+        "name": "VoiceStudio",
+        "score": 92.0,
+        "url": "https://voicestudio.sh/",
+        "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative \u2014 voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+      },
+      {
+        "name": "whisper.cpp",
+        "score": 91.5,
+        "url": "https://github.com/ggml-org/whisper.cpp",
+        "summary": "Port of OpenAI's Whisper model in C/C++"
+      },
+      {
+        "name": "voicebox",
+        "score": 90.5,
+        "url": "https://voicebox.sh/",
+        "summary": "The open-source AI voice studio. Clone, dictate, create."
+      },
+      {
+        "name": "GPT-SoVITS",
+        "score": 87.5,
+        "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+        "summary": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)"
+      }
+    ],
+    "Best AI Agent Frameworks": [
+      {
+        "name": "qvac/BotPsy",
+        "score": 93.5,
+        "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+        "summary": "qvac/BotPsy-0.8B \u00b7 Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model"
+      },
+      {
+        "name": "cherry-studio",
+        "score": 93.0,
+        "url": "https://cherryai.com/",
+        "summary": "Your AI workspace for models, agents, and productivity."
+      },
+      {
+        "name": "Obeya, a spatial canvas for directing coding agents",
+        "score": 91.0,
+        "url": "https://github.com/sadilek/obeya",
+        "summary": "Show HN: Obeya, a spatial canvas for directing coding agents"
+      },
+      {
+        "name": "Control Layer Demo for AI Coding Agents",
+        "score": 91.0,
+        "url": "https://github.com/MintCoderpro/mintigate-demo",
+        "summary": "Show HN: Control Layer Demo for AI Coding Agents"
+      },
+      {
+        "name": "Klad, a paint app your coding agent can drive (source",
+        "score": 90.0,
+        "url": "https://github.com/klad-app/klad",
+        "summary": "Show HN: Klad, a paint app your coding agent can drive (source-available)"
+      }
+    ],
+    "Best Productivity Tools": [],
+    "Best Research and Educational Tools": [],
+    "Best Tools for Students (Zero Budget + RTX 4050)": [
+      {
+        "name": "unsloth",
+        "score": 96.5,
+        "url": "https://unsloth.ai/docs",
+        "summary": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more."
+      },
+      {
+        "name": "ComfyUI",
+        "score": 95.0,
+        "url": "https://comfy.org/",
+        "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+      },
+      {
+        "name": "textgen",
+        "score": 95.0,
+        "url": "https://github.com/oobabooga/textgen",
+        "summary": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private."
+      },
+      {
+        "name": "open-webui",
+        "score": 94.5,
+        "url": "https://openwebui.com/",
+        "summary": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+      },
+      {
+        "name": "vllm",
+        "score": 93.5,
+        "url": "https://vllm.ai/",
+        "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+      },
+      {
+        "name": "colibri",
+        "score": 93.5,
+        "url": "https://justvugg.github.io/colibri/",
+        "summary": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own."
+      }
+    ],
+    "Newly Released Open-Source Projects": [
+      {
+        "name": "unsloth",
+        "score": 96.5,
+        "url": "https://unsloth.ai/docs",
+        "summary": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more."
+      },
+      {
+        "name": "ComfyUI",
+        "score": 95.0,
+        "url": "https://comfy.org/",
+        "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+      },
+      {
+        "name": "textgen",
+        "score": 95.0,
+        "url": "https://github.com/oobabooga/textgen",
+        "summary": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private."
+      },
+      {
+        "name": "vllm",
+        "score": 93.5,
+        "url": "https://vllm.ai/",
+        "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+      },
+      {
+        "name": "colibri",
+        "score": 93.5,
+        "url": "https://justvugg.github.io/colibri/",
+        "summary": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own."
+      },
+      {
+        "name": "qvac/BotPsy",
+        "score": 93.5,
+        "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+        "summary": "qvac/BotPsy-0.8B \u00b7 Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model"
+      }
+    ],
+    "Significant Updates to Existing Tools": [],
+    "Newly Available Free Plans": [],
+    "Tools That Reduced or Removed Free Plans": [],
+    "Discontinued Tools": [],
+    "Emerging AI Technologies Worth Watching": []
+  }
+}

@@ -1,0 +1,94 @@
+name: Pramana Daily AI Discovery
+
+on:
+  schedule:
+    - cron: "30 2 * * *" # 08:00 IST (02:30 UTC) daily
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Minimum new verified tools to discover"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  daily-discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+
+      - name: Run Daily Discovery & Verification (with retry)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || '587' }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+        run: |
+          TARGET="${{ github.event.inputs.target || '3' }}"
+          for attempt in 1 2; do
+            if python -m pramana.cli daily --target "$TARGET"; then
+              exit 0
+            fi
+            echo "Attempt $attempt failed; retrying in 15s..."
+            sleep 15
+          done
+          exit 1
+
+      - name: Commit & Push Updated Intelligence DB + GitHub Pages Snapshot
+        run: |
+          git config user.name "pramana-bot"
+          git config user.email "pramana-bot@users.noreply.github.com"
+          git add data/ docs/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(daily): verified free AI tools discovery $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main || true
+            git push
+          else
+            echo "No repository changes to commit."
+          fi
+
+      - name: Upload Daily Intelligence Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: pramana-daily-${{ github.run_id }}
+          path: |
+            data/catalog.json
+            data/weekly_reports/*.md
+            data/weekly_reports/*.csv
+          retention-days: 30
+
+      - name: Failure Recovery Alert (GitHub Issue)
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Pramana Daily Discovery Failed (${new Date().toISOString().slice(0,10)})`,
+              body: `Automated daily run failed. Inspect logs: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            });
