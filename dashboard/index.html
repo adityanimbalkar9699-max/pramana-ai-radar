@@ -38,6 +38,7 @@
       <nav class="nav-groups">
         <div class="nav-group-label">Intelligence</div>
         <button class="nav-item active" data-section="overview">1. Overview</button>
+        <button class="nav-item" data-section="web-free">⭐ Web Free Tiers (Zero Install)</button>
         <button class="nav-item" data-section="daily">2. Daily Discoveries</button>
         <button class="nav-item" data-section="weekly">3. Weekly Intelligence</button>
 
@@ -131,6 +132,13 @@
             <option value="local">Runs Locally (RTX 4050 / Win11)</option>
             <option value="cloud">Zero-Install Cloud Free</option>
           </select>
+          <select id="cadenceFilter" aria-label="Filter by Quota Cadence">
+            <option value="all">Any Quota Cadence</option>
+            <option value="Daily Reset">Daily Reset Quota</option>
+            <option value="Monthly Reset">Monthly Reset Quota</option>
+            <option value="Starter Credits">Starter Free Tokens</option>
+            <option value="Unlimited">Unlimited Free</option>
+          </select>
           <select id="sortSelect" aria-label="Sort Tools">
             <option value="score">Sort: Highest Score (/100)</option>
             <option value="stars">Sort: GitHub Stars / Popularity</option>
@@ -139,6 +147,7 @@
         </div>
         <div class="filter-toggles">
           <label class="toggle-chip"><input type="checkbox" id="onlyFreeToggle" checked /> Genuinely Free Only</label>
+          <label class="toggle-chip"><input type="checkbox" id="webOnlyToggle" /> 🌐 Web-Only (No Install)</label>
           <label class="toggle-chip"><input type="checkbox" id="onlyOpenSourceToggle" /> Open Source Only</label>
           <button id="runDailyBtn" class="btn btn-accent">Run Live Discovery</button>
         </div>

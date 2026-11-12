@@ -1,6 +1,6 @@
 {
   "week_label": "2026-W46",
-  "generated_at": "2026-11-12T16:48:13Z",
+  "generated_at": "2026-11-12T17:32:36Z",
   "top_10": [
     {
       "id": 1,
@@ -92,7 +92,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://unsloth.ai/docs",
+      "pricing_url": "https://unsloth.ai/docs",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 2,
@@ -184,7 +188,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://comfy.org/",
+      "pricing_url": "https://comfy.org/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 3,
@@ -269,7 +277,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/oobabooga/textgen",
+      "pricing_url": "https://github.com/oobabooga/textgen",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 4,
@@ -358,7 +370,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://openwebui.com/",
+      "pricing_url": "https://openwebui.com/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 5,
@@ -451,7 +467,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://vllm.ai/",
+      "pricing_url": "https://vllm.ai/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 6,
@@ -535,7 +555,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://justvugg.github.io/colibri/",
+      "pricing_url": "https://justvugg.github.io/colibri/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 35,
@@ -622,7 +646,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:42:52Z",
-      "updated_at": "2026-11-12T10:42:52Z"
+      "updated_at": "2026-11-12T10:42:52Z",
+      "direct_app_url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+      "pricing_url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 7,
@@ -713,7 +741,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://cherryai.com/",
+      "pricing_url": "https://cherryai.com/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 47,
@@ -800,7 +832,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T15:44:46Z",
-      "updated_at": "2026-11-12T15:44:46Z"
+      "updated_at": "2026-11-12T15:44:46Z",
+      "direct_app_url": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+      "pricing_url": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 8,
@@ -885,7 +921,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/Niko1221/Strata",
+      "pricing_url": "https://github.com/Niko1221/Strata",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     }
   ],
   "sections": {
@@ -929,6 +969,12 @@
     ],
     "Best Free Coding Assistants": [
       {
+        "name": "v0 by Vercel",
+        "score": 84.5,
+        "url": "https://v0.app/",
+        "summary": "Browser-based AI UI and full-stack web app generator offering free monthly message/token credits without credit card."
+      },
+      {
         "name": "Zeus",
         "score": 79.0,
         "url": "https://thunderphone.com/blog/introducing-zeus",
@@ -967,7 +1013,20 @@
         "summary": "\u2728 Zero-config AI chat assistant. No API key needed \u2014 sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows."
       }
     ],
-    "Best Video Editing and Generation Tools": [],
+    "Best Video Editing and Generation Tools": [
+      {
+        "name": "Clipchamp",
+        "score": 75.0,
+        "url": "https://clipchamp.com/en/",
+        "summary": "Browser-based Microsoft video editor with free 1080p export, auto-captions, and AI text-to-speech."
+      },
+      {
+        "name": "Pika",
+        "score": 72.0,
+        "url": "https://pika.art/",
+        "summary": "Web AI short video generator and video effects studio with free starter/monthly credits in browser."
+      }
+    ],
     "Best Image Generation Tools": [
       {
         "name": "MiniMax-H3-Image",
@@ -980,6 +1039,12 @@
         "score": 82.5,
         "url": "https://huggingface.co/speridlabs/idol",
         "summary": "Trending open-weights model (speridlabs/idol) for image-to-3d; 28,250 downloads."
+      },
+      {
+        "name": "Ideogram",
+        "score": 81.5,
+        "url": "https://ideogram.ai/",
+        "summary": "Web AI image & typography/logo generator offering recurring free weekly/slow generation credits without credit card."
       }
     ],
     "Best Voice and Audio Tools": [
@@ -1006,6 +1071,12 @@
         "score": 87.5,
         "url": "https://github.com/RVC-Boss/GPT-SoVITS",
         "summary": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)"
+      },
+      {
+        "name": "ElevenLabs",
+        "score": 77.5,
+        "url": "https://elevenlabs.io/",
+        "summary": "Web AI voice synthesis & dubbing platform offering 10,000 free characters/month without credit card."
       }
     ],
     "Best AI Agent Frameworks": [

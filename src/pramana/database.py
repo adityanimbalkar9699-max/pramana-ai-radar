@@ -62,6 +62,10 @@ CREATE TABLE IF NOT EXISTS tools (
     user_rating INTEGER,
     is_saved INTEGER NOT NULL DEFAULT 0,
     previous_pricing_info TEXT NOT NULL DEFAULT '',
+    direct_app_url TEXT NOT NULL DEFAULT '',
+    pricing_url TEXT NOT NULL DEFAULT '',
+    web_only INTEGER NOT NULL DEFAULT 0,
+    free_quota_cadence TEXT NOT NULL DEFAULT 'UNKNOWN',
     created_at TEXT NOT NULL,
     updated_at TEXT NOT NULL
 );
@@ -156,6 +160,36 @@ class PramanaDatabase:
     def _init_schema(self) -> None:
         with self.connect() as conn:
             conn.executescript(SCHEMA_SQL)
+            # Safe forward-migration for existing SQLite databases
+            cols = {r["name"] for r in conn.execute("PRAGMA table_info(tools)").fetchall()}
+            migrations = {
+                "direct_app_url": "TEXT NOT NULL DEFAULT ''",
+                "pricing_url": "TEXT NOT NULL DEFAULT ''",
+                "web_only": "INTEGER NOT NULL DEFAULT 0",
+                "free_quota_cadence": "TEXT NOT NULL DEFAULT 'UNKNOWN'",
+            }
+            for col_name, col_def in migrations.items():
+                if col_name not in cols:
+                    conn.execute(f"ALTER TABLE tools ADD COLUMN {col_name} {col_def}")
+            # Backfill direct_app_url & web_only for existing records if empty
+            conn.execute(
+                "UPDATE tools SET direct_app_url = official_website WHERE direct_app_url = ''"
+            )
+            conn.execute(
+                """
+                UPDATE tools SET web_only = 1
+                WHERE web_only = 0 AND (
+                    local_installation_available = 'No'
+                    OR official_website LIKE '%huggingface.co/spaces/%'
+                    OR official_website LIKE '%aistudio.google.com%'
+                    OR official_website LIKE '%notebooklm.google.com%'
+                    OR official_website LIKE '%groq.com%'
+                    OR official_website LIKE '%openrouter.ai%'
+                    OR official_website LIKE '%kaggle.com%'
+                    OR official_website LIKE '%neetcode.io%'
+                )
+                """
+            )
 
     def create_backup(self, max_backups: int = 7) -> Optional[Path]:
         """Create a safe timestamped SQLite backup before write operations."""
@@ -249,6 +283,10 @@ class PramanaDatabase:
                 "user_rating": tool.user_rating,
                 "is_saved": 1 if tool.is_saved else 0,
                 "previous_pricing_info": tool.previous_pricing_info,
+                "direct_app_url": tool.direct_app_url or tool.official_website,
+                "pricing_url": tool.pricing_url or tool.official_website,
+                "web_only": 1 if tool.web_only else 0,
+                "free_quota_cadence": tool.free_quota_cadence,
                 "updated_at": now,
             }
 
@@ -438,6 +476,11 @@ class PramanaDatabase:
                 pass
         d["is_genuinely_free"] = bool(d["is_genuinely_free"])
         d["is_saved"] = bool(d["is_saved"])
+        d["web_only"] = bool(d.get("web_only", 0))
+        if not d.get("direct_app_url"):
+            d["direct_app_url"] = d["official_website"]
+        if not d.get("pricing_url"):
+            d["pricing_url"] = d["official_website"]
         return d
 
     def list_tools(

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T16:48:15Z",
+  "generated_at": "2026-11-12T17:32:36Z",
   "stats": {
-    "total_tools": 48,
-    "genuinely_free": 48,
-    "open_source": 29,
-    "free_api_count": 19,
-    "average_score": 86.6
+    "total_tools": 54,
+    "genuinely_free": 54,
+    "open_source": 30,
+    "free_api_count": 21,
+    "average_score": 85.7
   },
   "tools": [
     {
@@ -98,7 +98,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://unsloth.ai/docs",
+      "pricing_url": "https://unsloth.ai/docs",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 2,
@@ -190,7 +194,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://comfy.org/",
+      "pricing_url": "https://comfy.org/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 3,
@@ -275,7 +283,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/oobabooga/textgen",
+      "pricing_url": "https://github.com/oobabooga/textgen",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 4,
@@ -364,7 +376,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://openwebui.com/",
+      "pricing_url": "https://openwebui.com/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 5,
@@ -457,7 +473,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://vllm.ai/",
+      "pricing_url": "https://vllm.ai/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 6,
@@ -541,7 +561,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://justvugg.github.io/colibri/",
+      "pricing_url": "https://justvugg.github.io/colibri/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 35,
@@ -628,7 +652,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:42:52Z",
-      "updated_at": "2026-11-12T10:42:52Z"
+      "updated_at": "2026-11-12T10:42:52Z",
+      "direct_app_url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+      "pricing_url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 7,
@@ -719,7 +747,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://cherryai.com/",
+      "pricing_url": "https://cherryai.com/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 47,
@@ -806,7 +838,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T15:44:46Z",
-      "updated_at": "2026-11-12T15:44:46Z"
+      "updated_at": "2026-11-12T15:44:46Z",
+      "direct_app_url": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+      "pricing_url": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 8,
@@ -891,7 +927,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/Niko1221/Strata",
+      "pricing_url": "https://github.com/Niko1221/Strata",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 9,
@@ -982,7 +1022,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://nextchat.club/",
+      "pricing_url": "https://nextchat.club/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 10,
@@ -1074,7 +1118,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://voicestudio.sh/",
+      "pricing_url": "https://voicestudio.sh/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 11,
@@ -1167,7 +1215,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/ggml-org/whisper.cpp",
+      "pricing_url": "https://github.com/ggml-org/whisper.cpp",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 12,
@@ -1254,7 +1306,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/sadilek/obeya",
+      "pricing_url": "https://github.com/sadilek/obeya",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 36,
@@ -1339,7 +1395,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:42:52Z",
-      "updated_at": "2026-11-12T10:42:52Z"
+      "updated_at": "2026-11-12T10:42:52Z",
+      "direct_app_url": "https://github.com/MintCoderpro/mintigate-demo",
+      "pricing_url": "https://github.com/MintCoderpro/mintigate-demo",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 37,
@@ -1424,7 +1484,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:42:52Z",
-      "updated_at": "2026-11-12T10:42:52Z"
+      "updated_at": "2026-11-12T10:42:52Z",
+      "direct_app_url": "https://github.com/ggml-org/llama.cpp/pull/31915",
+      "pricing_url": "https://github.com/ggml-org/llama.cpp/pull/31915",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 13,
@@ -1516,7 +1580,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://voicebox.sh/",
+      "pricing_url": "https://voicebox.sh/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 14,
@@ -1608,7 +1676,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://ollama.com/",
+      "pricing_url": "https://ollama.com/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 15,
@@ -1695,7 +1767,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/klad-app/klad",
+      "pricing_url": "https://github.com/klad-app/klad",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 38,
@@ -1781,7 +1857,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:42:52Z",
-      "updated_at": "2026-11-12T10:42:52Z"
+      "updated_at": "2026-11-12T10:42:52Z",
+      "direct_app_url": "https://sebastianraschka.com/llm-architecture-gallery/",
+      "pricing_url": "https://sebastianraschka.com/llm-architecture-gallery/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 48,
@@ -1869,7 +1949,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T15:44:46Z",
-      "updated_at": "2026-11-12T15:44:46Z"
+      "updated_at": "2026-11-12T15:44:46Z",
+      "direct_app_url": "https://github.com/nace-ai/kapitsa",
+      "pricing_url": "https://github.com/nace-ai/kapitsa",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 39,
@@ -1955,7 +2039,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:42:52Z",
-      "updated_at": "2026-11-12T10:42:52Z"
+      "updated_at": "2026-11-12T10:42:52Z",
+      "direct_app_url": "https://github.com/DivyanshGolyan/rui",
+      "pricing_url": "https://github.com/DivyanshGolyan/rui",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 40,
@@ -2040,7 +2128,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:42:52Z",
-      "updated_at": "2026-11-12T10:42:52Z"
+      "updated_at": "2026-11-12T10:42:52Z",
+      "direct_app_url": "https://huggingface.co/lucidml/gta",
+      "pricing_url": "https://huggingface.co/lucidml/gta",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 16,
@@ -2125,7 +2217,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://fn2.ai/claude",
+      "pricing_url": "https://fn2.ai/claude",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 41,
@@ -2209,7 +2305,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:44:57Z",
-      "updated_at": "2026-11-12T10:44:57Z"
+      "updated_at": "2026-11-12T10:44:57Z",
+      "direct_app_url": "https://github.com/alex0ptr/aigude",
+      "pricing_url": "https://github.com/alex0ptr/aigude",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 17,
@@ -2301,7 +2401,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "pricing_url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 42,
@@ -2384,7 +2488,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:44:57Z",
-      "updated_at": "2026-11-12T10:44:57Z"
+      "updated_at": "2026-11-12T10:44:57Z",
+      "direct_app_url": "https://github.com/anima-universe/character-ai-chat-exporter",
+      "pricing_url": "https://github.com/anima-universe/character-ai-chat-exporter",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 43,
@@ -2471,7 +2579,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:44:57Z",
-      "updated_at": "2026-11-12T10:44:57Z"
+      "updated_at": "2026-11-12T10:44:57Z",
+      "direct_app_url": "https://github.com/owenawsong/Inflect",
+      "pricing_url": "https://github.com/owenawsong/Inflect",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 18,
@@ -2555,7 +2667,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/danoszz/penthera",
+      "pricing_url": "https://github.com/danoszz/penthera",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 19,
@@ -2644,7 +2760,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "pricing_url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 20,
@@ -2728,7 +2848,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://locan.ai/",
+      "pricing_url": "https://locan.ai/",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 21,
@@ -2814,7 +2938,103 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://github.com/FrigadeHQ/yogurt",
+      "pricing_url": "https://github.com/FrigadeHQ/yogurt",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 49,
+      "canonical_key": "web:v0.app",
+      "name": "v0 by Vercel",
+      "official_website": "https://v0.app/",
+      "category": "Coding and Development",
+      "subcategory": "Website and application builders",
+      "short_description": "Browser-based AI UI and full-stack web app generator offering free monthly message/token credits without credit card.",
+      "main_capabilities": [
+        "Web Coding",
+        "Ui Generation",
+        "Web Only",
+        "Free Credits"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Generous Free Tier; delivers strong website and application builders utility with Free API workflow support.",
+      "free_plan_details": "Verified Generous Free Tier via official site/pricing signals (gpl, $0).",
+      "free_usage_limits": "Free monthly message/token credits for web UI & React app generation (no credit card).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Closed Source / Free Service",
+      "github_repository": "",
+      "supported_os": [
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "No",
+      "important_limitations": [
+        "Verify rate limits on official docs before heavy hackathon traffic."
+      ],
+      "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://v0.app/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using v0 by Vercel's Generous Free Tier.",
+      "free_tier_type": "Generous Free Tier",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 84.5,
+      "score_breakdown": {
+        "free_functionality": 20.0,
+        "practical_usefulness": 14.5,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 84.5,
+        "explanation": "Score 84.5/100 — Free(20.0/25) + Usefulness(14.5/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate v0 by Vercel into your full-stack & dev automation stack on Windows 11. Zero local VRAM/RAM load on your 6GB RTX 4050; runs via cloud free tier. Use its generous free tier access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Software Engineering",
+          "API & Backend Design",
+          "Developer Productivity"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Zero-Install Cloud Web)",
+        "cloud_usage_necessary": "Yes",
+        "hardware_fit_notes": "Zero local VRAM/RAM load on your 6GB RTX 4050; runs via cloud free tier.",
+        "priority_track": "Full-Stack & Dev Automation"
+      },
+      "sources": [
+        "https://v0.dev/pricing",
+        "https://v0.app/pricing"
+      ],
+      "tags": [
+        "web-coding",
+        "ui-generation",
+        "web-only",
+        "free-credits",
+        "coding",
+        "full-stack & dev automation"
+      ],
+      "stars": 0,
+      "license_name": "Proprietary",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T17:31:58Z",
+      "updated_at": "2026-11-12T17:31:58Z",
+      "direct_app_url": "https://v0.dev",
+      "pricing_url": "https://v0.app/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Starter Credits"
     },
     {
       "id": 22,
@@ -2903,7 +3123,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/NousResearch/Arete-27B",
+      "pricing_url": "https://huggingface.co/NousResearch/Arete-27B",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 23,
@@ -2992,7 +3216,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "pricing_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 24,
@@ -3081,7 +3309,101 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/speridlabs/idol",
+      "pricing_url": "https://huggingface.co/speridlabs/idol",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 50,
+      "canonical_key": "gh:ideogram-oss/ideogram4",
+      "name": "Ideogram",
+      "official_website": "https://ideogram.ai/",
+      "category": "Image and Design",
+      "subcategory": "Logo generation",
+      "short_description": "Web AI image & typography/logo generator offering recurring free weekly/slow generation credits without credit card.",
+      "main_capabilities": [
+        "Logo",
+        "Image Generation",
+        "Web Only"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong logo generation utility with direct workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Recurring free weekly generation credits in browser (no credit card).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/ideogram-oss/ideogram4",
+      "supported_os": [
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "UNKNOWN",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Ideogram's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 81.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 12.0,
+        "reliability": 12.5,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 2.0,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 81.5,
+        "explanation": "Score 81.5/100 — Free(24.0/25) + Usefulness(12.0/20) + Reliability(12.5/15) + Student(12.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(2.0/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Ideogram into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation",
+          "Python"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://ideogram.ai/pricing",
+        "https://ideogram.ai/pricing/"
+      ],
+      "tags": [
+        "logo",
+        "image-generation",
+        "web-only",
+        "image",
+        "creative & multimodal ai"
+      ],
+      "stars": 2919,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T17:31:58Z",
+      "updated_at": "2026-11-12T17:31:58Z",
+      "direct_app_url": "https://ideogram.ai",
+      "pricing_url": "https://ideogram.ai/pricing/",
+      "web_only": true,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 25,
@@ -3170,7 +3492,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "pricing_url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "web_only": true,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 26,
@@ -3254,7 +3580,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On",
+      "pricing_url": "https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On",
+      "web_only": true,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 27,
@@ -3338,7 +3668,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory",
+      "pricing_url": "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory",
+      "web_only": true,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 28,
@@ -3427,7 +3761,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/spaces/facebook/MusicGen",
+      "pricing_url": "https://huggingface.co/spaces/facebook/MusicGen",
+      "web_only": true,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 44,
@@ -3512,7 +3850,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:44:57Z",
-      "updated_at": "2026-11-12T10:44:57Z"
+      "updated_at": "2026-11-12T10:44:57Z",
+      "direct_app_url": "https://thunderphone.com/blog/introducing-zeus",
+      "pricing_url": "https://thunderphone.com/blog/introducing-zeus",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 29,
@@ -3596,7 +3938,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev",
+      "pricing_url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev",
+      "web_only": true,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 30,
@@ -3681,7 +4027,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/spaces/mteb/leaderboard",
+      "pricing_url": "https://huggingface.co/spaces/mteb/leaderboard",
+      "web_only": true,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 31,
@@ -3765,7 +4115,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell",
+      "pricing_url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell",
+      "web_only": true,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 32,
@@ -3849,7 +4203,191 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/spaces/AP123/IllusionDiffusion",
+      "pricing_url": "https://huggingface.co/spaces/AP123/IllusionDiffusion",
+      "web_only": true,
+      "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 51,
+      "canonical_key": "web:elevenlabs.io",
+      "name": "ElevenLabs",
+      "official_website": "https://elevenlabs.io/",
+      "category": "Audio and Voice",
+      "subcategory": "Text-to-speech",
+      "short_description": "Web AI voice synthesis & dubbing platform offering 10,000 free characters/month without credit card.",
+      "main_capabilities": [
+        "Tts",
+        "Voice",
+        "Monthly Quota",
+        "Web Only"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Generous Free Tier; delivers strong text-to-speech utility with Free API workflow support.",
+      "free_plan_details": "Verified Generous Free Tier via official site/pricing signals (free tier, free plan, bsd).",
+      "free_usage_limits": "10,000 free TTS characters/month on the free web tier (no credit card).",
+      "credit_card_required": "No",
+      "registration_required": "Yes",
+      "open_source_status": "Closed Source / Free Service",
+      "github_repository": "",
+      "supported_os": [
+        "UNKNOWN"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Verify rate limits on official docs before heavy hackathon traffic."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://elevenlabs.io/docs/overview/intro",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using ElevenLabs's Generous Free Tier.",
+      "free_tier_type": "Generous Free Tier",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 77.5,
+      "score_breakdown": {
+        "free_functionality": 20.0,
+        "practical_usefulness": 14.0,
+        "reliability": 11.5,
+        "student_value": 12.0,
+        "ease_of_use": 6.5,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 77.5,
+        "explanation": "Score 77.5/100 — Free(20.0/25) + Usefulness(14.0/20) + Reliability(11.5/15) + Student(12.0/15) + Ease(6.5/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate ElevenLabs into your creative & multimodal ai stack on Windows 11. Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM). Use its generous free tier access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Check Docker/WSL2 on Windows 11)",
+        "cloud_usage_necessary": "Optional",
+        "hardware_fit_notes": "Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://elevenlabs.io/pricing",
+        "https://elevenlabs.io/pricing"
+      ],
+      "tags": [
+        "tts",
+        "voice",
+        "monthly-quota",
+        "web-only",
+        "audio",
+        "creative & multimodal ai"
+      ],
+      "stars": 0,
+      "license_name": "Proprietary",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T17:31:58Z",
+      "updated_at": "2026-11-12T17:31:58Z",
+      "direct_app_url": "https://elevenlabs.io",
+      "pricing_url": "https://elevenlabs.io/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Starter Credits"
+    },
+    {
+      "id": 52,
+      "canonical_key": "web:suno.com",
+      "name": "Suno",
+      "official_website": "https://suno.com/",
+      "category": "Audio and Voice",
+      "subcategory": "Music generation",
+      "short_description": "Browser AI music & song generator granting 50 free credits daily (no credit card required).",
+      "main_capabilities": [
+        "Music Generation",
+        "Daily Tokens",
+        "Web Only"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Generous Free Tier; delivers strong music generation utility with direct workflow support.",
+      "free_plan_details": "Verified Generous Free Tier via official site/pricing signals (free forever, free plan, $0).",
+      "free_usage_limits": "50 free music credits resetting daily (~10 songs/day; no credit card).",
+      "credit_card_required": "No",
+      "registration_required": "Yes",
+      "open_source_status": "Closed Source / Free Service",
+      "github_repository": "",
+      "supported_os": [
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Verify rate limits on official docs before heavy hackathon traffic."
+      ],
+      "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://suno.com/community-guidelines",
+      "best_student_use_case": "Build a portfolio-grade music generation module or 24-hour hackathon MVP on your RTX 4050 laptop.",
+      "free_tier_type": "Generous Free Tier",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 77.5,
+      "score_breakdown": {
+        "free_functionality": 20.0,
+        "practical_usefulness": 12.0,
+        "reliability": 11.5,
+        "student_value": 12.0,
+        "ease_of_use": 8.5,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 77.5,
+        "explanation": "Score 77.5/100 — Free(20.0/25) + Usefulness(12.0/20) + Reliability(11.5/15) + Student(12.0/15) + Ease(8.5/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Suno into your creative & multimodal ai stack on Windows 11. Runs in Windows 11 browser; compute handled on free cloud tier. Use its generous free tier access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": false,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Browser)",
+        "cloud_usage_necessary": "Yes",
+        "hardware_fit_notes": "Runs in Windows 11 browser; compute handled on free cloud tier.",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://suno.com/pricing",
+        "https://suno.com/pricing"
+      ],
+      "tags": [
+        "music-generation",
+        "daily-tokens",
+        "web-only",
+        "audio",
+        "creative & multimodal ai"
+      ],
+      "stars": 0,
+      "license_name": "Proprietary",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T17:31:58Z",
+      "updated_at": "2026-11-12T17:31:58Z",
+      "direct_app_url": "https://suno.com",
+      "pricing_url": "https://suno.com/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Starter Credits"
     },
     {
       "id": 33,
@@ -3934,7 +4472,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://deepsite.hf.co",
+      "pricing_url": "https://deepsite.hf.co",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 34,
@@ -4018,7 +4560,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
+      "updated_at": "2026-11-12T10:40:46Z",
+      "direct_app_url": "https://huggingface.co/spaces/dalle-mini/dalle-mini",
+      "pricing_url": "https://huggingface.co/spaces/dalle-mini/dalle-mini",
+      "web_only": true,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 45,
@@ -4102,7 +4648,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:44:57Z",
-      "updated_at": "2026-11-12T10:44:57Z"
+      "updated_at": "2026-11-12T10:44:57Z",
+      "direct_app_url": "https://gitlab.com/__alexander__/anathem",
+      "pricing_url": "https://gitlab.com/__alexander__/anathem",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
     },
     {
       "id": 46,
@@ -4186,10 +4736,269 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:44:57Z",
-      "updated_at": "2026-11-12T10:44:57Z"
+      "updated_at": "2026-11-12T10:44:57Z",
+      "direct_app_url": "https://embedl.com/nvidia/alpamayo2-edge/thor?tab=run",
+      "pricing_url": "https://embedl.com/nvidia/alpamayo2-edge/thor?tab=run",
+      "web_only": false,
+      "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 53,
+      "canonical_key": "web:clipchamp.com/en",
+      "name": "Clipchamp",
+      "official_website": "https://clipchamp.com/en/",
+      "category": "Video and Content",
+      "subcategory": "Video editing",
+      "short_description": "Browser-based Microsoft video editor with free 1080p export, auto-captions, and AI text-to-speech.",
+      "main_capabilities": [
+        "Video Editing",
+        "Subtitles",
+        "Web Only",
+        "Free Tier"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Generous Free Tier; delivers strong video editing utility with direct workflow support.",
+      "free_plan_details": "Verified Generous Free Tier via official site/pricing signals (free plan).",
+      "free_usage_limits": "Free unlimited 1080p browser video editing, auto-captions, and basic stock/TTS.",
+      "credit_card_required": "No",
+      "registration_required": "Yes",
+      "open_source_status": "Closed Source / Free Service",
+      "github_repository": "",
+      "supported_os": [
+        "Windows",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Verify rate limits on official docs before heavy hackathon traffic."
+      ],
+      "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "UNKNOWN",
+      "best_student_use_case": "Build a portfolio-grade video editing module or 24-hour hackathon MVP on your RTX 4050 laptop.",
+      "free_tier_type": "Generous Free Tier",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 75.0,
+      "score_breakdown": {
+        "free_functionality": 20.0,
+        "practical_usefulness": 12.0,
+        "reliability": 11.5,
+        "student_value": 12.0,
+        "ease_of_use": 8.5,
+        "performance": 9.0,
+        "documentation": 2.0,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 75.0,
+        "explanation": "Score 75.0/100 — Free(20.0/25) + Usefulness(12.0/20) + Reliability(11.5/15) + Student(12.0/15) + Ease(8.5/10) + Perf(9.0/10) + Docs(2.0/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Clipchamp into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its generous free tier access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": false,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "Optional",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://clipchamp.com/en/pricing/",
+        "https://clipchamp.com/en/pricing/"
+      ],
+      "tags": [
+        "video-editing",
+        "subtitles",
+        "web-only",
+        "free-tier",
+        "video",
+        "creative & multimodal ai"
+      ],
+      "stars": 0,
+      "license_name": "Proprietary",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T17:31:58Z",
+      "updated_at": "2026-11-12T17:31:58Z",
+      "direct_app_url": "https://clipchamp.com",
+      "pricing_url": "https://clipchamp.com/en/pricing/",
+      "web_only": true,
+      "free_quota_cadence": "Free Tier"
+    },
+    {
+      "id": 54,
+      "canonical_key": "web:pika.art",
+      "name": "Pika",
+      "official_website": "https://pika.art/",
+      "category": "Video and Content",
+      "subcategory": "Text-to-video",
+      "short_description": "Web AI short video generator and video effects studio with free starter/monthly credits in browser.",
+      "main_capabilities": [
+        "Video Generation",
+        "Short Video",
+        "Web Only",
+        "Free Credits"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Generous Free Tier; delivers strong text-to-video utility with direct workflow support.",
+      "free_plan_details": "Verified Generous Free Tier via official site/pricing signals (free plan, $0).",
+      "free_usage_limits": "Free monthly/starter browser video credits for short AI clips and effects.",
+      "credit_card_required": "No",
+      "registration_required": "Yes",
+      "open_source_status": "Closed Source / Free Service",
+      "github_repository": "",
+      "supported_os": [
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "UNKNOWN",
+      "important_limitations": [
+        "Verify rate limits on official docs before heavy hackathon traffic."
+      ],
+      "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "UNKNOWN",
+      "best_student_use_case": "Build a portfolio-grade text-to-video module or 24-hour hackathon MVP on your RTX 4050 laptop.",
+      "free_tier_type": "Generous Free Tier",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 72.0,
+      "score_breakdown": {
+        "free_functionality": 20.0,
+        "practical_usefulness": 11.0,
+        "reliability": 11.5,
+        "student_value": 12.0,
+        "ease_of_use": 8.5,
+        "performance": 7.0,
+        "documentation": 2.0,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 72.0,
+        "explanation": "Score 72.0/100 — Free(20.0/25) + Usefulness(11.0/20) + Reliability(11.5/15) + Student(12.0/15) + Ease(8.5/10) + Perf(7.0/10) + Docs(2.0/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Pika into your creative & multimodal ai stack on Windows 11. Zero local VRAM/RAM load on your 6GB RTX 4050; runs via cloud free tier. Use its generous free tier access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": false,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Zero-Install Cloud Web)",
+        "cloud_usage_necessary": "Yes",
+        "hardware_fit_notes": "Zero local VRAM/RAM load on your 6GB RTX 4050; runs via cloud free tier.",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://pika.art/pricing",
+        "https://pika.art/pricing"
+      ],
+      "tags": [
+        "video-generation",
+        "short-video",
+        "web-only",
+        "free-credits",
+        "video",
+        "creative & multimodal ai"
+      ],
+      "stars": 0,
+      "license_name": "Proprietary",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T17:31:58Z",
+      "updated_at": "2026-11-12T17:31:58Z",
+      "direct_app_url": "https://pika.art",
+      "pricing_url": "https://pika.art/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Starter Credits"
     }
   ],
   "pricing_history": [
+    {
+      "id": 54,
+      "canonical_key": "web:pika.art",
+      "tool_name": "Pika",
+      "old_free_plan": "",
+      "new_free_plan": "Verified Generous Free Tier via official site/pricing signals (free plan, $0).",
+      "old_limits": "",
+      "new_limits": "Free monthly/starter browser video credits for short AI clips and effects.",
+      "change_type": "initial",
+      "source_url": "https://pika.art/",
+      "detected_at": "2026-11-12T17:31:58Z"
+    },
+    {
+      "id": 53,
+      "canonical_key": "web:clipchamp.com/en",
+      "tool_name": "Clipchamp",
+      "old_free_plan": "",
+      "new_free_plan": "Verified Generous Free Tier via official site/pricing signals (free plan).",
+      "old_limits": "",
+      "new_limits": "Free unlimited 1080p browser video editing, auto-captions, and basic stock/TTS.",
+      "change_type": "initial",
+      "source_url": "https://clipchamp.com/en/",
+      "detected_at": "2026-11-12T17:31:58Z"
+    },
+    {
+      "id": 52,
+      "canonical_key": "web:suno.com",
+      "tool_name": "Suno",
+      "old_free_plan": "",
+      "new_free_plan": "Verified Generous Free Tier via official site/pricing signals (free forever, free plan, $0).",
+      "old_limits": "",
+      "new_limits": "50 free music credits resetting daily (~10 songs/day; no credit card).",
+      "change_type": "initial",
+      "source_url": "https://suno.com/",
+      "detected_at": "2026-11-12T17:31:58Z"
+    },
+    {
+      "id": 51,
+      "canonical_key": "web:elevenlabs.io",
+      "tool_name": "ElevenLabs",
+      "old_free_plan": "",
+      "new_free_plan": "Verified Generous Free Tier via official site/pricing signals (free tier, free plan, bsd).",
+      "old_limits": "",
+      "new_limits": "10,000 free TTS characters/month on the free web tier (no credit card).",
+      "change_type": "initial",
+      "source_url": "https://elevenlabs.io/",
+      "detected_at": "2026-11-12T17:31:58Z"
+    },
+    {
+      "id": 50,
+      "canonical_key": "gh:ideogram-oss/ideogram4",
+      "tool_name": "Ideogram",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Recurring free weekly generation credits in browser (no credit card).",
+      "change_type": "initial",
+      "source_url": "https://ideogram.ai/",
+      "detected_at": "2026-11-12T17:31:58Z"
+    },
+    {
+      "id": 49,
+      "canonical_key": "web:v0.app",
+      "tool_name": "v0 by Vercel",
+      "old_free_plan": "",
+      "new_free_plan": "Verified Generous Free Tier via official site/pricing signals (gpl, $0).",
+      "old_limits": "",
+      "new_limits": "Free monthly message/token credits for web UI & React app generation (no credit card).",
+      "change_type": "initial",
+      "source_url": "https://v0.app/",
+      "detected_at": "2026-11-12T17:31:58Z"
+    },
     {
       "id": 48,
       "canonical_key": "gh:nace-ai/kapitsa",
@@ -4769,6 +5578,27 @@
   ],
   "discovery_runs": [
     {
+      "id": 9,
+      "run_type": "daily",
+      "started_at": "2026-11-12T17:30:53Z",
+      "finished_at": "2026-11-12T17:32:34Z",
+      "status": "success",
+      "candidates_scanned": 72,
+      "new_tools_added": 6,
+      "rejected_fake_free": 23,
+      "duplicates_skipped": 43,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "GitHub",
+        "Reddit",
+        "Hacker News"
+      ],
+      "sources_failed": [],
+      "summary": "Added 6 verified tools; rejected 23 non-free/low-score."
+    },
+    {
       "id": 8,
       "run_type": "weekly",
       "started_at": "2026-11-12T16:48:00Z",
@@ -4927,15 +5757,70 @@
   ],
   "rejected_candidates": [
     {
-      "id": 1,
-      "canonical_key": "web:mall-bats.vercel.app",
-      "name": "Mall Bats, a nostalgic tycoon game with a twitst",
-      "url": "https://mall-bats.vercel.app/",
+      "id": 43,
+      "canonical_key": "web:perplexity.ai",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
       "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
-      "rejected_at": "2026-11-12T16:47:55Z"
+      "rejected_at": "2026-11-12T17:31:58Z"
+    },
+    {
+      "id": 42,
+      "canonical_key": "web:lumalabs.ai/dream-machine",
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/dream-machine",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:52Z"
+    },
+    {
+      "id": 41,
+      "canonical_key": "web:leonardo.ai",
+      "name": "Leonardo AI",
+      "url": "https://leonardo.ai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:43Z"
+    },
+    {
+      "id": 40,
+      "canonical_key": "web:bolt.new",
+      "name": "Bolt.new",
+      "url": "https://bolt.new",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:42Z"
+    },
+    {
+      "id": 38,
+      "canonical_key": "web:canva.com",
+      "name": "Canva Magic Studio",
+      "url": "https://www.canva.com",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:35Z"
+    },
+    {
+      "id": 39,
+      "canonical_key": "web:gamma.app",
+      "name": "Gamma",
+      "url": "https://gamma.app",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:35Z"
     },
     {
       "id": 2,
@@ -4946,7 +5831,29 @@
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
-      "rejected_at": "2026-11-12T16:47:55Z"
+      "rejected_at": "2026-11-12T17:31:33Z"
+    },
+    {
+      "id": 36,
+      "canonical_key": "web:producthunt.com/products/scroogefrog-ai-antifraud",
+      "name": "ScroogeFrog AI",
+      "url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:27Z"
+    },
+    {
+      "id": 1,
+      "canonical_key": "web:mall-bats.vercel.app",
+      "name": "Mall Bats, a nostalgic tycoon game with a twitst",
+      "url": "https://mall-bats.vercel.app/",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:26Z"
     },
     {
       "id": 5,
@@ -4957,7 +5864,150 @@
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
-      "rejected_at": "2026-11-12T16:47:55Z"
+      "rejected_at": "2026-11-12T17:31:26Z"
+    },
+    {
+      "id": 33,
+      "canonical_key": "web:producthunt.com/products/offstage-cloud",
+      "name": "Offstage Cloud",
+      "url": "https://www.producthunt.com/products/offstage-cloud",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:25Z"
+    },
+    {
+      "id": 30,
+      "canonical_key": "web:producthunt.com/products/customer-io",
+      "name": "Customer.io Fall Release",
+      "url": "https://www.producthunt.com/products/customer-io",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:23Z"
+    },
+    {
+      "id": 31,
+      "canonical_key": "web:producthunt.com/products/gnista",
+      "name": "Gnista",
+      "url": "https://www.producthunt.com/products/gnista",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:23Z"
+    },
+    {
+      "id": 32,
+      "canonical_key": "web:producthunt.com/products/foxpit",
+      "name": "Foxpit",
+      "url": "https://www.producthunt.com/products/foxpit",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:23Z"
+    },
+    {
+      "id": 29,
+      "canonical_key": "web:producthunt.com/products/sendr",
+      "name": "Sendr V4",
+      "url": "https://www.producthunt.com/products/sendr",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:22Z"
+    },
+    {
+      "id": 28,
+      "canonical_key": "web:producthunt.com/products/spacefast-by-automattic",
+      "name": "Spacefast by Automattic",
+      "url": "https://www.producthunt.com/products/spacefast-by-automattic",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:18Z"
+    },
+    {
+      "id": 26,
+      "canonical_key": "web:producthunt.com/products/three-dev",
+      "name": "three.dev",
+      "url": "https://www.producthunt.com/products/three-dev",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:17Z"
+    },
+    {
+      "id": 27,
+      "canonical_key": "web:producthunt.com/products/epsilla",
+      "name": "Harness Memory",
+      "url": "https://www.producthunt.com/products/epsilla",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:17Z"
+    },
+    {
+      "id": 25,
+      "canonical_key": "web:producthunt.com/products/crossfade",
+      "name": "Crossfade",
+      "url": "https://www.producthunt.com/products/crossfade",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:16Z"
+    },
+    {
+      "id": 24,
+      "canonical_key": "web:producthunt.com/products/adobe-ai-assistant",
+      "name": "Adobe AI Assistant",
+      "url": "https://www.producthunt.com/products/adobe-ai-assistant",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:12Z"
+    },
+    {
+      "id": 22,
+      "canonical_key": "web:producthunt.com/products/insight7",
+      "name": "Insight7 Voice AI Agents",
+      "url": "https://www.producthunt.com/products/insight7",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:11Z"
+    },
+    {
+      "id": 23,
+      "canonical_key": "web:producthunt.com/products/plurai",
+      "name": "Plurai Simulation",
+      "url": "https://www.producthunt.com/products/plurai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:11Z"
+    },
+    {
+      "id": 21,
+      "canonical_key": "web:producthunt.com/products/youart",
+      "name": "YouArt Desktop App",
+      "url": "https://www.producthunt.com/products/youart",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-12T17:31:07Z"
     },
     {
       "id": 6,
@@ -4975,10 +6025,10 @@
     {
       "id": 1,
       "week_label": "2026-W46",
-      "generated_at": "2026-11-12T16:48:13Z",
-      "markdown_path": "/home/runner/work/pramana-ai-radar/pramana-ai-radar/data/weekly_reports/weekly-2026-W46.md",
-      "pdf_path": "/home/runner/work/pramana-ai-radar/pramana-ai-radar/data/weekly_reports/weekly-2026-W46.pdf",
-      "json_path": "/home/runner/work/pramana-ai-radar/pramana-ai-radar/data/weekly_reports/weekly-2026-W46.json",
+      "generated_at": "2026-11-12T17:32:36Z",
+      "markdown_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.md",
+      "pdf_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.pdf",
+      "json_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.json",
       "top_10_keys": [
         "gh:unslothai/unsloth",
         "gh:comfy-org/comfyui",
@@ -4992,8 +6042,8 @@
         "gh:niko1221/strata"
       ],
       "highlights": {
-        "total_verified": 48,
-        "new_this_week": 48
+        "total_verified": 54,
+        "new_this_week": 54
       }
     }
   ]

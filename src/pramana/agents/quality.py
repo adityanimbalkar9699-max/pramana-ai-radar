@@ -35,6 +35,8 @@ class QualityEvaluationAgent:
             bd.free_functionality = 22.0
         elif pricing.free_tier_type == "Generous Free Tier":
             bd.free_functionality = 20.0
+        elif pricing.free_tier_type == "Free Credits (Starter)":
+            bd.free_functionality = 17.5
         elif pricing.free_tier_type == "Freemium Useful Free":
             bd.free_functionality = 15.0
         elif pricing.free_tier_type == "Freemium (One-time Credits)":

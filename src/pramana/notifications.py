@@ -109,10 +109,10 @@ class NotificationManager:
             lines.append(
                 f"{i}. {t['name']} ({t['score']}/100)\n"
                 f"   Category: {t['category']} > {t['subcategory']}\n"
-                f"   Free Tier: {t['free_tier_type']} (CC: {t['credit_card_required']})\n"
-                f"   RTX 4050 Fit: {p.get('can_run_on_laptop', 'UNKNOWN')}\n"
-                f"   Why useful: {t['what_makes_it_useful']}\n"
-                f"   Link: {t['official_website']}\n"
+                f"   Free Tier: {t['free_tier_type']} [{t.get('free_quota_cadence', 'Free')}]\n"
+                f"   Direct Web App: {t.get('direct_app_url') or t['official_website']}\n"
+                f"   Free Limits: {t.get('free_usage_limits', 'Free allowance')}\n"
+                f"   Why Useful: {t['what_makes_it_useful']}\n"
             )
         message = "\n".join(lines)
         return {

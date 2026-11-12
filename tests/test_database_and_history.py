@@ -56,3 +56,20 @@ def test_upsert_tracks_pricing_history_and_preserves_saved(tmp_path):
     history = db.get_pricing_history()
     assert len(history) == 2
     assert history[0]["change_type"] == "updated"
+
+
+def test_web_only_and_direct_app_url_persistence(tmp_path):
+    db = PramanaDatabase(tmp_path / "web_test.db")
+    tool = _sample_tool(name="Gamma", plan="Starter free AI credits")
+    tool.canonical_key = "web:gamma.app"
+    tool.official_website = "https://gamma.app"
+    tool.direct_app_url = "https://gamma.app"
+    tool.pricing_url = "https://gamma.app/pricing"
+    tool.web_only = True
+    tool.free_quota_cadence = "Starter Credits"
+
+    assert db.upsert_tool(tool) == "inserted"
+    loaded = db.get_tool("web:gamma.app")
+    assert loaded["web_only"] is True
+    assert loaded["direct_app_url"] == "https://gamma.app"
+    assert loaded["free_quota_cadence"] == "Starter Credits"

@@ -5,7 +5,8 @@ from .github_source import GitHubDiscoverySource
 from .huggingface_source import HuggingFaceDiscoverySource
 from .hackernews_source import HackerNewsDiscoverySource
 from .reddit_source import RedditDiscoverySource
-from .curated_seed import get_verified_seed_candidates
+from .producthunt_source import ProductHuntDiscoverySource
+from .curated_seed import get_verified_seed_candidates, get_verified_web_free_apps
 
 __all__ = [
     "SafeHttpClient",
@@ -14,5 +15,7 @@ __all__ = [
     "HuggingFaceDiscoverySource",
     "HackerNewsDiscoverySource",
     "RedditDiscoverySource",
+    "ProductHuntDiscoverySource",
     "get_verified_seed_candidates",
+    "get_verified_web_free_apps",
 ]

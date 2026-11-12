@@ -386,6 +386,18 @@ select {
 }
 .pill-free { color: var(--accent-secondary); border-color: rgba(4, 120, 87, 0.25); background: rgba(4, 120, 87, 0.08); }
 .pill-vram { color: var(--accent-primary); }
+.pill-web { color: #0369a1; border-color: rgba(3, 105, 161, 0.28); background: rgba(3, 105, 161, 0.08); }
+.pill-quota { color: var(--accent-warn); border-color: rgba(180, 83, 9, 0.25); background: rgba(180, 83, 9, 0.08); font-family: "JetBrains Mono", monospace; }
+
+.quota-highlight {
+  font-size: 12px;
+  background: rgba(4, 120, 87, 0.06);
+  border: 1px solid rgba(4, 120, 87, 0.18);
+  border-radius: 9px;
+  padding: 8px 10px;
+  color: var(--text-primary);
+}
+.card-actions-right { display: flex; gap: 6px; align-items: center; }
 
 .card-meta-box {
   font-size: 12px;

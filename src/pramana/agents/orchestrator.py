@@ -126,6 +126,15 @@ class OrchestratorAgent:
             license_name=os_rep.license_name,
             discovery_date=today_iso(),
             status="active",
+            direct_app_url=str(cand.extra.get("direct_app_url") or dossier.final_url or cand.url),
+            pricing_url=price_ver.pricing_url,
+            web_only=bool(
+                cand.extra.get("web_only")
+                or dossier.local_installation_available == "No"
+                or "huggingface.co/spaces/" in cand.url.lower()
+                or "Web" in dossier.supported_os and "Windows" not in dossier.supported_os
+            ),
+            free_quota_cadence=price_ver.free_quota_cadence,
         )
         return tool, None, []
 

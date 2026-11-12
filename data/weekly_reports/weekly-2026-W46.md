@@ -1,5 +1,5 @@
 # Pramana Weekly AI Intelligence Report — 2026-W46
-_Generated: 2026-11-12T16:48:13Z | Tailored for 3rd-Year Computer Engineering (Windows 11, Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB VRAM)_
+_Generated: 2026-11-12T17:32:36Z | Tailored for 3rd-Year Computer Engineering (Windows 11, Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB VRAM)_
 
 ---
 
@@ -78,6 +78,7 @@ _Generated: 2026-11-12T16:48:13Z | Tailored for 3rd-Year Computer Engineering (W
 - **colibri** (93.5/100, Free Open Source) — A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own. [https://justvugg.github.io/colibri/]
 
 ### Best Free Coding Assistants
+- **v0 by Vercel** (84.5/100, Generous Free Tier) — Browser-based AI UI and full-stack web app generator offering free monthly message/token credits without credit card. [https://v0.app/]
 - **Zeus** (79.0/100, Generous Free Tier) — Show HN: Zeus – Claude Code for AI voice agents [https://thunderphone.com/blog/introducing-zeus]
 
 ### Best Free AI APIs and LLMs
@@ -88,17 +89,20 @@ _Generated: 2026-11-12T16:48:13Z | Tailored for 3rd-Year Computer Engineering (W
 - **NextChat** (92.0/100, Free Open Source) — ✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows. [https://nextchat.club/]
 
 ### Best Video Editing and Generation Tools
-- No new changes detected in this window.
+- **Clipchamp** (75.0/100, Generous Free Tier) — Browser-based Microsoft video editor with free 1080p export, auto-captions, and AI text-to-speech. [https://clipchamp.com/en/]
+- **Pika** (72.0/100, Generous Free Tier) — Web AI short video generator and video effects studio with free starter/monthly credits in browser. [https://pika.art/]
 
 ### Best Image Generation Tools
 - **MiniMax-H3-Image** (83.0/100, Free Open Source) — Trending open-weights model (MiniMaxAI/MiniMax-H3-Image) for text-to-image; 142,989 downloads. [https://huggingface.co/MiniMaxAI/MiniMax-H3-Image]
 - **idol** (82.5/100, Free Open Source) — Trending open-weights model (speridlabs/idol) for image-to-3d; 28,250 downloads. [https://huggingface.co/speridlabs/idol]
+- **Ideogram** (81.5/100, Free Open Source) — Web AI image & typography/logo generator offering recurring free weekly/slow generation credits without credit card. [https://ideogram.ai/]
 
 ### Best Voice and Audio Tools
 - **VoiceStudio** (92.0/100, Free Open Source) — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. [https://voicestudio.sh/]
 - **whisper.cpp** (91.5/100, Free Open Source) — Port of OpenAI's Whisper model in C/C++ [https://github.com/ggml-org/whisper.cpp]
 - **voicebox** (90.5/100, Free Open Source) — The open-source AI voice studio. Clone, dictate, create. [https://voicebox.sh/]
 - **GPT-SoVITS** (87.5/100, Free Open Source) — 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) [https://github.com/RVC-Boss/GPT-SoVITS]
+- **ElevenLabs** (77.5/100, Generous Free Tier) — Web AI voice synthesis & dubbing platform offering 10,000 free characters/month without credit card. [https://elevenlabs.io/]
 
 ### Best AI Agent Frameworks
 - **qvac/BotPsy** (93.5/100, Free Open Source) — qvac/BotPsy-0.8B · Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model [https://huggingface.co/Qwen/Qwen3.5-0.8B]

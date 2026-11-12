@@ -12,9 +12,11 @@ from ..sources import (
     GitHubDiscoverySource,
     HackerNewsDiscoverySource,
     HuggingFaceDiscoverySource,
+    ProductHuntDiscoverySource,
     RedditDiscoverySource,
     SafeHttpClient,
     get_verified_seed_candidates,
+    get_verified_web_free_apps,
 )
 
 logger = logging.getLogger(__name__)
@@ -66,9 +68,10 @@ class DiscoveryAgent:
             HuggingFaceDiscoverySource(self.client),
             HackerNewsDiscoverySource(self.client),
             RedditDiscoverySource(self.client),
+            ProductHuntDiscoverySource(self.client),
         ]
 
-        with ThreadPoolExecutor(max_workers=4) as pool:
+        with ThreadPoolExecutor(max_workers=5) as pool:
             future_map = {
                 pool.submit(src.discover, per_source_limit): src.name for src in sources
             }
@@ -88,6 +91,9 @@ class DiscoveryAgent:
         if include_seed_when_empty_db:
             batch.candidates.extend(get_verified_seed_candidates())
             batch.sources_succeeded.append("Pramana Verified Directory")
+
+        # Always pass un-ingested Web-Only Free Apps through Deduplication + Live Pricing Verification
+        batch.candidates.extend(get_verified_web_free_apps())
 
         batch.emerging_categories_detected = detect_emerging_categories(batch.candidates)
         return batch

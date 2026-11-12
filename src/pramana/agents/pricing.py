@@ -61,7 +61,24 @@ KNOWN_FREE_LIMIT_HINTS = {
     "notebooklm.google.com": "Free Google account usage with source/notebook quotas per day.",
     "kaggle.com": "30 hours/week free GPU (T4/P100) + 20 hours/week TPU + public/private notebooks.",
     "education.github.com": "Free for verified students (college email/ID); includes Copilot Pro & partner credits.",
+    "gamma.app": "Starter free AI credits on signup (create PPT/presentations & docs in browser; no credit card).",
+    "canva.com": "Permanent free web plan with free templates + limited monthly AI Magic Studio uses.",
+    "v0.dev": "Free monthly message/token credits for web UI & React app generation (no credit card).",
+    "bolt.new": "Free daily & monthly token allowance for browser full-stack code generation.",
+    "leonardo.ai": "150 fast AI image generation tokens resetting daily on the free web tier.",
+    "ideogram.ai": "Recurring free weekly generation credits in browser (no credit card).",
+    "clipchamp.com": "Free unlimited 1080p browser video editing, auto-captions, and basic stock/TTS.",
+    "lumalabs.ai": "Free monthly browser generations for short AI video clips (5-10s).",
+    "pika.art": "Free monthly/starter browser video credits for short AI clips and effects.",
+    "elevenlabs.io": "10,000 free TTS characters/month on the free web tier (no credit card).",
+    "suno.com": "50 free music credits resetting daily (~10 songs/day; no credit card).",
+    "perplexity.ai": "Unlimited free quick searches + limited daily Pro/research searches in browser.",
 }
+
+QUOTA_SNIPPET_RE = re.compile(
+    r"\b(\d[\d,\.]*\s*(?:free\s+)?(?:credits|tokens|characters|minutes|seconds|generations|requests|messages|videos|slides|decks)(?:\s*(?:/|per)\s*(?:day|month|week|minute))?)\b",
+    re.I,
+)
 
 
 class PricingVerificationAgent:
@@ -79,8 +96,11 @@ class PricingVerificationAgent:
         pricing_texts: List[str] = [dossier.visible_text]
         pricing_url = ""
 
-        # Probe discovered pricing links or standard /pricing path on official domain
-        probe_urls = list(dossier.pricing_links)
+        # Probe discovered pricing links, explicit candidate hint, or standard /pricing path
+        probe_urls = []
+        if candidate.extra.get("pricing_url_hint"):
+            probe_urls.append(str(candidate.extra["pricing_url_hint"]))
+        probe_urls.extend(dossier.pricing_links)
         if not probe_urls and dossier.final_url.startswith("http") and "github.com/" not in dossier.final_url.lower():
             probe_urls.append(urljoin(dossier.final_url.rstrip("/") + "/", "pricing"))
 
@@ -110,9 +130,13 @@ class PricingVerificationAgent:
         cleaned_low = re.sub(r"\bno free (plan|tier)\b", "", low)
         free_hits = [sig for sig in PERMANENT_FREE_SIGNALS if sig in cleaned_low]
 
-        if any("credit card required" in low or "add a payment method" in low for _ in [1]):
-            if "no credit card required" not in low and "without a credit card" not in low:
-                flags.append("Possible credit card requirement detected on page")
+        has_cc_trap = (
+            ("credit card required" in low or "add a payment method" in low)
+            and "no credit card required" not in low
+            and "without a credit card" not in low
+        )
+        if has_cc_trap:
+            flags.append("Credit card requirement detected on page")
 
         has_trial_only = bool(trial_hits) and not free_hits and not is_open_source
         if has_trial_only:
@@ -120,7 +144,7 @@ class PricingVerificationAgent:
 
         is_one_time_only = bool(credit_hits) and not free_hits and not is_open_source
         if is_one_time_only:
-            flags.append("Appears limited to one-time starter credits rather than recurring free usage")
+            flags.append("Limited starter credits (usable free until quota exhausted)")
 
         # Determine India availability
         if any(p.search(combined) for p in GEO_RESTRICTION_PATTERNS):
@@ -151,11 +175,18 @@ class PricingVerificationAgent:
             reg_req = "Yes"
             plan_details = "Rejected: Appears to offer a time-limited trial rather than a genuine free tier."
         elif is_one_time_only:
-            tier_type = "Freemium (One-time Credits)"
-            genuinely_free = False
-            cc_req = "No" if "no credit card" in low else UNKNOWN
-            reg_req = "Yes"
-            plan_details = "Warning: Primarily offers one-time free credits without confirmed recurring free allowance."
+            if has_cc_trap:
+                tier_type = "Trial / Card-Gated Credits"
+                genuinely_free = False
+                cc_req = "Yes"
+                reg_req = "Yes"
+                plan_details = "Rejected: Credits appear gated behind a payment method or credit card."
+            else:
+                tier_type = "Free Credits (Starter)"
+                genuinely_free = True
+                cc_req = "No"
+                reg_req = "Yes"
+                plan_details = "Usable free with starter token/credit allowance (no credit card required; stops at limit)."
         elif free_hits or "huggingface.co" in dossier.final_url.lower():
             if "100% free" in low or "completely free" in low or "huggingface.co" in dossier.final_url.lower():
                 tier_type = "Completely Free"
@@ -163,8 +194,8 @@ class PricingVerificationAgent:
                 tier_type = "Generous Free Tier"
             else:
                 tier_type = "Freemium Useful Free"
-            genuinely_free = True
-            cc_req = "No" if ("no credit card" in low or "free" in low) else UNKNOWN
+            genuinely_free = not has_cc_trap
+            cc_req = "Yes" if has_cc_trap else ("No" if ("no credit card" in low or "free" in low) else UNKNOWN)
             reg_req = "No" if "no sign" in low or "no account" in low else "Yes"
             plan_details = f"Verified {tier_type} via official site/pricing signals ({', '.join(free_hits[:3]) or 'public access'})."
         else:
@@ -176,17 +207,35 @@ class PricingVerificationAgent:
             plan_details = UNKNOWN
             flags.append("Could not empirically confirm permanent free tier from inspected pages")
 
-        # Domain-verified usage limits if known, else extracted or UNKNOWN
+        # Domain-verified usage limits if known, else extracted live quota snippet or UNKNOWN
         limits = UNKNOWN
         for dom, hint in KNOWN_FREE_LIMIT_HINTS.items():
             if dom in dossier.final_url.lower() or dom in candidate.url.lower():
                 limits = hint
                 break
         if limits == UNKNOWN:
-            if is_open_source:
+            snippets = QUOTA_SNIPPET_RE.findall(combined)
+            if snippets:
+                limits = "Observed free quota: " + "; ".join(dict.fromkeys(snippets[:3]))
+            elif is_open_source:
                 limits = "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM)."
             elif "rate limit" in low or "requests per" in low or "tokens per" in low:
                 limits = "Subject to official free-tier rate/quota limits (see pricing/docs)."
+
+        # Determine free quota reset cadence
+        limits_low = f"{limits} {low}".lower()
+        if is_open_source or "huggingface.co/spaces" in dossier.final_url.lower():
+            cadence = "Unlimited"
+        elif is_one_time_only or "starter" in limits_low:
+            cadence = "Starter Credits"
+        elif any(k in limits_low for k in ("per day", "/day", "daily", "every day", "resetting daily")):
+            cadence = "Daily Reset"
+        elif any(k in limits_low for k in ("per month", "/month", "monthly", "per week", "/week")):
+            cadence = "Monthly Reset"
+        elif genuinely_free:
+            cadence = "Free Tier"
+        else:
+            cadence = UNKNOWN
 
         return PricingVerification(
             free_tier_type=tier_type,
@@ -197,8 +246,9 @@ class PricingVerificationAgent:
             registration_required=reg_req,
             is_trial_only=has_trial_only,
             is_one_time_credits_only=is_one_time_only,
+            free_quota_cadence=cadence,
             india_available=india_avail,
             fake_free_flags=flags,
-            pricing_url=pricing_url or dossier.final_url,
+            pricing_url=pricing_url or str(candidate.extra.get("pricing_url_hint") or dossier.final_url),
             verification_notes=f"Inspected {dossier.final_url}" + (f" and {pricing_url}" if pricing_url else ""),
         )

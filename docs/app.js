@@ -16,6 +16,7 @@ const state = {
 
 const SECTION_META = {
   overview: { title: "Overview — Top Ranked Free AI Tools", sub: "Verified discoveries ranked out of 100 with zero fake-free trials." },
+  "web-free": { title: "⭐ Web-Only Free Tiers (Zero Laptop Install)", sub: "Pure in-browser free AI tools for PPT decks, short videos (10s–30s), UI building, image creation & music with live free quotas." },
   daily: { title: "Daily Discoveries", sub: "Most recently verified free AI tools added by autonomous daily runs." },
   weekly: { title: "Weekly Intelligence & Top 10", sub: "Comprehensive weekly briefings, Top 10 rankings, and downloadable PDF/CSV/Excel." },
   coding: { title: "AI Coding Tools", sub: "Free coding assistants, autonomous coding agents, databases, and backend tools." },
@@ -118,9 +119,11 @@ function getFilteredTools() {
   const q = document.getElementById("globalSearchInput").value.trim().toLowerCase();
   const catSel = document.getElementById("categoryFilter").value;
   const vramSel = document.getElementById("vramFilter").value;
+  const cadenceSel = document.getElementById("cadenceFilter")?.value || "all";
   const sortSel = document.getElementById("sortSelect").value;
   const onlyFree = document.getElementById("onlyFreeToggle").checked;
   const onlyOs = document.getElementById("onlyOpenSourceToggle").checked;
+  const webOnly = document.getElementById("webOnlyToggle")?.checked || false;
 
   let list = state.tools.filter((t) => {
     if (onlyFree && !t.is_genuinely_free) return false;
@@ -128,11 +131,23 @@ function getFilteredTools() {
     if (catSel !== "all" && t.category !== catSel) return false;
 
     const fit = String(t.personalization?.can_run_on_laptop || "").toLowerCase();
+    const isWeb = Boolean(t.web_only) || fit.includes("cloud") || fit.includes("browser") || fit.includes("zero-install");
+    if (webOnly && !isWeb) return false;
+
     if (vramSel === "local" && !fit.includes("yes")) return false;
     if (vramSel === "cloud" && !fit.includes("cloud") && !fit.includes("browser")) return false;
 
+    if (cadenceSel !== "all") {
+      const toolCadence = String(t.free_quota_cadence || "");
+      const limitsLower = String(t.free_usage_limits || "").toLowerCase();
+      if (toolCadence !== cadenceSel && !limitsLower.includes(cadenceSel.toLowerCase().split(" ")[0])) {
+        return false;
+      }
+    }
+
     // Section-scoped filtering
     const s = state.section;
+    if (s === "web-free" && !isWeb) return false;
     if (s === "coding" && t.category !== "Coding and Development") return false;
     if (s === "models" && t.category !== "AI and Machine Learning") return false;
     if (s === "image" && t.category !== "Image and Design") return false;
@@ -149,7 +164,7 @@ function getFilteredTools() {
     if (s === "saved" && !t.is_saved) return false;
 
     if (q) {
-      const hay = `${t.name} ${t.category} ${t.subcategory} ${t.short_description} ${t.free_plan_details} ${t.best_student_use_case} ${(t.tags || []).join(" ")}`.toLowerCase();
+      const hay = `${t.name} ${t.category} ${t.subcategory} ${t.short_description} ${t.free_plan_details} ${t.free_usage_limits} ${t.best_student_use_case} ${(t.tags || []).join(" ")}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -174,6 +189,9 @@ function renderToolCards(tools) {
   return `<div class="tools-grid">${tools.map((t) => {
     const p = t.personalization || {};
     const compared = state.compareKeys.has(t.canonical_key);
+    const appUrl = t.direct_app_url || t.official_website;
+    const isWeb = Boolean(t.web_only) || String(p.can_run_on_laptop || "").toLowerCase().includes("browser") || String(p.can_run_on_laptop || "").toLowerCase().includes("cloud");
+    const cadence = t.free_quota_cadence && t.free_quota_cadence !== "UNKNOWN" ? t.free_quota_cadence : (t.free_tier_type || "Free Tier");
     return `
       <article class="tool-card">
         <div>
@@ -187,22 +205,28 @@ function renderToolCards(tools) {
           <p class="tool-desc" style="margin-top:10px">${esc(t.short_description)}</p>
           <div class="pill-row" style="margin-top:10px">
             <span class="pill-tag pill-free">${esc(t.free_tier_type)}</span>
-            <span class="pill-tag">${esc(t.open_source_status)}</span>
-            <span class="pill-tag pill-vram">${esc(p.can_run_on_laptop || "UNKNOWN")}</span>
+            <span class="pill-tag pill-quota">⏱ ${esc(cadence)}</span>
+            ${isWeb ? `<span class="pill-tag pill-web">🌐 In-Browser App</span>` : `<span class="pill-tag pill-vram">${esc(p.can_run_on_laptop || "Local")}</span>`}
             ${t.stars ? `<span class="pill-tag">★ ${Number(t.stars).toLocaleString()}</span>` : ""}
           </div>
-          <div class="card-meta-box" style="margin-top:10px">
-            <div><strong>Student Fit:</strong> ${esc(t.best_student_use_case)}</div>
-            <div style="margin-top:4px"><strong>CC Required:</strong> ${esc(t.credit_card_required)} • <strong>API:</strong> ${esc(t.api_availability)}</div>
+          <div class="quota-highlight" style="margin-top:10px">
+            <div><strong>⚡ Verified Free Limits:</strong> ${esc(t.free_usage_limits)}</div>
+            <div style="margin-top:4px;font-size:11.5px;color:var(--text-muted)"><strong>Card required:</strong> ${esc(t.credit_card_required)} • <strong>Stops safely at limit:</strong> Yes (no surprise billing)</div>
+          </div>
+          <div class="card-meta-box" style="margin-top:8px">
+            <div><strong>Best Student Use:</strong> ${esc(t.best_student_use_case)}</div>
           </div>
         </div>
         <div class="card-actions">
           <div class="card-actions-left">
-            <button class="btn" onclick="openToolModal('${esc(t.canonical_key)}')">Inspect 20 Fields</button>
-            <button class="btn" onclick="toggleCompare('${esc(t.canonical_key)}')">${compared ? "✓ Compare" : "+ Compare"}</button>
-            <button class="btn" onclick="toggleSave('${esc(t.canonical_key)}')">${t.is_saved ? "★ Saved" : "☆ Save"}</button>
+            <button class="btn" onclick="openToolModal('${esc(t.canonical_key)}')">Inspect</button>
+            <button class="btn" onclick="toggleCompare('${esc(t.canonical_key)}')">${compared ? "✓" : "+"} Compare</button>
+            <button class="btn" onclick="toggleSave('${esc(t.canonical_key)}')">${t.is_saved ? "★" : "☆"}</button>
           </div>
-          <a class="btn btn-primary" href="${esc(t.official_website)}" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Visit ↗</a>
+          <div class="card-actions-right">
+            ${t.pricing_url && t.pricing_url !== appUrl ? `<a class="btn" href="${esc(t.pricing_url)}" target="_blank" rel="noopener noreferrer" style="text-decoration:none;font-size:11.5px">Limits ↗</a>` : ""}
+            <a class="btn btn-primary" href="${esc(appUrl)}" target="_blank" rel="noopener noreferrer" style="text-decoration:none;font-weight:700">⚡ Launch Free ↗</a>
+          </div>
         </div>
       </article>
     `;
@@ -420,10 +444,23 @@ window.openToolModal = function (canonicalKey) {
     ["Documentation", bd.documentation || 0, 5],
   ];
 
+  const appUrl = t.direct_app_url || t.official_website;
+  const pricingUrl = t.pricing_url || t.official_website;
+
   document.getElementById("modalBody").innerHTML = `
+    <div style="display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap">
+      <a class="btn btn-primary" href="${esc(appUrl)}" target="_blank" rel="noopener noreferrer" style="font-size:13.5px;padding:9px 16px;text-decoration:none;font-weight:700">⚡ Launch Free Web App ↗</a>
+      <a class="btn" href="${esc(pricingUrl)}" target="_blank" rel="noopener noreferrer" style="font-size:13px;padding:9px 14px;text-decoration:none">💳 View Official Pricing & Limits ↗</a>
+    </div>
+
     <div class="panel-box" style="margin-bottom:14px">
-      <h4 style="margin:0 0 8px">Personalized Evaluation (3rd-Yr CE • RTX 4050 6GB VRAM)</h4>
-      <p style="margin:0 0 6px;font-size:13px">${esc(p.how_to_use || "")}</p>
+      <h4 style="margin:0 0 8px">Free Quota Truth & What Happens at Limit</h4>
+      <div class="quota-highlight">
+        <div><strong>Verified Free Allowance:</strong> ${esc(t.free_usage_limits)}</div>
+        <div style="margin-top:4px;font-size:12px"><strong>Reset Cadence:</strong> ${esc(t.free_quota_cadence || "Free Tier")} • <strong>Credit Card Required:</strong> ${esc(t.credit_card_required)}</div>
+        <div style="margin-top:4px;font-size:11.5px;color:var(--text-muted)">Safe student guarantee: Execution pauses or queues when quota is reached; zero hidden subscription billing.</div>
+      </div>
+      <p style="margin:10px 0 6px;font-size:13px">${esc(p.how_to_use || "")}</p>
       <div class="pill-row">
         <span class="pill-tag pill-vram">Laptop Fit: ${esc(p.can_run_on_laptop || "UNKNOWN")}</span>
         <span class="pill-tag">Cloud Needed: ${esc(p.cloud_usage_necessary || "UNKNOWN")}</span>
@@ -698,9 +735,12 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.addEventListener("click", () => applyTheme(btn.dataset.themeTarget));
   });
 
-  ["globalSearchInput", "categoryFilter", "vramFilter", "sortSelect", "onlyFreeToggle", "onlyOpenSourceToggle"].forEach((id) => {
-    document.getElementById(id).addEventListener("input", renderCurrentSection);
-    document.getElementById(id).addEventListener("change", renderCurrentSection);
+  ["globalSearchInput", "categoryFilter", "vramFilter", "cadenceFilter", "sortSelect", "onlyFreeToggle", "onlyOpenSourceToggle", "webOnlyToggle"].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.addEventListener("input", renderCurrentSection);
+      el.addEventListener("change", renderCurrentSection);
+    }
   });
 
   document.getElementById("runDailyBtn").addEventListener("click", () => triggerRun("daily"));

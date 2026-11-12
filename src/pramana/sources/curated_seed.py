@@ -135,3 +135,73 @@ def get_verified_seed_candidates() -> List[RawCandidate]:
         )
         for name, url, gh, cat, subcat, summary in specs
     ]
+
+
+def get_verified_web_free_apps() -> List[RawCandidate]:
+    """Browser-only cloud AI web apps with free tiers / free credits (zero local install)."""
+    web_specs = [
+        ("Gamma", "https://gamma.app", "https://gamma.app/pricing",
+         "Image and Design", "Presentation generation",
+         "Web-based AI presentation, PPT/deck, and webpage generator with free starter AI credits (no credit card required).",
+         ["ppt", "slides", "presentation", "web-only", "free-credits"]),
+        ("Canva Magic Studio", "https://www.canva.com", "https://www.canva.com/pricing/",
+         "Image and Design", "Presentation generation",
+         "Browser-based design, PPT/presentation, and AI editing suite with a permanent free tier and monthly/limited AI tool uses.",
+         ["ppt", "design", "image-editing", "web-only", "free-tier"]),
+        ("v0 by Vercel", "https://v0.dev", "https://v0.dev/pricing",
+         "Coding and Development", "Website and application builders",
+         "Browser-based AI UI and full-stack web app generator offering free monthly message/token credits without credit card.",
+         ["web-coding", "ui-generation", "web-only", "free-credits"]),
+        ("Bolt.new", "https://bolt.new", "https://bolt.new",
+         "Coding and Development", "Website and application builders",
+         "In-browser WebContainers AI full-stack app builder with free daily & monthly token quotas.",
+         ["web-coding", "full-stack", "web-only", "daily-tokens"]),
+        ("Leonardo AI", "https://leonardo.ai", "https://leonardo.ai/pricing",
+         "Image and Design", "AI image generation",
+         "Web-based AI image & texture generator offering 150 free fast tokens resetting daily on the free tier.",
+         ["image-generation", "daily-tokens", "web-only"]),
+        ("Ideogram", "https://ideogram.ai", "https://ideogram.ai/pricing",
+         "Image and Design", "Logo generation",
+         "Web AI image & typography/logo generator offering recurring free weekly/slow generation credits without credit card.",
+         ["logo", "image-generation", "web-only"]),
+        ("Clipchamp", "https://clipchamp.com", "https://clipchamp.com/en/pricing/",
+         "Video and Content", "Video editing",
+         "Browser-based Microsoft video editor with free 1080p export, auto-captions, and AI text-to-speech.",
+         ["video-editing", "subtitles", "web-only", "free-tier"]),
+        ("Luma Dream Machine", "https://lumalabs.ai/dream-machine", "https://lumalabs.ai/dream-machine",
+         "Video and Content", "Text-to-video",
+         "Web AI text-to-video and image-to-video generator offering free monthly/trial generations in browser.",
+         ["video-generation", "10s-video", "web-only", "free-credits"]),
+        ("Pika", "https://pika.art", "https://pika.art/pricing",
+         "Video and Content", "Text-to-video",
+         "Web AI short video generator and video effects studio with free starter/monthly credits in browser.",
+         ["video-generation", "short-video", "web-only", "free-credits"]),
+        ("ElevenLabs", "https://elevenlabs.io", "https://elevenlabs.io/pricing",
+         "Audio and Voice", "Text-to-speech",
+         "Web AI voice synthesis & dubbing platform offering 10,000 free characters/month without credit card.",
+         ["tts", "voice", "monthly-quota", "web-only"]),
+        ("Suno", "https://suno.com", "https://suno.com/pricing",
+         "Audio and Voice", "Music generation",
+         "Browser AI music & song generator granting 50 free credits daily (no credit card required).",
+         ["music-generation", "daily-tokens", "web-only"]),
+        ("Perplexity", "https://www.perplexity.ai", "https://www.perplexity.ai",
+         "Productivity and Research", "Academic research",
+         "Web AI answer engine with live citations and free daily Pro Search uses without requiring a subscription.",
+         ["research", "citations", "daily-quota", "web-only"]),
+    ]
+
+    return [
+        RawCandidate(
+            name=name,
+            url=url,
+            source_name="Pramana Web Free-Tier Directory",
+            source_url=pricing_url,
+            summary=summary,
+            topics=topics,
+            category_hint=cat,
+            subcategory_hint=subcat,
+            extra={"web_only": True, "pricing_url_hint": pricing_url, "direct_app_url": url},
+        )
+        for name, url, pricing_url, cat, subcat, summary, topics in web_specs
+    ]
+

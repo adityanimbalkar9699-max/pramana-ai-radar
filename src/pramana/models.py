@@ -49,6 +49,7 @@ class PricingVerification:
     registration_required: str = UNKNOWN  # "No" | "Yes" | "UNKNOWN"
     is_trial_only: bool = False
     is_one_time_credits_only: bool = False
+    free_quota_cadence: str = UNKNOWN  # "Unlimited" | "Daily Reset" | "Monthly Reset" | "Starter Credits" | "UNKNOWN"
     india_available: str = UNKNOWN  # "Yes" | "Restricted" | "UNKNOWN"
     fake_free_flags: List[str] = field(default_factory=list)
     pricing_url: str = ""
@@ -146,6 +147,10 @@ class ToolRecord:
     user_rating: Optional[int] = None
     is_saved: bool = False
     previous_pricing_info: str = ""
+    direct_app_url: str = ""
+    pricing_url: str = ""
+    web_only: bool = False
+    free_quota_cadence: str = UNKNOWN
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
