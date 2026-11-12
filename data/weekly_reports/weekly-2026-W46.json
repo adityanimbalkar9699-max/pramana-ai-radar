@@ -1,6 +1,6 @@
 {
   "week_label": "2026-W46",
-  "generated_at": "2026-11-12T10:52:17Z",
+  "generated_at": "2026-11-12T15:55:21Z",
   "top_10": [
     {
       "id": 1,
@@ -716,6 +716,93 @@
       "updated_at": "2026-11-12T10:40:46Z"
     },
     {
+      "id": 47,
+      "canonical_key": "gh:edge0-ai/edge0",
+      "name": "Edge0/Edge0",
+      "official_website": "https://huggingface.co/Edge0/Edge0-145B-q3k",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "Edge0/Edge0-145B-q3k \u00b7 Hugging Face",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "Edge0/Edge0-145B-q3k \u00b7 Hugging Face."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with Local OpenAI-Compatible API workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) \u2014 free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/Edge0-AI/Edge0",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "Local OpenAI-Compatible API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-12",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Edge0/Edge0's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 93.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.5,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 10.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 93.0,
+        "explanation": "Score 93.0/100 \u2014 Free(24.0/25) + Usefulness(15.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(10.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Edge0/Edge0 into your creative & multimodal ai stack on Windows 11. 145B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs. Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation",
+          "C++ / Systems"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Partial (Needs Cloud or Heavy Quantization >6GB VRAM)",
+        "cloud_usage_necessary": "Recommended for >13B weights",
+        "hardware_fit_notes": "145B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs.",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xuczw4/edge0edge0145bq3k_hugging_face/",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 10158,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-12",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-12T15:44:46Z",
+      "updated_at": "2026-11-12T15:44:46Z"
+    },
+    {
       "id": 8,
       "canonical_key": "gh:niko1221/strata",
       "name": "Strata",
@@ -791,97 +878,6 @@
         "ai engineering & applied ml"
       ],
       "stars": 43380,
-      "license_name": "MIT",
-      "discovery_date": "2026-11-12",
-      "status": "active",
-      "user_rating": null,
-      "is_saved": false,
-      "previous_pricing_info": "",
-      "created_at": "2026-11-12T10:40:46Z",
-      "updated_at": "2026-11-12T10:40:46Z"
-    },
-    {
-      "id": 9,
-      "canonical_key": "gh:chatgptnextweb/nextchat",
-      "name": "NextChat",
-      "official_website": "https://nextchat.club/",
-      "category": "AI and Machine Learning",
-      "subcategory": "AI inference platforms",
-      "short_description": "\u2728 Zero-config AI chat assistant. No API key needed \u2014 sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5, DeepSeek & 100+ top models. Pay-as-you-go saves you more. Available on Web, iOS, macOS, Android, Linux, Windows.",
-      "main_capabilities": [
-        "Calclaude",
-        "Claude",
-        "Cross Platform",
-        "Desktop"
-      ],
-      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai inference platforms utility with API Available (Check Tier) workflow support.",
-      "free_plan_details": "Open-source (MIT) \u2014 free for local & commercial/student use.",
-      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
-      "credit_card_required": "No",
-      "registration_required": "No",
-      "open_source_status": "Open Source (MIT)",
-      "github_repository": "https://github.com/ChatGPTNextWeb/NextChat",
-      "supported_os": [
-        "Windows",
-        "Linux",
-        "macOS"
-      ],
-      "api_availability": "API Available (Check Tier)",
-      "local_installation_available": "Yes",
-      "important_limitations": [
-        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
-      ],
-      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
-      "official_documentation": "https://github.com/ChatGPTNextWeb/NextChat/blob/main/README.md",
-      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using NextChat's Free Open Source.",
-      "free_tier_type": "Free Open Source",
-      "is_genuinely_free": true,
-      "india_available": "Yes",
-      "score": 92.0,
-      "score_breakdown": {
-        "free_functionality": 24.0,
-        "practical_usefulness": 15.5,
-        "reliability": 14.0,
-        "student_value": 15.0,
-        "ease_of_use": 10.0,
-        "performance": 9.0,
-        "documentation": 4.5,
-        "penalties": 0.0,
-        "penalty_reasons": [],
-        "total_score": 92.0,
-        "explanation": "Score 92.0/100 \u2014 Free(24.0/25) + Usefulness(15.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
-      },
-      "personalization": {
-        "how_to_use": "Integrate NextChat into your ai engineering & applied ml stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
-        "skills_developed": [
-          "LLM Systems Engineering",
-          "RAG / Vector Search",
-          "Model Optimization"
-        ],
-        "helps_ai_engineering_career": true,
-        "useful_for_college_projects": true,
-        "helps_startup_building": true,
-        "improves_productivity": true,
-        "can_run_on_laptop": "Yes (Native Windows 11)",
-        "cloud_usage_necessary": "No",
-        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
-        "priority_track": "AI Engineering & Applied ML"
-      },
-      "sources": [
-        "https://github.com/ChatGPTNextWeb/NextChat",
-        "https://nextchat.club/pricing"
-      ],
-      "tags": [
-        "calclaude",
-        "claude",
-        "cross-platform",
-        "desktop",
-        "fe",
-        "ai",
-        "ai engineering & applied ml"
-      ],
-      "stars": 88948,
       "license_name": "MIT",
       "discovery_date": "2026-11-12",
       "status": "active",

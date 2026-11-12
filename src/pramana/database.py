@@ -582,9 +582,13 @@ class PramanaDatabase:
             rows = conn.execute("SELECT key, value FROM settings").fetchall()
             return {r["key"]: r["value"] for r in rows}
 
-    def export_catalog_snapshot(self, target_path: Path = CATALOG_JSON_PATH) -> Path:
+    def export_catalog_snapshot(self, target_path: Optional[Path] = None) -> Path:
         """Export complete database snapshot for static GitHub Pages & zero-backend dashboards."""
-        target_path.parent.mkdir(parents=True, exist_ok=True)
+        is_prod_db = self.db_path.resolve() == DB_PATH.resolve()
+        out_path = Path(target_path) if target_path is not None else (
+            CATALOG_JSON_PATH if is_prod_db else self.db_path.with_suffix(".catalog.json")
+        )
+        out_path.parent.mkdir(parents=True, exist_ok=True)
         tools = self.list_tools()
         snapshot = {
             "generated_at": utc_now_iso(),
@@ -610,9 +614,10 @@ class PramanaDatabase:
             "weekly_reports": self.get_weekly_reports(limit=8),
         }
         text = json.dumps(snapshot, indent=2, ensure_ascii=False)
-        target_path.write_text(text, encoding="utf-8")
-        # Also mirror into docs/data/catalog.json for GitHub Pages static deployment
-        docs_data = DOCS_DIR / "data"
-        docs_data.mkdir(parents=True, exist_ok=True)
-        (docs_data / "catalog.json").write_text(text, encoding="utf-8")
-        return target_path
+        out_path.write_text(text, encoding="utf-8")
+        # Mirror into docs/data/catalog.json ONLY for the production database
+        if is_prod_db and target_path is None:
+            docs_data = DOCS_DIR / "data"
+            docs_data.mkdir(parents=True, exist_ok=True)
+            (docs_data / "catalog.json").write_text(text, encoding="utf-8")
+        return out_path

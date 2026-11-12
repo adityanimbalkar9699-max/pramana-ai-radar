@@ -1,5 +1,5 @@
 # Pramana Weekly AI Intelligence Report — 2026-W46
-_Generated: 2026-11-12T10:52:17Z | Tailored for 3rd-Year Computer Engineering (Windows 11, Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB VRAM)_
+_Generated: 2026-11-12T15:55:21Z | Tailored for 3rd-Year Computer Engineering (Windows 11, Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB VRAM)_
 
 ---
 
@@ -53,17 +53,17 @@ _Generated: 2026-11-12T10:52:17Z | Tailored for 3rd-Year Computer Engineering (W
 - **Why It Deserves #8**: Ranked #8 at **93.0/100** (Free Open Source). Free access (24.0/25), usefulness (16.5/20), reliability (14.0/15), and student impact (15.0/15). Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).
 - **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using cherry-studio's Free Open Source.
 
-### #9. Strata — 92.5/100
+### #9. Edge0/Edge0 — 93.0/100
+- **Official URL**: https://huggingface.co/Edge0/Edge0-145B-q3k
+- **Category**: AI and Machine Learning › Local AI & Edge Inference
+- **Why It Deserves #9**: Ranked #9 at **93.0/100** (Free Open Source). Free access (24.0/25), usefulness (15.5/20), reliability (14.0/15), and student impact (15.0/15). 145B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs.
+- **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Edge0/Edge0's Free Open Source.
+
+### #10. Strata — 92.5/100
 - **Official URL**: https://github.com/Niko1221/Strata
 - **Category**: AI and Machine Learning › AI inference platforms
-- **Why It Deserves #9**: Ranked #9 at **92.5/100** (Free Open Source). Free access (24.0/25), usefulness (15.0/20), reliability (14.0/15), and student impact (15.0/15). Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).
+- **Why It Deserves #10**: Ranked #10 at **92.5/100** (Free Open Source). Free access (24.0/25), usefulness (15.0/20), reliability (14.0/15), and student impact (15.0/15). Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).
 - **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Strata's Free Open Source.
-
-### #10. NextChat — 92.0/100
-- **Official URL**: https://nextchat.club/
-- **Category**: AI and Machine Learning › AI inference platforms
-- **Why It Deserves #10**: Ranked #10 at **92.0/100** (Free Open Source). Free access (24.0/25), usefulness (15.5/20), reliability (14.0/15), and student impact (15.0/15). Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).
-- **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using NextChat's Free Open Source.
 
 ---
 

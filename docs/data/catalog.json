@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:44:50Z",
+  "generated_at": "2026-11-12T15:55:21Z",
   "stats": {
     "total_tools": 48,
     "genuinely_free": 48,
@@ -4935,7 +4935,7 @@
     {
       "id": 1,
       "week_label": "2026-W46",
-      "generated_at": "2026-11-12T10:52:17Z",
+      "generated_at": "2026-11-12T15:55:21Z",
       "markdown_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.md",
       "pdf_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.pdf",
       "json_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.json",
@@ -4948,12 +4948,12 @@
         "gh:justvugg/colibri",
         "gh:sgl-project/sglang",
         "gh:cherryhq/cherry-studio",
-        "gh:niko1221/strata",
-        "gh:chatgptnextweb/nextchat"
+        "gh:edge0-ai/edge0",
+        "gh:niko1221/strata"
       ],
       "highlights": {
-        "total_verified": 46,
-        "new_this_week": 46
+        "total_verified": 48,
+        "new_this_week": 48
       }
     }
   ]

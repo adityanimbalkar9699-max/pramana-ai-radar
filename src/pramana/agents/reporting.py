@@ -121,9 +121,10 @@ class ReportGenerationAgent:
                     t["free_plan_details"], t["free_usage_limits"], t["best_student_use_case"],
                     t["discovery_date"], t["last_verification_date"], t["status"],
                 ])
-        docs_rep = DOCS_DIR / "reports"
-        docs_rep.mkdir(parents=True, exist_ok=True)
-        (docs_rep / filename).write_bytes(out.read_bytes())
+        if self.reports_dir.resolve() == REPORTS_DIR.resolve():
+            docs_rep = DOCS_DIR / "reports"
+            docs_rep.mkdir(parents=True, exist_ok=True)
+            (docs_rep / filename).write_bytes(out.read_bytes())
         return out
 
     def export_excel(self, filename: str = "pramana_tools_export.xlsx") -> Path:
@@ -174,9 +175,10 @@ class ReportGenerationAgent:
             ])
 
         wb.save(out)
-        docs_rep = DOCS_DIR / "reports"
-        docs_rep.mkdir(parents=True, exist_ok=True)
-        (docs_rep / filename).write_bytes(out.read_bytes())
+        if self.reports_dir.resolve() == REPORTS_DIR.resolve():
+            docs_rep = DOCS_DIR / "reports"
+            docs_rep.mkdir(parents=True, exist_ok=True)
+            (docs_rep / filename).write_bytes(out.read_bytes())
         return out
 
     def generate_weekly_report(self, week_label: str | None = None) -> Dict[str, Any]:
@@ -293,10 +295,11 @@ class ReportGenerationAgent:
         pdf_path = self._render_weekly_pdf(week_label, top_10, sections)
 
         # Mirror latest PDF & markdown to docs/reports for GitHub Pages download
-        docs_rep = DOCS_DIR / "reports"
-        docs_rep.mkdir(parents=True, exist_ok=True)
-        (docs_rep / "latest-weekly-report.pdf").write_bytes(pdf_path.read_bytes())
-        (docs_rep / "latest-weekly-report.md").write_text(md_path.read_text(encoding="utf-8"), encoding="utf-8")
+        if self.reports_dir.resolve() == REPORTS_DIR.resolve():
+            docs_rep = DOCS_DIR / "reports"
+            docs_rep.mkdir(parents=True, exist_ok=True)
+            (docs_rep / "latest-weekly-report.pdf").write_bytes(pdf_path.read_bytes())
+            (docs_rep / "latest-weekly-report.md").write_text(md_path.read_text(encoding="utf-8"), encoding="utf-8")
 
         self.db.save_weekly_report_meta(
             week_label=week_label,
