@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T17:32:36Z",
+  "generated_at": "2026-11-13T09:55:00Z",
   "stats": {
-    "total_tools": 54,
-    "genuinely_free": 54,
-    "open_source": 30,
+    "total_tools": 57,
+    "genuinely_free": 57,
+    "open_source": 32,
     "free_api_count": 21,
-    "average_score": 85.7
+    "average_score": 85.5
   },
   "tools": [
     {
@@ -41,7 +41,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-13",
       "official_documentation": "https://unsloth.ai/docs/desktop",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using unsloth's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -137,7 +137,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-13",
       "official_documentation": "https://docs.comfy.org/development/overview",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using ComfyUI's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -230,7 +230,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-13",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using textgen's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -320,7 +320,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-13",
       "official_documentation": "https://docs.openwebui.com",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using open-webui's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -415,7 +415,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-13",
       "official_documentation": "https://docs.vllm.ai",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using vllm's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2046,6 +2046,97 @@
       "free_quota_cadence": "UNKNOWN"
     },
     {
+      "id": 55,
+      "canonical_key": "gh:proprietarylegal/volta-max-uplift-fp4-deepseek-v4.1-flash-1017-nvfp4-8xv100-sxm2-pp2xtp4",
+      "name": "Lawyer with too many GPUs, part 5",
+      "official_website": "https://github.com/ProprietaryLegal/Volta-Max-uPLIft-FP4-DeepSeek-V4.1-Flash-1017-NVFP4-8xV100-SXM2-PP2xTP4",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "Lawyer with too many GPUs, part 5: DeepSeek-V4.1-Flash at near-NVFP4 quality on eight V100s from 2018. 524K context, 100+ tok/s decode, ~160 tok/s with two chats at once, and my legal harness now runs on it, 100% local",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "Lawyer with too many GPUs, part 5: DeepSeek-V4.1-Flash at near-NVFP4 quality on eight V100s from 2018. 524K co."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with direct workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 30,752 tokens; 1,024 tokens",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/ProprietaryLegal/Volta-Max-uPLIft-FP4-DeepSeek-V4.1-Flash-1017-NVFP4-8xV100-SXM2-PP2xTP4",
+      "supported_os": [
+        "Windows",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-13",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Lawyer with too many GPUs, part 5's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 89.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 89.0,
+        "explanation": "Score 89.0/100 — Free(24.0/25) + Usefulness(15.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Lawyer with too many GPUs, part 5 into your full-stack & dev automation stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Software Engineering",
+          "API & Backend Design",
+          "Developer Productivity",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Full-Stack & Dev Automation"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xus81t/lawyer_with_too_many_gpus_part_5_deepseekv41flash/",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "full-stack & dev automation"
+      ],
+      "stars": 10,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-13",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-13T09:54:55Z",
+      "updated_at": "2026-11-13T09:54:55Z",
+      "direct_app_url": "https://github.com/ProprietaryLegal/Volta-Max-uPLIft-FP4-DeepSeek-V4.1-Flash-1017-NVFP4-8xV100-SXM2-PP2xTP4",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 40,
       "canonical_key": "gh:guandeh17/self-forcing",
       "name": "I'm releasing a Local World Model Ive been build",
@@ -3035,6 +3126,99 @@
       "pricing_url": "https://v0.app/pricing",
       "web_only": true,
       "free_quota_cadence": "Starter Credits"
+    },
+    {
+      "id": 56,
+      "canonical_key": "gh:lightricks/ltx-2",
+      "name": "LTX-2.5",
+      "official_website": "https://huggingface.co/Lightricks/LTX-2.5",
+      "category": "Image and Design",
+      "subcategory": "AI image generation",
+      "short_description": "Trending open-weights model (Lightricks/LTX-2.5) for image-to-video; 2,778,909 downloads.",
+      "main_capabilities": [
+        "Diffusion Single File",
+        "Image To Video",
+        "Text To Video",
+        "Video To Video"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai image generation utility with direct workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/Lightricks/LTX-2",
+      "supported_os": [
+        "UNKNOWN"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-13",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using LTX-2.5's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 83.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 12.0,
+        "reliability": 14.0,
+        "student_value": 12.0,
+        "ease_of_use": 8.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 83.5,
+        "explanation": "Score 83.5/100 — Free(24.0/25) + Usefulness(12.0/20) + Reliability(14.0/15) + Student(12.0/15) + Ease(8.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate LTX-2.5 into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation",
+          "Python"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://huggingface.co/Lightricks/LTX-2.5",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "diffusion-single-file",
+        "image-to-video",
+        "text-to-video",
+        "video-to-video",
+        "image-text-to-video",
+        "image",
+        "creative & multimodal ai"
+      ],
+      "stars": 10218,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-13",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-13T09:54:55Z",
+      "updated_at": "2026-11-13T09:54:55Z",
+      "direct_app_url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "pricing_url": "https://huggingface.co/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 22,
@@ -4835,6 +5019,94 @@
       "free_quota_cadence": "Free Tier"
     },
     {
+      "id": 57,
+      "canonical_key": "web:techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "name": "Hugging Face CEO vows to keep fighting for open ",
+      "official_website": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang's exit",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang's exit."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Freemium Useful Free; delivers strong local ai & edge inference utility with direct workflow support.",
+      "free_plan_details": "Verified Freemium Useful Free via official site/pricing signals (open source, open-source).",
+      "free_usage_limits": "Observed free quota: 2027. Requests",
+      "credit_card_required": "UNKNOWN",
+      "registration_required": "Yes",
+      "open_source_status": "Closed Source / Free Service",
+      "github_repository": "",
+      "supported_os": [
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Verify rate limits on official docs before heavy hackathon traffic."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-13",
+      "official_documentation": "UNKNOWN",
+      "best_student_use_case": "Build a portfolio-grade local ai & edge inference module or 24-hour hackathon MVP on your RTX 4050 laptop.",
+      "free_tier_type": "Freemium Useful Free",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 72.5,
+      "score_breakdown": {
+        "free_functionality": 15.0,
+        "practical_usefulness": 13.5,
+        "reliability": 11.5,
+        "student_value": 13.0,
+        "ease_of_use": 8.5,
+        "performance": 9.0,
+        "documentation": 2.0,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 72.5,
+        "explanation": "Score 72.5/100 — Free(15.0/25) + Usefulness(13.5/20) + Reliability(11.5/15) + Student(13.0/15) + Ease(8.5/10) + Perf(9.0/10) + Docs(2.0/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Hugging Face CEO vows to keep fighting for open  into your creative & multimodal ai stack on Windows 11. Runs in Windows 11 browser; compute handled on free cloud tier. Use its freemium useful free access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": false,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Browser)",
+        "cloud_usage_necessary": "Yes",
+        "hardware_fit_notes": "Runs in Windows 11 browser; compute handled on free cloud tier.",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xut4o7/hugging_face_ceo_vows_to_keep_fighting_for_open/",
+        "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 0,
+      "license_name": "Proprietary",
+      "discovery_date": "2026-11-13",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-13T09:54:55Z",
+      "updated_at": "2026-11-13T09:54:55Z",
+      "direct_app_url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "pricing_url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "web_only": true,
+      "free_quota_cadence": "Free Tier"
+    },
+    {
       "id": 54,
       "canonical_key": "web:pika.art",
       "name": "Pika",
@@ -4927,6 +5199,42 @@
     }
   ],
   "pricing_history": [
+    {
+      "id": 57,
+      "canonical_key": "web:techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "tool_name": "Hugging Face CEO vows to keep fighting for open ",
+      "old_free_plan": "",
+      "new_free_plan": "Verified Freemium Useful Free via official site/pricing signals (open source, open-source).",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 2027. Requests",
+      "change_type": "initial",
+      "source_url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "detected_at": "2026-11-13T09:54:55Z"
+    },
+    {
+      "id": 56,
+      "canonical_key": "gh:lightricks/ltx-2",
+      "tool_name": "LTX-2.5",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "detected_at": "2026-11-13T09:54:55Z"
+    },
+    {
+      "id": 55,
+      "canonical_key": "gh:proprietarylegal/volta-max-uplift-fp4-deepseek-v4.1-flash-1017-nvfp4-8xv100-sxm2-pp2xtp4",
+      "tool_name": "Lawyer with too many GPUs, part 5",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 30,752 tokens; 1,024 tokens",
+      "change_type": "initial",
+      "source_url": "https://github.com/ProprietaryLegal/Volta-Max-uPLIft-FP4-DeepSeek-V4.1-Flash-1017-NVFP4-8xV100-SXM2-PP2xTP4",
+      "detected_at": "2026-11-13T09:54:55Z"
+    },
     {
       "id": 54,
       "canonical_key": "web:pika.art",
@@ -5578,6 +5886,27 @@
   ],
   "discovery_runs": [
     {
+      "id": 10,
+      "run_type": "daily",
+      "started_at": "2026-11-13T09:54:35Z",
+      "finished_at": "2026-11-13T09:55:00Z",
+      "status": "success",
+      "candidates_scanned": 71,
+      "new_tools_added": 3,
+      "rejected_fake_free": 15,
+      "duplicates_skipped": 31,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Reddit",
+        "Hugging Face",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [],
+      "summary": "Added 3 verified tools; rejected 15 non-free/low-score."
+    },
+    {
       "id": 9,
       "run_type": "daily",
       "started_at": "2026-11-12T17:30:53Z",
@@ -5757,6 +6086,171 @@
   ],
   "rejected_candidates": [
     {
+      "id": 1,
+      "canonical_key": "web:mall-bats.vercel.app",
+      "name": "Mall Bats, a nostalgic tycoon game with a twitst",
+      "url": "https://mall-bats.vercel.app/",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:54Z"
+    },
+    {
+      "id": 23,
+      "canonical_key": "web:producthunt.com/products/plurai",
+      "name": "Plurai Simulation",
+      "url": "https://www.producthunt.com/products/plurai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:54Z"
+    },
+    {
+      "id": 22,
+      "canonical_key": "web:producthunt.com/products/insight7",
+      "name": "Insight7 Voice AI Agents",
+      "url": "https://www.producthunt.com/products/insight7",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:53Z"
+    },
+    {
+      "id": 26,
+      "canonical_key": "web:producthunt.com/products/three-dev",
+      "name": "three.dev",
+      "url": "https://www.producthunt.com/products/three-dev",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:51Z"
+    },
+    {
+      "id": 28,
+      "canonical_key": "web:producthunt.com/products/spacefast-by-automattic",
+      "name": "Spacefast by Automattic",
+      "url": "https://www.producthunt.com/products/spacefast-by-automattic",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:51Z"
+    },
+    {
+      "id": 30,
+      "canonical_key": "web:producthunt.com/products/customer-io",
+      "name": "Customer.io Fall Release",
+      "url": "https://www.producthunt.com/products/customer-io",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:50Z"
+    },
+    {
+      "id": 32,
+      "canonical_key": "web:producthunt.com/products/foxpit",
+      "name": "Foxpit",
+      "url": "https://www.producthunt.com/products/foxpit",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:50Z"
+    },
+    {
+      "id": 31,
+      "canonical_key": "web:producthunt.com/products/gnista",
+      "name": "Gnista",
+      "url": "https://www.producthunt.com/products/gnista",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:47Z"
+    },
+    {
+      "id": 25,
+      "canonical_key": "web:producthunt.com/products/crossfade",
+      "name": "Crossfade",
+      "url": "https://www.producthunt.com/products/crossfade",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:46Z"
+    },
+    {
+      "id": 24,
+      "canonical_key": "web:producthunt.com/products/adobe-ai-assistant",
+      "name": "Adobe AI Assistant",
+      "url": "https://www.producthunt.com/products/adobe-ai-assistant",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:45Z"
+    },
+    {
+      "id": 48,
+      "canonical_key": "web:producthunt.com/products/burnstate",
+      "name": "Burnstate",
+      "url": "https://www.producthunt.com/products/burnstate",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:45Z"
+    },
+    {
+      "id": 47,
+      "canonical_key": "web:producthunt.com/products/aven-app-agent",
+      "name": "Aven App Agent",
+      "url": "https://www.producthunt.com/products/aven-app-agent",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:42Z"
+    },
+    {
+      "id": 45,
+      "canonical_key": "web:producthunt.com/products/gatrends",
+      "name": "GAtrends",
+      "url": "https://www.producthunt.com/products/gatrends",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:41Z"
+    },
+    {
+      "id": 46,
+      "canonical_key": "web:producthunt.com/products/trainn",
+      "name": "Trainn MCP",
+      "url": "https://www.producthunt.com/products/trainn",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:41Z"
+    },
+    {
+      "id": 44,
+      "canonical_key": "web:producthunt.com/products/gemini-6",
+      "name": "Gemini 4 Hydrogen",
+      "url": "https://www.producthunt.com/products/gemini-6",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-13T09:54:40Z"
+    },
+    {
       "id": 43,
       "canonical_key": "web:perplexity.ai",
       "name": "Perplexity",
@@ -5845,17 +6339,6 @@
       "rejected_at": "2026-11-12T17:31:27Z"
     },
     {
-      "id": 1,
-      "canonical_key": "web:mall-bats.vercel.app",
-      "name": "Mall Bats, a nostalgic tycoon game with a twitst",
-      "url": "https://mall-bats.vercel.app/",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:26Z"
-    },
-    {
       "id": 5,
       "canonical_key": "web:reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11",
       "name": "The regulation of local AI could/should be viewe",
@@ -5878,39 +6361,6 @@
       "rejected_at": "2026-11-12T17:31:25Z"
     },
     {
-      "id": 30,
-      "canonical_key": "web:producthunt.com/products/customer-io",
-      "name": "Customer.io Fall Release",
-      "url": "https://www.producthunt.com/products/customer-io",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:23Z"
-    },
-    {
-      "id": 31,
-      "canonical_key": "web:producthunt.com/products/gnista",
-      "name": "Gnista",
-      "url": "https://www.producthunt.com/products/gnista",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:23Z"
-    },
-    {
-      "id": 32,
-      "canonical_key": "web:producthunt.com/products/foxpit",
-      "name": "Foxpit",
-      "url": "https://www.producthunt.com/products/foxpit",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:23Z"
-    },
-    {
       "id": 29,
       "canonical_key": "web:producthunt.com/products/sendr",
       "name": "Sendr V4",
@@ -5922,28 +6372,6 @@
       "rejected_at": "2026-11-12T17:31:22Z"
     },
     {
-      "id": 28,
-      "canonical_key": "web:producthunt.com/products/spacefast-by-automattic",
-      "name": "Spacefast by Automattic",
-      "url": "https://www.producthunt.com/products/spacefast-by-automattic",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:18Z"
-    },
-    {
-      "id": 26,
-      "canonical_key": "web:producthunt.com/products/three-dev",
-      "name": "three.dev",
-      "url": "https://www.producthunt.com/products/three-dev",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:17Z"
-    },
-    {
       "id": 27,
       "canonical_key": "web:producthunt.com/products/epsilla",
       "name": "Harness Memory",
@@ -5953,50 +6381,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-12T17:31:17Z"
-    },
-    {
-      "id": 25,
-      "canonical_key": "web:producthunt.com/products/crossfade",
-      "name": "Crossfade",
-      "url": "https://www.producthunt.com/products/crossfade",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:16Z"
-    },
-    {
-      "id": 24,
-      "canonical_key": "web:producthunt.com/products/adobe-ai-assistant",
-      "name": "Adobe AI Assistant",
-      "url": "https://www.producthunt.com/products/adobe-ai-assistant",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:12Z"
-    },
-    {
-      "id": 22,
-      "canonical_key": "web:producthunt.com/products/insight7",
-      "name": "Insight7 Voice AI Agents",
-      "url": "https://www.producthunt.com/products/insight7",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:11Z"
-    },
-    {
-      "id": 23,
-      "canonical_key": "web:producthunt.com/products/plurai",
-      "name": "Plurai Simulation",
-      "url": "https://www.producthunt.com/products/plurai",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:11Z"
     },
     {
       "id": 21,
