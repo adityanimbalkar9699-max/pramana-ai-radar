@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T09:55:00Z",
+  "generated_at": "2026-11-14T09:19:25Z",
   "stats": {
-    "total_tools": 57,
-    "genuinely_free": 57,
-    "open_source": 32,
-    "free_api_count": 21,
+    "total_tools": 59,
+    "genuinely_free": 59,
+    "open_source": 34,
+    "free_api_count": 22,
     "average_score": 85.5
   },
   "tools": [
@@ -508,7 +508,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-14",
       "official_documentation": "https://github.com/JustVugg/colibri/blob/main/docs/qwen38.md",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using colibri's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -597,7 +597,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-14",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using qvac/BotPsy's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -690,7 +690,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-14",
       "official_documentation": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using cherry-studio's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -784,7 +784,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-14",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Edge0/Edge0's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -874,7 +874,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-14",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Strata's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -1404,15 +1404,15 @@
     {
       "id": 37,
       "canonical_key": "gh:ggml-org/llama.cpp",
-      "name": "chat",
-      "official_website": "https://github.com/ggml-org/llama.cpp/pull/31915",
+      "name": "llama.cpp v1.0 is here 🦙",
+      "official_website": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
       "category": "AI and Machine Learning",
       "subcategory": "Local AI & Edge Inference",
-      "short_description": "chat : refactor gemma4 to build loose schema rules and clean up by aldehir · Pull Request #31915 · ggml-org/llama.cpp",
+      "short_description": "llama.cpp v1.0 is here 🦙",
       "main_capabilities": [
         "Localllama",
         "Community",
-        "chat : refactor gemma4 to build loose schema rules and clean up by aldehir · Pull Request #31915 · ggml-org/ll."
+        "llama.cpp v1.0 is here 🦙."
       ],
       "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with direct workflow support.",
       "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
@@ -1422,7 +1422,9 @@
       "open_source_status": "Open Source (MIT)",
       "github_repository": "https://github.com/ggml-org/llama.cpp",
       "supported_os": [
-        "Web"
+        "Windows",
+        "Linux",
+        "macOS"
       ],
       "api_availability": "UNKNOWN",
       "local_installation_available": "Yes",
@@ -1430,9 +1432,9 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
-      "official_documentation": "https://docs.github.com/en",
-      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using chat's Free Open Source.",
+      "last_verification_date": "2026-11-14",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using llama.cpp v1.0 is here 🦙's Free Open Source.",
       "free_tier_type": "Free Open Source",
       "is_genuinely_free": true,
       "india_available": "Yes",
@@ -1451,7 +1453,7 @@
         "explanation": "Score 91.0/100 — Free(24.0/25) + Usefulness(13.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(10.0/10) + Docs(4.5/5) with 0 penalties."
       },
       "personalization": {
-        "how_to_use": "Integrate chat into your creative & multimodal ai stack on Windows 11. Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM). Use its free open source access to prototype without burning your student budget.",
+        "how_to_use": "Integrate llama.cpp v1.0 is here 🦙 into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
         "skills_developed": [
           "Multimodal Prototyping",
           "Demo & Pitch Creation",
@@ -1461,14 +1463,14 @@
         "useful_for_college_projects": true,
         "helps_startup_building": true,
         "improves_productivity": true,
-        "can_run_on_laptop": "Yes (Check Docker/WSL2 on Windows 11)",
-        "cloud_usage_necessary": "Optional",
-        "hardware_fit_notes": "Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM).",
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
         "priority_track": "Creative & Multimodal AI"
       },
       "sources": [
-        "https://www.reddit.com/r/LocalLLaMA/comments/1xu6td8/chat_refactor_gemma4_to_build_loose_schema_rules/",
-        "https://github.com/pricing"
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/",
+        "https://huggingface.co/pricing"
       ],
       "tags": [
         "localllama",
@@ -1476,7 +1478,7 @@
         "ai",
         "creative & multimodal ai"
       ],
-      "stars": 134211,
+      "stars": 134941,
       "license_name": "MIT",
       "discovery_date": "2026-11-12",
       "status": "active",
@@ -1484,11 +1486,11 @@
       "is_saved": false,
       "previous_pricing_info": "",
       "created_at": "2026-11-12T10:42:52Z",
-      "updated_at": "2026-11-12T10:42:52Z",
-      "direct_app_url": "https://github.com/ggml-org/llama.cpp/pull/31915",
-      "pricing_url": "https://github.com/ggml-org/llama.cpp/pull/31915",
+      "updated_at": "2026-11-14T09:19:21Z",
+      "direct_app_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "pricing_url": "https://huggingface.co/pricing",
       "web_only": false,
-      "free_quota_cadence": "UNKNOWN"
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 13,
@@ -1954,6 +1956,95 @@
       "pricing_url": "https://github.com/nace-ai/kapitsa",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 58,
+      "canonical_key": "gh:huggingface/open_asr_leaderboard",
+      "name": "salesforce",
+      "official_website": "https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1#key-features",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "salesforce-sovereign-intelligence/SOV-Transcribe-1 · Hugging Face",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "salesforce-sovereign-intelligence/SOV-Transcribe-1 · Hugging Face."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with Local OpenAI-Compatible API workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 30 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/huggingface/open_asr_leaderboard",
+      "supported_os": [
+        "Windows"
+      ],
+      "api_availability": "Local OpenAI-Compatible API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-14",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using salesforce's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 89.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.5,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 89.5,
+        "explanation": "Score 89.5/100 — Free(24.0/25) + Usefulness(15.5/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate salesforce into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xvst4u/salesforcesovereignintelligencesovtranscribe1/",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 283,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-14",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-14T09:19:21Z",
+      "updated_at": "2026-11-14T09:19:21Z",
+      "direct_app_url": "https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1#key-features",
+      "pricing_url": "https://huggingface.co/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 39,
@@ -3312,6 +3403,95 @@
       "pricing_url": "https://huggingface.co/NousResearch/Arete-27B",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 59,
+      "canonical_key": "gh:paddlepaddle/flashmask",
+      "name": "ERNIE 5.5 Flash Base · ERNIE",
+      "official_website": "https://ernie.baidu.com/release/ernie-5-5-flash-base",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "ERNIE 5.5 Flash Base · ERNIE",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "ERNIE 5.5 Flash Base · ERNIE."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with direct workflow support.",
+      "free_plan_details": "Open-source (BSD-3-Clause) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 128 tokens",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (BSD-3-Clause)",
+      "github_repository": "https://github.com/PaddlePaddle/FlashMask",
+      "supported_os": [
+        "UNKNOWN"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-14",
+      "official_documentation": "UNKNOWN",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using ERNIE 5.5 Flash Base · ERNIE's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 83.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 13.5,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 8.0,
+        "performance": 9.0,
+        "documentation": 2.0,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 83.0,
+        "explanation": "Score 83.0/100 — Free(24.0/25) + Usefulness(13.5/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(8.0/10) + Perf(9.0/10) + Docs(2.0/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate ERNIE 5.5 Flash Base · ERNIE into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xvuclv/ernie_55_flash_base_ernie/",
+        "https://ernie.baidu.com/release/ernie-5-5-flash-base/pricing"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 66,
+      "license_name": "BSD-3-Clause",
+      "discovery_date": "2026-11-14",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-14T09:19:21Z",
+      "updated_at": "2026-11-14T09:19:21Z",
+      "direct_app_url": "https://ernie.baidu.com/release/ernie-5-5-flash-base",
+      "pricing_url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 23,
@@ -5200,6 +5380,30 @@
   ],
   "pricing_history": [
     {
+      "id": 59,
+      "canonical_key": "gh:paddlepaddle/flashmask",
+      "tool_name": "ERNIE 5.5 Flash Base · ERNIE",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (BSD-3-Clause) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 128 tokens",
+      "change_type": "initial",
+      "source_url": "https://ernie.baidu.com/release/ernie-5-5-flash-base",
+      "detected_at": "2026-11-14T09:19:21Z"
+    },
+    {
+      "id": 58,
+      "canonical_key": "gh:huggingface/open_asr_leaderboard",
+      "tool_name": "salesforce",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 30 minutes",
+      "change_type": "initial",
+      "source_url": "https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1#key-features",
+      "detected_at": "2026-11-14T09:19:21Z"
+    },
+    {
       "id": 57,
       "canonical_key": "web:techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
       "tool_name": "Hugging Face CEO vows to keep fighting for open ",
@@ -5886,6 +6090,27 @@
   ],
   "discovery_runs": [
     {
+      "id": 11,
+      "run_type": "daily",
+      "started_at": "2026-11-14T09:19:01Z",
+      "finished_at": "2026-11-14T09:19:25Z",
+      "status": "success",
+      "candidates_scanned": 74,
+      "new_tools_added": 2,
+      "rejected_fake_free": 15,
+      "duplicates_skipped": 28,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Reddit",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [],
+      "summary": "Added 2 verified tools; rejected 15 non-free/low-score."
+    },
+    {
       "id": 10,
       "run_type": "daily",
       "started_at": "2026-11-13T09:54:35Z",
@@ -6086,6 +6311,171 @@
   ],
   "rejected_candidates": [
     {
+      "id": 73,
+      "canonical_key": "web:arxiv.org/abs/2608.22237",
+      "name": "[Paper] Read Less, Solve More",
+      "url": "https://arxiv.org/abs/2608.22237",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:19Z"
+    },
+    {
+      "id": 30,
+      "canonical_key": "web:producthunt.com/products/customer-io",
+      "name": "Customer.io Fall Release",
+      "url": "https://www.producthunt.com/products/customer-io",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:18Z"
+    },
+    {
+      "id": 32,
+      "canonical_key": "web:producthunt.com/products/foxpit",
+      "name": "Foxpit",
+      "url": "https://www.producthunt.com/products/foxpit",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:18Z"
+    },
+    {
+      "id": 48,
+      "canonical_key": "web:producthunt.com/products/burnstate",
+      "name": "Burnstate",
+      "url": "https://www.producthunt.com/products/burnstate",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:16Z"
+    },
+    {
+      "id": 46,
+      "canonical_key": "web:producthunt.com/products/trainn",
+      "name": "Trainn MCP",
+      "url": "https://www.producthunt.com/products/trainn",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:15Z"
+    },
+    {
+      "id": 47,
+      "canonical_key": "web:producthunt.com/products/aven-app-agent",
+      "name": "Aven App Agent",
+      "url": "https://www.producthunt.com/products/aven-app-agent",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:15Z"
+    },
+    {
+      "id": 45,
+      "canonical_key": "web:producthunt.com/products/gatrends",
+      "name": "GAtrends",
+      "url": "https://www.producthunt.com/products/gatrends",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:14Z"
+    },
+    {
+      "id": 44,
+      "canonical_key": "web:producthunt.com/products/gemini-6",
+      "name": "Gemini 4 Hydrogen",
+      "url": "https://www.producthunt.com/products/gemini-6",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:11Z"
+    },
+    {
+      "id": 65,
+      "canonical_key": "web:producthunt.com/products/antelog",
+      "name": "Antelog",
+      "url": "https://www.producthunt.com/products/antelog",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:11Z"
+    },
+    {
+      "id": 64,
+      "canonical_key": "web:producthunt.com/products/google-labs",
+      "name": "Tabletop by Google Labs",
+      "url": "https://www.producthunt.com/products/google-labs",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:10Z"
+    },
+    {
+      "id": 63,
+      "canonical_key": "web:producthunt.com/products/freeflow-dictation",
+      "name": "FreeFlow Dictation",
+      "url": "https://www.producthunt.com/products/freeflow-dictation",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:09Z"
+    },
+    {
+      "id": 61,
+      "canonical_key": "web:producthunt.com/products/kokonutui",
+      "name": "Kokonut UI",
+      "url": "https://www.producthunt.com/products/kokonutui",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:06Z"
+    },
+    {
+      "id": 62,
+      "canonical_key": "web:producthunt.com/products/openai",
+      "name": "Businesses in ChatGPT",
+      "url": "https://www.producthunt.com/products/openai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:06Z"
+    },
+    {
+      "id": 59,
+      "canonical_key": "web:producthunt.com/products/thunder-3",
+      "name": "Thunder",
+      "url": "https://www.producthunt.com/products/thunder-3",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:05Z"
+    },
+    {
+      "id": 60,
+      "canonical_key": "web:producthunt.com/products/hiringnow",
+      "name": "HiringNow",
+      "url": "https://www.producthunt.com/products/hiringnow",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-14T09:19:05Z"
+    },
+    {
       "id": 1,
       "canonical_key": "web:mall-bats.vercel.app",
       "name": "Mall Bats, a nostalgic tycoon game with a twitst",
@@ -6141,28 +6531,6 @@
       "rejected_at": "2026-11-13T09:54:51Z"
     },
     {
-      "id": 30,
-      "canonical_key": "web:producthunt.com/products/customer-io",
-      "name": "Customer.io Fall Release",
-      "url": "https://www.producthunt.com/products/customer-io",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:50Z"
-    },
-    {
-      "id": 32,
-      "canonical_key": "web:producthunt.com/products/foxpit",
-      "name": "Foxpit",
-      "url": "https://www.producthunt.com/products/foxpit",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:50Z"
-    },
-    {
       "id": 31,
       "canonical_key": "web:producthunt.com/products/gnista",
       "name": "Gnista",
@@ -6194,61 +6562,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-13T09:54:45Z"
-    },
-    {
-      "id": 48,
-      "canonical_key": "web:producthunt.com/products/burnstate",
-      "name": "Burnstate",
-      "url": "https://www.producthunt.com/products/burnstate",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:45Z"
-    },
-    {
-      "id": 47,
-      "canonical_key": "web:producthunt.com/products/aven-app-agent",
-      "name": "Aven App Agent",
-      "url": "https://www.producthunt.com/products/aven-app-agent",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:42Z"
-    },
-    {
-      "id": 45,
-      "canonical_key": "web:producthunt.com/products/gatrends",
-      "name": "GAtrends",
-      "url": "https://www.producthunt.com/products/gatrends",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:41Z"
-    },
-    {
-      "id": 46,
-      "canonical_key": "web:producthunt.com/products/trainn",
-      "name": "Trainn MCP",
-      "url": "https://www.producthunt.com/products/trainn",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:41Z"
-    },
-    {
-      "id": 44,
-      "canonical_key": "web:producthunt.com/products/gemini-6",
-      "name": "Gemini 4 Hydrogen",
-      "url": "https://www.producthunt.com/products/gemini-6",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:40Z"
     },
     {
       "id": 43,
