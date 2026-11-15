@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-15T09:48:53Z",
+  "generated_at": "2026-11-15T11:22:22Z",
   "stats": {
-    "total_tools": 59,
-    "genuinely_free": 59,
-    "open_source": 34,
-    "free_api_count": 24,
-    "average_score": 85.4
+    "total_tools": 65,
+    "genuinely_free": 65,
+    "open_source": 37,
+    "free_api_count": 26,
+    "average_score": 85.6
   },
   "tools": [
     {
@@ -928,6 +928,97 @@
       "free_quota_cadence": "UNKNOWN"
     },
     {
+      "id": 60,
+      "canonical_key": "gh:langfuse/langfuse",
+      "name": "Langfuse AI Gateway, open source rust gateway to tra",
+      "official_website": "https://github.com/langfuse/langfuse/tree/main/ai-gateway",
+      "category": "AI and Machine Learning",
+      "subcategory": "RAG and vector databases",
+      "short_description": "Show HN: Langfuse AI Gateway, open source rust gateway to trace every LLM call",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Langfuse AI Gateway, open source rust gateway to trace every LLM call."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong rag and vector databases utility with Free API workflow support.",
+      "free_plan_details": "Open-source (Source Available / Custom License) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 15 minutes; 000 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Source Available (Source Available / Custom License)",
+      "github_repository": "https://github.com/langfuse/langfuse",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-15",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Langfuse AI Gateway, open source rust gateway to tra's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 92.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.5,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 92.0,
+        "explanation": "Score 92.0/100 — Free(24.0/25) + Usefulness(15.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Langfuse AI Gateway, open source rust gateway to tra into your ai engineering & applied ml stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "LLM Systems Engineering",
+          "RAG / Vector Search",
+          "Model Optimization"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "AI Engineering & Applied ML"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50484682",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "ai engineering & applied ml"
+      ],
+      "stars": 37446,
+      "license_name": "Source Available / Custom License",
+      "discovery_date": "2026-11-15",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-15T11:22:03Z",
+      "updated_at": "2026-11-15T11:22:03Z",
+      "direct_app_url": "https://github.com/langfuse/langfuse/tree/main/ai-gateway",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 9,
       "canonical_key": "gh:chatgptnextweb/nextchat",
       "name": "NextChat",
@@ -1428,7 +1519,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.voicebox.sh",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using voicebox's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -1524,7 +1615,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.ollama.com",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using ollama's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -1619,7 +1710,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Klad, a paint app your coding agent can drive (source's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -1709,7 +1800,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://sebastianraschka.com/faq/docs/rope-vs-absolute-positional-embeddings.html",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Architecture trends's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -1800,7 +1891,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using KQuant's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -1980,7 +2071,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Rui, orchestrating 100 agents in 2.5 MB of RAM's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2038,6 +2129,101 @@
       "pricing_url": "https://github.com/DivyanshGolyan/rui",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 61,
+      "canonical_key": "gh:openbmb/voxcpm",
+      "name": "VoxCPM",
+      "official_website": "https://voxcpm.com/",
+      "category": "Audio and Voice",
+      "subcategory": "Text-to-speech",
+      "short_description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "main_capabilities": [
+        "Audio",
+        "Deeplearning",
+        "Minicpm",
+        "Multilingual"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong text-to-speech utility with Python Library / Local SDK workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/OpenBMB/VoxCPM",
+      "supported_os": [
+        "Web",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "Python Library / Local SDK",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-15",
+      "official_documentation": "https://github.com/OpenBMB/VoxCPM/blob/main/README.md",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using VoxCPM's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 89.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.5,
+        "reliability": 14.0,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 89.0,
+        "explanation": "Score 89.0/100 — Free(24.0/25) + Usefulness(15.5/20) + Reliability(14.0/15) + Student(12.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate VoxCPM into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation",
+          "Python"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://github.com/OpenBMB/VoxCPM",
+        "https://voxcpm.com/"
+      ],
+      "tags": [
+        "audio",
+        "deeplearning",
+        "minicpm",
+        "multilingual",
+        "python",
+        "creative & multimodal ai"
+      ],
+      "stars": 42502,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-15",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-15T11:22:03Z",
+      "updated_at": "2026-11-15T11:22:03Z",
+      "direct_app_url": "https://voxcpm.com/",
+      "pricing_url": "https://voxcpm.com/",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 55,
@@ -2159,7 +2345,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using I'm releasing a Local World Model Ive been build's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2248,7 +2434,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://fn2.ai/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Connect Claude Code to 10.6M Earnings Call Embedding's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2338,7 +2524,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using AI Gude's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2395,6 +2581,96 @@
       "pricing_url": "https://github.com/alex0ptr/aigude",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 62,
+      "canonical_key": "gh:ghmeier/agent-plan",
+      "name": "Agent",
+      "official_website": "https://github.com/ghmeier/agent-plan",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI agents and agent frameworks",
+      "short_description": "Show HN: Agent-plan a CLI that automatically commits your agent's plans",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Agent-plan a CLI that automatically commits your agent's plans."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai agents and agent frameworks utility with direct workflow support.",
+      "free_plan_details": "Open-source (UNKNOWN) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 000 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Source Available (UNKNOWN)",
+      "github_repository": "https://github.com/ghmeier/agent-plan",
+      "supported_os": [
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-15",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Agent's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 87.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 13.5,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 87.5,
+        "explanation": "Score 87.5/100 — Free(24.0/25) + Usefulness(13.5/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Agent into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50484892",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 1,
+      "license_name": "UNKNOWN",
+      "discovery_date": "2026-11-15",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-15T11:22:03Z",
+      "updated_at": "2026-11-15T11:22:03Z",
+      "direct_app_url": "https://github.com/ghmeier/agent-plan",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 5,
@@ -2525,7 +2801,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using GPT-SoVITS's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2617,7 +2893,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Export your Character.AI chats in minutes's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2706,7 +2982,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using I released Inflect v3's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2767,6 +3043,100 @@
       "free_quota_cadence": "UNKNOWN"
     },
     {
+      "id": 63,
+      "canonical_key": "gh:cjpais/handy",
+      "name": "Handy",
+      "official_website": "https://handy.computer/",
+      "category": "Audio and Voice",
+      "subcategory": "Text-to-speech",
+      "short_description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "main_capabilities": [
+        "Accessibility",
+        "Cross Platform",
+        "Speech To Text",
+        "Tauri V2"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong text-to-speech utility with direct workflow support.",
+      "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/cjpais/Handy",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-15",
+      "official_documentation": "https://handy.computer/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Handy's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 86.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 12.0,
+        "reliability": 14.0,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 10.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 86.5,
+        "explanation": "Score 86.5/100 — Free(24.0/25) + Usefulness(12.0/20) + Reliability(14.0/15) + Student(12.0/15) + Ease(10.0/10) + Perf(10.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Handy into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://github.com/cjpais/Handy",
+        "https://handy.computer/"
+      ],
+      "tags": [
+        "accessibility",
+        "cross-platform",
+        "speech-to-text",
+        "tauri-v2",
+        "audio",
+        "creative & multimodal ai"
+      ],
+      "stars": 38811,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-15",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-15T11:22:03Z",
+      "updated_at": "2026-11-15T11:22:03Z",
+      "direct_app_url": "https://handy.computer/",
+      "pricing_url": "https://handy.computer/",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 18,
       "canonical_key": "gh:danoszz/penthera",
       "name": "Penthera, offline pentest security scanner (open",
@@ -2796,7 +3166,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Penthera, offline pentest security scanner (open's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2855,6 +3225,183 @@
       "free_quota_cadence": "UNKNOWN"
     },
     {
+      "id": 64,
+      "canonical_key": "web:huggingface.co/collections/deepseek-ai/deepseek-r1",
+      "name": "How long are we gonna depend bunch of model crea",
+      "official_website": "https://huggingface.co/collections/deepseek-ai/deepseek-r1",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "How long are we gonna depend bunch of model creators (like Qwen, Gemma, NVIDIA, etc.,) for ~100B models?",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "How long are we gonna depend bunch of model creators (like Qwen, Gemma, NVIDIA, etc.,) for ~100B models?."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with direct workflow support.",
+      "free_plan_details": "Open-source (Open Weights) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Weights",
+      "github_repository": "",
+      "supported_os": [
+        "UNKNOWN"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-15",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using How long are we gonna depend bunch of model crea's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 85.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 13.5,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 8.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 85.5,
+        "explanation": "Score 85.5/100 — Free(24.0/25) + Usefulness(13.5/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(8.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate How long are we gonna depend bunch of model crea into your creative & multimodal ai stack on Windows 11. 100B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs. Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Partial (Needs Cloud or Heavy Quantization >6GB VRAM)",
+        "cloud_usage_necessary": "Recommended for >13B weights",
+        "hardware_fit_notes": "100B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs.",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xw0xeu/how_long_are_we_gonna_depend_bunch_of_model/",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 0,
+      "license_name": "Open Weights",
+      "discovery_date": "2026-11-15",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-15T11:22:03Z",
+      "updated_at": "2026-11-15T11:22:03Z",
+      "direct_app_url": "https://huggingface.co/collections/deepseek-ai/deepseek-r1",
+      "pricing_url": "https://huggingface.co/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 65,
+      "canonical_key": "gh:portofcontext/pctx",
+      "name": "Port of Context",
+      "official_website": "https://portofcontext.com/",
+      "category": "Emerging AI",
+      "subcategory": "MCP Servers & Toolchains",
+      "short_description": "Show HN: Port of Context – Token efficient MCP context layer",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Port of Context – Token efficient MCP context layer."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong mcp servers & toolchains utility with direct workflow support.",
+      "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/portofcontext/pctx",
+      "supported_os": [
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-15",
+      "official_documentation": "https://docs.pctx.ai",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Port of Context's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 85.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 13.5,
+        "reliability": 11.5,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 10.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 85.5,
+        "explanation": "Score 85.5/100 — Free(24.0/25) + Usefulness(13.5/20) + Reliability(11.5/15) + Student(12.0/15) + Ease(10.0/10) + Perf(10.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Port of Context into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50487905",
+        "https://portofcontext.com/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "emerging",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 287,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-15",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-15T11:22:03Z",
+      "updated_at": "2026-11-15T11:22:03Z",
+      "direct_app_url": "https://portofcontext.com/",
+      "pricing_url": "https://portofcontext.com/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 19,
       "canonical_key": "gh:r6410418/jackrong-llm-finetuning-guide",
       "name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -2884,7 +3431,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2976,7 +3523,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://locan.ai/guides/how-to-optimize-google-business-profile/",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Websites for local businesses built fom reviews, kee's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -3067,7 +3614,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Yogurt's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -3155,7 +3702,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://v0.app/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using v0 by Vercel's Generous Free Tier.",
       "free_tier_type": "Generous Free Tier",
@@ -3340,7 +3887,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Arete-27B's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -3522,7 +4069,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using MiniMax-H3-Image's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -3615,7 +4162,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-15",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using idol's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -5379,6 +5926,78 @@
   ],
   "pricing_history": [
     {
+      "id": 66,
+      "canonical_key": "gh:portofcontext/pctx",
+      "tool_name": "Port of Context",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (MIT) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://portofcontext.com/",
+      "detected_at": "2026-11-15T11:22:03Z"
+    },
+    {
+      "id": 65,
+      "canonical_key": "web:huggingface.co/collections/deepseek-ai/deepseek-r1",
+      "tool_name": "How long are we gonna depend bunch of model crea",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Open Weights) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://huggingface.co/collections/deepseek-ai/deepseek-r1",
+      "detected_at": "2026-11-15T11:22:03Z"
+    },
+    {
+      "id": 64,
+      "canonical_key": "gh:cjpais/handy",
+      "tool_name": "Handy",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (MIT) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://handy.computer/",
+      "detected_at": "2026-11-15T11:22:03Z"
+    },
+    {
+      "id": 63,
+      "canonical_key": "gh:ghmeier/agent-plan",
+      "tool_name": "Agent",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (UNKNOWN) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 000 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/ghmeier/agent-plan",
+      "detected_at": "2026-11-15T11:22:03Z"
+    },
+    {
+      "id": 62,
+      "canonical_key": "gh:openbmb/voxcpm",
+      "tool_name": "VoxCPM",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://voxcpm.com/",
+      "detected_at": "2026-11-15T11:22:03Z"
+    },
+    {
+      "id": 61,
+      "canonical_key": "gh:langfuse/langfuse",
+      "tool_name": "Langfuse AI Gateway, open source rust gateway to tra",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Source Available / Custom License) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 15 minutes; 000 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/langfuse/langfuse/tree/main/ai-gateway",
+      "detected_at": "2026-11-15T11:22:03Z"
+    },
+    {
       "id": 60,
       "canonical_key": "gh:vllm-project/vllm",
       "tool_name": "Qwen3.8-27B",
@@ -6101,6 +6720,48 @@
   ],
   "discovery_runs": [
     {
+      "id": 14,
+      "run_type": "weekly",
+      "started_at": "2026-11-15T11:22:07Z",
+      "finished_at": "2026-11-15T11:22:22Z",
+      "status": "success",
+      "candidates_scanned": 72,
+      "new_tools_added": 6,
+      "rejected_fake_free": 18,
+      "duplicates_skipped": 33,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Reddit",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [],
+      "summary": "Weekly report 2026-W46 generated with Top 10 rankings & PDF/CSV/XLSX."
+    },
+    {
+      "id": 13,
+      "run_type": "daily",
+      "started_at": "2026-11-15T11:21:36Z",
+      "finished_at": "2026-11-15T11:22:07Z",
+      "status": "success",
+      "candidates_scanned": 72,
+      "new_tools_added": 6,
+      "rejected_fake_free": 18,
+      "duplicates_skipped": 33,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Reddit",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [],
+      "summary": "Added 6 verified tools; rejected 18 non-free/low-score."
+    },
+    {
       "id": 12,
       "run_type": "daily",
       "started_at": "2026-11-15T09:48:27Z",
@@ -6343,6 +7004,28 @@
   ],
   "rejected_candidates": [
     {
+      "id": 2,
+      "canonical_key": "web:zenodo.org/records/23918639/files/roundsquare.lean",
+      "name": "Zero",
+      "url": "https://zenodo.org/records/23918639/files/RoundSquare.lean?download=1",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:56Z"
+    },
+    {
+      "id": 1,
+      "canonical_key": "web:mall-bats.vercel.app",
+      "name": "Mall Bats, a nostalgic tycoon game with a twitst",
+      "url": "https://mall-bats.vercel.app/",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:55Z"
+    },
+    {
       "id": 89,
       "canonical_key": "web:tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu",
       "name": "The lawyer who posts here about his V100s got hi",
@@ -6351,7 +7034,172 @@
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
-      "rejected_at": "2026-11-15T09:48:47Z"
+      "rejected_at": "2026-11-15T11:21:55Z"
+    },
+    {
+      "id": 44,
+      "canonical_key": "web:producthunt.com/products/gemini-6",
+      "name": "Gemini 4 Hydrogen",
+      "url": "https://www.producthunt.com/products/gemini-6",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:54Z"
+    },
+    {
+      "id": 88,
+      "canonical_key": "web:youtube.com/watch",
+      "name": "Finally clicked for me",
+      "url": "https://www.youtube.com/watch?v=jHT4iHJxzOI",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:54Z"
+    },
+    {
+      "id": 63,
+      "canonical_key": "web:producthunt.com/products/freeflow-dictation",
+      "name": "FreeFlow Dictation",
+      "url": "https://www.producthunt.com/products/freeflow-dictation",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:53Z"
+    },
+    {
+      "id": 62,
+      "canonical_key": "web:producthunt.com/products/openai",
+      "name": "Businesses in ChatGPT",
+      "url": "https://www.producthunt.com/products/openai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:51Z"
+    },
+    {
+      "id": 64,
+      "canonical_key": "web:producthunt.com/products/google-labs",
+      "name": "Tabletop by Google Labs",
+      "url": "https://www.producthunt.com/products/google-labs",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:51Z"
+    },
+    {
+      "id": 65,
+      "canonical_key": "web:producthunt.com/products/antelog",
+      "name": "Antelog",
+      "url": "https://www.producthunt.com/products/antelog",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:50Z"
+    },
+    {
+      "id": 61,
+      "canonical_key": "web:producthunt.com/products/kokonutui",
+      "name": "Kokonut UI",
+      "url": "https://www.producthunt.com/products/kokonutui",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:49Z"
+    },
+    {
+      "id": 59,
+      "canonical_key": "web:producthunt.com/products/thunder-3",
+      "name": "Thunder",
+      "url": "https://www.producthunt.com/products/thunder-3",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:46Z"
+    },
+    {
+      "id": 60,
+      "canonical_key": "web:producthunt.com/products/hiringnow",
+      "name": "HiringNow",
+      "url": "https://www.producthunt.com/products/hiringnow",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:46Z"
+    },
+    {
+      "id": 78,
+      "canonical_key": "web:producthunt.com/products/byteask-cloud-agents",
+      "name": "ByteAsk Cloud Agents",
+      "url": "https://www.producthunt.com/products/byteask-cloud-agents",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:45Z"
+    },
+    {
+      "id": 79,
+      "canonical_key": "web:producthunt.com/products/perit-marketplace",
+      "name": "Perit Marketplace",
+      "url": "https://www.producthunt.com/products/perit-marketplace",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:45Z"
+    },
+    {
+      "id": 76,
+      "canonical_key": "web:producthunt.com/products/agentgrid-io",
+      "name": "Canvas by AgentGrid.io",
+      "url": "https://www.producthunt.com/products/agentgrid-io",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:42Z"
+    },
+    {
+      "id": 74,
+      "canonical_key": "web:producthunt.com/products/spiik",
+      "name": "Spiik",
+      "url": "https://www.producthunt.com/products/spiik",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:41Z"
+    },
+    {
+      "id": 75,
+      "canonical_key": "web:producthunt.com/products/frevana-2",
+      "name": "Frevana Multiplayer",
+      "url": "https://www.producthunt.com/products/frevana-2",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:40Z"
+    },
+    {
+      "id": 77,
+      "canonical_key": "web:producthunt.com/products/pixel-office-3",
+      "name": "Pixel Office",
+      "url": "https://www.producthunt.com/products/pixel-office-3",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-15T11:21:40Z"
     },
     {
       "id": 47,
@@ -6363,160 +7211,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-15T09:48:45Z"
-    },
-    {
-      "id": 88,
-      "canonical_key": "web:youtube.com/watch",
-      "name": "Finally clicked for me",
-      "url": "https://www.youtube.com/watch?v=jHT4iHJxzOI",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:45Z"
-    },
-    {
-      "id": 64,
-      "canonical_key": "web:producthunt.com/products/google-labs",
-      "name": "Tabletop by Google Labs",
-      "url": "https://www.producthunt.com/products/google-labs",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:44Z"
-    },
-    {
-      "id": 59,
-      "canonical_key": "web:producthunt.com/products/thunder-3",
-      "name": "Thunder",
-      "url": "https://www.producthunt.com/products/thunder-3",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:42Z"
-    },
-    {
-      "id": 63,
-      "canonical_key": "web:producthunt.com/products/freeflow-dictation",
-      "name": "FreeFlow Dictation",
-      "url": "https://www.producthunt.com/products/freeflow-dictation",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:42Z"
-    },
-    {
-      "id": 61,
-      "canonical_key": "web:producthunt.com/products/kokonutui",
-      "name": "Kokonut UI",
-      "url": "https://www.producthunt.com/products/kokonutui",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:41Z"
-    },
-    {
-      "id": 65,
-      "canonical_key": "web:producthunt.com/products/antelog",
-      "name": "Antelog",
-      "url": "https://www.producthunt.com/products/antelog",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:41Z"
-    },
-    {
-      "id": 62,
-      "canonical_key": "web:producthunt.com/products/openai",
-      "name": "Businesses in ChatGPT",
-      "url": "https://www.producthunt.com/products/openai",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:38Z"
-    },
-    {
-      "id": 60,
-      "canonical_key": "web:producthunt.com/products/hiringnow",
-      "name": "HiringNow",
-      "url": "https://www.producthunt.com/products/hiringnow",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:37Z"
-    },
-    {
-      "id": 78,
-      "canonical_key": "web:producthunt.com/products/byteask-cloud-agents",
-      "name": "ByteAsk Cloud Agents",
-      "url": "https://www.producthunt.com/products/byteask-cloud-agents",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:36Z"
-    },
-    {
-      "id": 79,
-      "canonical_key": "web:producthunt.com/products/perit-marketplace",
-      "name": "Perit Marketplace",
-      "url": "https://www.producthunt.com/products/perit-marketplace",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:36Z"
-    },
-    {
-      "id": 77,
-      "canonical_key": "web:producthunt.com/products/pixel-office-3",
-      "name": "Pixel Office",
-      "url": "https://www.producthunt.com/products/pixel-office-3",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:33Z"
-    },
-    {
-      "id": 75,
-      "canonical_key": "web:producthunt.com/products/frevana-2",
-      "name": "Frevana Multiplayer",
-      "url": "https://www.producthunt.com/products/frevana-2",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:32Z"
-    },
-    {
-      "id": 76,
-      "canonical_key": "web:producthunt.com/products/agentgrid-io",
-      "name": "Canvas by AgentGrid.io",
-      "url": "https://www.producthunt.com/products/agentgrid-io",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:32Z"
-    },
-    {
-      "id": 74,
-      "canonical_key": "web:producthunt.com/products/spiik",
-      "name": "Spiik",
-      "url": "https://www.producthunt.com/products/spiik",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-15T09:48:31Z"
     },
     {
       "id": 73,
@@ -6583,28 +7277,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-14T09:19:14Z"
-    },
-    {
-      "id": 44,
-      "canonical_key": "web:producthunt.com/products/gemini-6",
-      "name": "Gemini 4 Hydrogen",
-      "url": "https://www.producthunt.com/products/gemini-6",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-14T09:19:11Z"
-    },
-    {
-      "id": 1,
-      "canonical_key": "web:mall-bats.vercel.app",
-      "name": "Mall Bats, a nostalgic tycoon game with a twitst",
-      "url": "https://mall-bats.vercel.app/",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:54Z"
     },
     {
       "id": 23,
@@ -6750,17 +7422,6 @@
       "rejected_at": "2026-11-12T17:31:35Z"
     },
     {
-      "id": 2,
-      "canonical_key": "web:zenodo.org/records/23918639/files/roundsquare.lean",
-      "name": "Zero",
-      "url": "https://zenodo.org/records/23918639/files/RoundSquare.lean?download=1",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:33Z"
-    },
-    {
       "id": 36,
       "canonical_key": "web:producthunt.com/products/scroogefrog-ai-antifraud",
       "name": "ScroogeFrog AI",
@@ -6787,25 +7448,25 @@
     {
       "id": 1,
       "week_label": "2026-W46",
-      "generated_at": "2026-11-12T17:32:36Z",
-      "markdown_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.md",
-      "pdf_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.pdf",
-      "json_path": "S:\\Antigravity\\projects\\pramana-ai-radar\\data\\weekly_reports\\weekly-2026-W46.json",
+      "generated_at": "2026-11-15T11:22:21Z",
+      "markdown_path": "/home/runner/work/pramana-ai-radar/pramana-ai-radar/data/weekly_reports/weekly-2026-W46.md",
+      "pdf_path": "/home/runner/work/pramana-ai-radar/pramana-ai-radar/data/weekly_reports/weekly-2026-W46.pdf",
+      "json_path": "/home/runner/work/pramana-ai-radar/pramana-ai-radar/data/weekly_reports/weekly-2026-W46.json",
       "top_10_keys": [
         "gh:unslothai/unsloth",
         "gh:comfy-org/comfyui",
         "gh:oobabooga/textgen",
         "gh:open-webui/open-webui",
-        "gh:vllm-project/vllm",
         "gh:justvugg/colibri",
         "gh:sgl-project/sglang",
         "gh:cherryhq/cherry-studio",
+        "gh:ggml-org/llama.cpp",
         "gh:edge0-ai/edge0",
         "gh:niko1221/strata"
       ],
       "highlights": {
-        "total_verified": 54,
-        "new_this_week": 54
+        "total_verified": 65,
+        "new_this_week": 65
       }
     }
   ]

@@ -1,5 +1,5 @@
 # Pramana Weekly AI Intelligence Report — 2026-W46
-_Generated: 2026-11-12T17:32:36Z | Tailored for 3rd-Year Computer Engineering (Windows 11, Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB VRAM)_
+_Generated: 2026-11-15T11:22:21Z | Tailored for 3rd-Year Computer Engineering (Windows 11, Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB VRAM)_
 
 ---
 
@@ -29,29 +29,29 @@ _Generated: 2026-11-12T17:32:36Z | Tailored for 3rd-Year Computer Engineering (W
 - **Why It Deserves #4**: Ranked #4 at **94.5/100** (Free Open Source). Free access (24.0/25), usefulness (18.0/20), reliability (14.0/15), and student impact (15.0/15). Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM).
 - **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using open-webui's Free Open Source.
 
-### #5. vllm — 93.5/100
-- **Official URL**: https://vllm.ai/
-- **Category**: AI and Machine Learning › AI inference platforms
-- **Why It Deserves #5**: Ranked #5 at **93.5/100** (Free Open Source). Free access (24.0/25), usefulness (17.0/20), reliability (14.0/15), and student impact (15.0/15). Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).
-- **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using vllm's Free Open Source.
-
-### #6. colibri — 93.5/100
+### #5. colibri — 93.5/100
 - **Official URL**: https://justvugg.github.io/colibri/
 - **Category**: AI and Machine Learning › AI inference platforms
-- **Why It Deserves #6**: Ranked #6 at **93.5/100** (Free Open Source). Free access (24.0/25), usefulness (17.0/20), reliability (14.0/15), and student impact (15.0/15). Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).
+- **Why It Deserves #5**: Ranked #5 at **93.5/100** (Free Open Source). Free access (24.0/25), usefulness (17.0/20), reliability (14.0/15), and student impact (15.0/15). Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).
 - **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using colibri's Free Open Source.
 
-### #7. qvac/BotPsy — 93.5/100
+### #6. qvac/BotPsy — 93.5/100
 - **Official URL**: https://huggingface.co/Qwen/Qwen3.5-0.8B
 - **Category**: AI and Machine Learning › Local AI & Edge Inference
-- **Why It Deserves #7**: Ranked #7 at **93.5/100** (Free Open Source). Free access (24.0/25), usefulness (17.0/20), reliability (14.0/15), and student impact (15.0/15). Fits cleanly in RTX 4050 6GB VRAM using 4-bit GGUF/QLoRA quantization (~4.2-5.4 GB VRAM) + 16GB RAM.
+- **Why It Deserves #6**: Ranked #6 at **93.5/100** (Free Open Source). Free access (24.0/25), usefulness (17.0/20), reliability (14.0/15), and student impact (15.0/15). Fits cleanly in RTX 4050 6GB VRAM using 4-bit GGUF/QLoRA quantization (~4.2-5.4 GB VRAM) + 16GB RAM.
 - **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using qvac/BotPsy's Free Open Source.
 
-### #8. cherry-studio — 93.0/100
+### #7. cherry-studio — 93.0/100
 - **Official URL**: https://cherryai.com/
 - **Category**: AI and Machine Learning › AI inference platforms
-- **Why It Deserves #8**: Ranked #8 at **93.0/100** (Free Open Source). Free access (24.0/25), usefulness (16.5/20), reliability (14.0/15), and student impact (15.0/15). Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).
+- **Why It Deserves #7**: Ranked #7 at **93.0/100** (Free Open Source). Free access (24.0/25), usefulness (16.5/20), reliability (14.0/15), and student impact (15.0/15). Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).
 - **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using cherry-studio's Free Open Source.
+
+### #8. LFM2.5 — 93.0/100
+- **Official URL**: https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF
+- **Category**: AI and Machine Learning › Local AI & Edge Inference
+- **Why It Deserves #8**: Ranked #8 at **93.0/100** (Free Open Source). Free access (24.0/25), usefulness (15.5/20), reliability (14.0/15), and student impact (15.0/15). 24B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs.
+- **Best Student Action**: Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using LFM2.5's Free Open Source.
 
 ### #9. Edge0/Edge0 — 93.0/100
 - **Official URL**: https://huggingface.co/Edge0/Edge0-145B-q3k
@@ -74,8 +74,8 @@ _Generated: 2026-11-12T17:32:36Z | Tailored for 3rd-Year Computer Engineering (W
 - **ComfyUI** (95.0/100, Free Open Source) — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. [https://comfy.org/]
 - **textgen** (95.0/100, Free Open Source) — Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private. [https://github.com/oobabooga/textgen]
 - **open-webui** (94.5/100, Free Open Source) — User-friendly AI Interface (Supports Ollama, OpenAI API, ...) [https://openwebui.com/]
-- **vllm** (93.5/100, Free Open Source) — A high-throughput and memory-efficient inference and serving engine for LLMs [https://vllm.ai/]
 - **colibri** (93.5/100, Free Open Source) — A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own. [https://justvugg.github.io/colibri/]
+- **qvac/BotPsy** (93.5/100, Free Open Source) — qvac/BotPsy-0.8B · Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model [https://huggingface.co/Qwen/Qwen3.5-0.8B]
 
 ### Best Free Coding Assistants
 - **v0 by Vercel** (84.5/100, Generous Free Tier) — Browser-based AI UI and full-stack web app generator offering free monthly message/token credits without credit card. [https://v0.app/]
@@ -93,6 +93,8 @@ _Generated: 2026-11-12T17:32:36Z | Tailored for 3rd-Year Computer Engineering (W
 - **Pika** (72.0/100, Generous Free Tier) — Web AI short video generator and video effects studio with free starter/monthly credits in browser. [https://pika.art/]
 
 ### Best Image Generation Tools
+- **Qwen3.8-27B** (87.5/100, Free Open Source) — Trending open-weights model (Qwen/Qwen3.8-27B) for image-text-to-text; 6,547,772 downloads. [https://huggingface.co/Qwen/Qwen3.8-27B]
+- **LTX-2.5** (83.5/100, Free Open Source) — Trending open-weights model (Lightricks/LTX-2.5) for image-to-video; 2,778,909 downloads. [https://huggingface.co/Lightricks/LTX-2.5]
 - **MiniMax-H3-Image** (83.0/100, Free Open Source) — Trending open-weights model (MiniMaxAI/MiniMax-H3-Image) for text-to-image; 142,989 downloads. [https://huggingface.co/MiniMaxAI/MiniMax-H3-Image]
 - **idol** (82.5/100, Free Open Source) — Trending open-weights model (speridlabs/idol) for image-to-3d; 28,250 downloads. [https://huggingface.co/speridlabs/idol]
 - **Ideogram** (81.5/100, Free Open Source) — Web AI image & typography/logo generator offering recurring free weekly/slow generation credits without credit card. [https://ideogram.ai/]
@@ -101,8 +103,8 @@ _Generated: 2026-11-12T17:32:36Z | Tailored for 3rd-Year Computer Engineering (W
 - **VoiceStudio** (92.0/100, Free Open Source) — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. [https://voicestudio.sh/]
 - **whisper.cpp** (91.5/100, Free Open Source) — Port of OpenAI's Whisper model in C/C++ [https://github.com/ggml-org/whisper.cpp]
 - **voicebox** (90.5/100, Free Open Source) — The open-source AI voice studio. Clone, dictate, create. [https://voicebox.sh/]
+- **VoxCPM** (89.0/100, Free Open Source) — VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning [https://voxcpm.com/]
 - **GPT-SoVITS** (87.5/100, Free Open Source) — 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) [https://github.com/RVC-Boss/GPT-SoVITS]
-- **ElevenLabs** (77.5/100, Generous Free Tier) — Web AI voice synthesis & dubbing platform offering 10,000 free characters/month without credit card. [https://elevenlabs.io/]
 
 ### Best AI Agent Frameworks
 - **qvac/BotPsy** (93.5/100, Free Open Source) — qvac/BotPsy-0.8B · Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model [https://huggingface.co/Qwen/Qwen3.5-0.8B]
@@ -122,22 +124,22 @@ _Generated: 2026-11-12T17:32:36Z | Tailored for 3rd-Year Computer Engineering (W
 - **ComfyUI** (95.0/100, Free Open Source) — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. [https://comfy.org/]
 - **textgen** (95.0/100, Free Open Source) — Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private. [https://github.com/oobabooga/textgen]
 - **open-webui** (94.5/100, Free Open Source) — User-friendly AI Interface (Supports Ollama, OpenAI API, ...) [https://openwebui.com/]
-- **vllm** (93.5/100, Free Open Source) — A high-throughput and memory-efficient inference and serving engine for LLMs [https://vllm.ai/]
 - **colibri** (93.5/100, Free Open Source) — A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own. [https://justvugg.github.io/colibri/]
+- **qvac/BotPsy** (93.5/100, Free Open Source) — qvac/BotPsy-0.8B · Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model [https://huggingface.co/Qwen/Qwen3.5-0.8B]
 
 ### Newly Released Open-Source Projects
 - **unsloth** (96.5/100, Free Open Source) — Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. [https://unsloth.ai/docs]
 - **ComfyUI** (95.0/100, Free Open Source) — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. [https://comfy.org/]
 - **textgen** (95.0/100, Free Open Source) — Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private. [https://github.com/oobabooga/textgen]
-- **vllm** (93.5/100, Free Open Source) — A high-throughput and memory-efficient inference and serving engine for LLMs [https://vllm.ai/]
 - **colibri** (93.5/100, Free Open Source) — A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own. [https://justvugg.github.io/colibri/]
 - **qvac/BotPsy** (93.5/100, Free Open Source) — qvac/BotPsy-0.8B · Hugging Face - On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model [https://huggingface.co/Qwen/Qwen3.5-0.8B]
+- **cherry-studio** (93.0/100, Free Open Source) — Your AI workspace for models, agents, and productivity. [https://cherryai.com/]
 
 ### Significant Updates to Existing Tools
-- No new changes detected in this window.
+- **Qwen3.8-27B**: updated — Open-source (Apache-2.0) — free for local & commercial/student use.
 
 ### Newly Available Free Plans
-- No new changes detected in this window.
+- **Qwen3.8-27B**: updated — Open-source (Apache-2.0) — free for local & commercial/student use.
 
 ### Tools That Reduced or Removed Free Plans
 - No new changes detected in this window.
@@ -146,4 +148,4 @@ _Generated: 2026-11-12T17:32:36Z | Tailored for 3rd-Year Computer Engineering (W
 - No new changes detected in this window.
 
 ### Emerging AI Technologies Worth Watching
-- No new changes detected in this window.
+- **Port of Context** (85.5/100, Free Open Source) — Show HN: Port of Context – Token efficient MCP context layer [https://portofcontext.com/]
