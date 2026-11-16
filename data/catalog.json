@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-15T11:22:22Z",
+  "generated_at": "2026-11-16T10:06:26Z",
   "stats": {
-    "total_tools": 65,
-    "genuinely_free": 65,
-    "open_source": 37,
-    "free_api_count": 26,
-    "average_score": 85.6
+    "total_tools": 68,
+    "genuinely_free": 68,
+    "open_source": 38,
+    "free_api_count": 29,
+    "average_score": 85.8
   },
   "tools": [
     {
@@ -1307,6 +1307,189 @@
       "free_quota_cadence": "UNKNOWN"
     },
     {
+      "id": 66,
+      "canonical_key": "web:huggingface.co/ccore/qwen3.5-4b-3d-coder",
+      "name": "I'm starting to think a specialized 4B is enough",
+      "official_website": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "I'm starting to think a specialized 4B is enough for most of the tasks I'd use an LLM for",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "I'm starting to think a specialized 4B is enough for most of the tasks I'd use an LLM for."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with Local OpenAI-Compatible API workflow support.",
+      "free_plan_details": "Open-source (Open Weights) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Weights",
+      "github_repository": "",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Local OpenAI-Compatible API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-16",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using I'm starting to think a specialized 4B is enough's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 91.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 17.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 91.0,
+        "explanation": "Score 91.0/100 — Free(24.0/25) + Usefulness(17.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate I'm starting to think a specialized 4B is enough into your ai engineering & applied ml stack on Windows 11. Fits cleanly in RTX 4050 6GB VRAM using 4-bit GGUF/QLoRA quantization (~4.2-5.4 GB VRAM) + 16GB RAM. Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "LLM Systems Engineering",
+          "RAG / Vector Search",
+          "Model Optimization"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Quantized Q4_K_M fits 6GB VRAM)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Fits cleanly in RTX 4050 6GB VRAM using 4-bit GGUF/QLoRA quantization (~4.2-5.4 GB VRAM) + 16GB RAM.",
+        "priority_track": "AI Engineering & Applied ML"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xxfv69/im_starting_to_think_a_specialized_4b_is_enough/",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "ai engineering & applied ml"
+      ],
+      "stars": 0,
+      "license_name": "Open Weights",
+      "discovery_date": "2026-11-16",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-16T10:06:20Z",
+      "updated_at": "2026-11-16T10:06:20Z",
+      "direct_app_url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "pricing_url": "https://huggingface.co/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 67,
+      "canonical_key": "web:huggingface.co/webbrain-one/qwen3.8-27b-perplexing-pegasus-heretic-gguf",
+      "name": "[Release] Qwen3.8",
+      "official_website": "https://huggingface.co/webbrain-one/Qwen3.8-27B-Perplexing-Pegasus-Heretic-GGUF",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "[Release] Qwen3.8-27B-Perplexing-Pegasus-Heretic: Unified vision + typed decider + abliterated weights for local agent stacks (GGUF, AutoRound, NVFP4)",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "[Release] Qwen3.8-27B-Perplexing-Pegasus-Heretic: Unified vision + typed decider + abliterated weights for loc."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with Local OpenAI-Compatible API workflow support.",
+      "free_plan_details": "Open-source (Open Weights) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Weights",
+      "github_repository": "",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "Local OpenAI-Compatible API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-16",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using [Release] Qwen3.8's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 91.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 17.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 91.0,
+        "explanation": "Score 91.0/100 — Free(24.0/25) + Usefulness(17.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate [Release] Qwen3.8 into your agentic ai & multi-agent systems stack on Windows 11. 27B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs. Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Partial (Needs Cloud or Heavy Quantization >6GB VRAM)",
+        "cloud_usage_necessary": "Recommended for >13B weights",
+        "hardware_fit_notes": "27B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs.",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xxg12n/release_qwen3827bperplexingpegasusheretic_unified/",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 0,
+      "license_name": "Open Weights",
+      "discovery_date": "2026-11-16",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-16T10:06:20Z",
+      "updated_at": "2026-11-16T10:06:20Z",
+      "direct_app_url": "https://huggingface.co/webbrain-one/Qwen3.8-27B-Perplexing-Pegasus-Heretic-GGUF",
+      "pricing_url": "https://huggingface.co/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 12,
       "canonical_key": "gh:sadilek/obeya",
       "name": "Obeya, a spatial canvas for directing coding agents",
@@ -1581,6 +1764,98 @@
       "pricing_url": "https://voicebox.sh/",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 68,
+      "canonical_key": "gh:helldez/bigmoeonedge",
+      "name": "BigMoeOnEdge outperforms Strata and colibri on 8",
+      "official_website": "https://github.com/Helldez/BigMoeOnEdge",
+      "category": "AI and Machine Learning",
+      "subcategory": "Local AI & Edge Inference",
+      "short_description": "BigMoeOnEdge outperforms Strata and colibri on 8-16 GB cards and Mac and you can run any model",
+      "main_capabilities": [
+        "Localllama",
+        "Community",
+        "BigMoeOnEdge outperforms Strata and colibri on 8-16 GB cards and Mac and you can run any model."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong local ai & edge inference utility with Free API workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 000 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/Helldez/BigMoeOnEdge",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-16",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using BigMoeOnEdge outperforms Strata and colibri on 8's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 90.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.5,
+        "reliability": 11.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 10.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 90.0,
+        "explanation": "Score 90.0/100 — Free(24.0/25) + Usefulness(15.5/20) + Reliability(11.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(10.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate BigMoeOnEdge outperforms Strata and colibri on 8 into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation",
+          "C++ / Systems"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1xx5fng/bigmoeonedge_outperforms_strata_and_colibri_on/",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "localllama",
+        "community",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 936,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-16",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-16T10:06:20Z",
+      "updated_at": "2026-11-16T10:06:20Z",
+      "direct_app_url": "https://github.com/Helldez/BigMoeOnEdge",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 14,
@@ -4254,7 +4529,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-16",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Ideogram's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -4345,7 +4620,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-16",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -4437,7 +4712,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-16",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -4525,7 +4800,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-16",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -4614,7 +4889,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-16",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -5926,6 +6201,42 @@
   ],
   "pricing_history": [
     {
+      "id": 69,
+      "canonical_key": "gh:helldez/bigmoeonedge",
+      "tool_name": "BigMoeOnEdge outperforms Strata and colibri on 8",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 000 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/Helldez/BigMoeOnEdge",
+      "detected_at": "2026-11-16T10:06:20Z"
+    },
+    {
+      "id": 68,
+      "canonical_key": "web:huggingface.co/webbrain-one/qwen3.8-27b-perplexing-pegasus-heretic-gguf",
+      "tool_name": "[Release] Qwen3.8",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Open Weights) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://huggingface.co/webbrain-one/Qwen3.8-27B-Perplexing-Pegasus-Heretic-GGUF",
+      "detected_at": "2026-11-16T10:06:20Z"
+    },
+    {
+      "id": 67,
+      "canonical_key": "web:huggingface.co/ccore/qwen3.5-4b-3d-coder",
+      "tool_name": "I'm starting to think a specialized 4B is enough",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Open Weights) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "detected_at": "2026-11-16T10:06:20Z"
+    },
+    {
       "id": 66,
       "canonical_key": "gh:portofcontext/pctx",
       "tool_name": "Port of Context",
@@ -6720,6 +7031,27 @@
   ],
   "discovery_runs": [
     {
+      "id": 15,
+      "run_type": "daily",
+      "started_at": "2026-11-16T10:06:01Z",
+      "finished_at": "2026-11-16T10:06:26Z",
+      "status": "success",
+      "candidates_scanned": 73,
+      "new_tools_added": 3,
+      "rejected_fake_free": 15,
+      "duplicates_skipped": 35,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Reddit",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [],
+      "summary": "Added 3 verified tools; rejected 15 non-free/low-score."
+    },
+    {
       "id": 14,
       "run_type": "weekly",
       "started_at": "2026-11-15T11:22:07Z",
@@ -7004,6 +7336,171 @@
   ],
   "rejected_candidates": [
     {
+      "id": 122,
+      "canonical_key": "web:127.0.0.1",
+      "name": "I have created a tool to observe what happens in",
+      "url": "http://127.0.0.1",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:20Z"
+    },
+    {
+      "id": 120,
+      "canonical_key": "web:producthunt.com/products/boost-space",
+      "name": "Boost.space AgentOS",
+      "url": "https://www.producthunt.com/products/boost-space",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:18Z"
+    },
+    {
+      "id": 121,
+      "canonical_key": "web:producthunt.com/products/openframe-3",
+      "name": "OpenFrame",
+      "url": "https://www.producthunt.com/products/openframe-3",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:18Z"
+    },
+    {
+      "id": 119,
+      "canonical_key": "web:producthunt.com/products/bytevoice",
+      "name": "ByteVoice",
+      "url": "https://www.producthunt.com/products/bytevoice",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:16Z"
+    },
+    {
+      "id": 117,
+      "canonical_key": "web:producthunt.com/products/zoom",
+      "name": "Zoom Slides",
+      "url": "https://www.producthunt.com/products/zoom",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:15Z"
+    },
+    {
+      "id": 118,
+      "canonical_key": "web:producthunt.com/products/nexus-11",
+      "name": "Nexus",
+      "url": "https://www.producthunt.com/products/nexus-11",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:15Z"
+    },
+    {
+      "id": 116,
+      "canonical_key": "web:producthunt.com/products/chatgpt",
+      "name": "ChatGPT Wallet",
+      "url": "https://www.producthunt.com/products/chatgpt",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:14Z"
+    },
+    {
+      "id": 114,
+      "canonical_key": "web:producthunt.com/products/stateweave",
+      "name": "StateWeave",
+      "url": "https://www.producthunt.com/products/stateweave",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:11Z"
+    },
+    {
+      "id": 115,
+      "canonical_key": "web:producthunt.com/products/ui-sdk",
+      "name": "UI SDK by Vercel",
+      "url": "https://www.producthunt.com/products/ui-sdk",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:11Z"
+    },
+    {
+      "id": 113,
+      "canonical_key": "web:producthunt.com/products/sumsung",
+      "name": "Intelligent Eyewear",
+      "url": "https://www.producthunt.com/products/sumsung",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:10Z"
+    },
+    {
+      "id": 112,
+      "canonical_key": "web:producthunt.com/products/agentwatch-ai-traffic-tracker",
+      "name": "AgentWatch",
+      "url": "https://www.producthunt.com/products/agentwatch-ai-traffic-tracker",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:09Z"
+    },
+    {
+      "id": 110,
+      "canonical_key": "web:producthunt.com/products/readywhen",
+      "name": "readywhen",
+      "url": "https://www.producthunt.com/products/readywhen",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:06Z"
+    },
+    {
+      "id": 111,
+      "canonical_key": "web:producthunt.com/products/offiai",
+      "name": "OffiAI",
+      "url": "https://www.producthunt.com/products/offiai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:06Z"
+    },
+    {
+      "id": 108,
+      "canonical_key": "web:producthunt.com/products/lexicad",
+      "name": "LexiCAD",
+      "url": "https://www.producthunt.com/products/lexicad",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:05Z"
+    },
+    {
+      "id": 109,
+      "canonical_key": "web:producthunt.com/products/pharen-hub",
+      "name": "Pharen Hub",
+      "url": "https://www.producthunt.com/products/pharen-hub",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-16T10:06:05Z"
+    },
+    {
       "id": 2,
       "canonical_key": "web:zenodo.org/records/23918639/files/roundsquare.lean",
       "name": "Zero",
@@ -7277,171 +7774,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-14T09:19:14Z"
-    },
-    {
-      "id": 23,
-      "canonical_key": "web:producthunt.com/products/plurai",
-      "name": "Plurai Simulation",
-      "url": "https://www.producthunt.com/products/plurai",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:54Z"
-    },
-    {
-      "id": 22,
-      "canonical_key": "web:producthunt.com/products/insight7",
-      "name": "Insight7 Voice AI Agents",
-      "url": "https://www.producthunt.com/products/insight7",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:53Z"
-    },
-    {
-      "id": 26,
-      "canonical_key": "web:producthunt.com/products/three-dev",
-      "name": "three.dev",
-      "url": "https://www.producthunt.com/products/three-dev",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:51Z"
-    },
-    {
-      "id": 28,
-      "canonical_key": "web:producthunt.com/products/spacefast-by-automattic",
-      "name": "Spacefast by Automattic",
-      "url": "https://www.producthunt.com/products/spacefast-by-automattic",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:51Z"
-    },
-    {
-      "id": 31,
-      "canonical_key": "web:producthunt.com/products/gnista",
-      "name": "Gnista",
-      "url": "https://www.producthunt.com/products/gnista",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:47Z"
-    },
-    {
-      "id": 25,
-      "canonical_key": "web:producthunt.com/products/crossfade",
-      "name": "Crossfade",
-      "url": "https://www.producthunt.com/products/crossfade",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:46Z"
-    },
-    {
-      "id": 24,
-      "canonical_key": "web:producthunt.com/products/adobe-ai-assistant",
-      "name": "Adobe AI Assistant",
-      "url": "https://www.producthunt.com/products/adobe-ai-assistant",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-13T09:54:45Z"
-    },
-    {
-      "id": 43,
-      "canonical_key": "web:perplexity.ai",
-      "name": "Perplexity",
-      "url": "https://www.perplexity.ai",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:58Z"
-    },
-    {
-      "id": 42,
-      "canonical_key": "web:lumalabs.ai/dream-machine",
-      "name": "Luma Dream Machine",
-      "url": "https://lumalabs.ai/dream-machine",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:52Z"
-    },
-    {
-      "id": 41,
-      "canonical_key": "web:leonardo.ai",
-      "name": "Leonardo AI",
-      "url": "https://leonardo.ai",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:43Z"
-    },
-    {
-      "id": 40,
-      "canonical_key": "web:bolt.new",
-      "name": "Bolt.new",
-      "url": "https://bolt.new",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:42Z"
-    },
-    {
-      "id": 38,
-      "canonical_key": "web:canva.com",
-      "name": "Canva Magic Studio",
-      "url": "https://www.canva.com",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:35Z"
-    },
-    {
-      "id": 39,
-      "canonical_key": "web:gamma.app",
-      "name": "Gamma",
-      "url": "https://gamma.app",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:35Z"
-    },
-    {
-      "id": 36,
-      "canonical_key": "web:producthunt.com/products/scroogefrog-ai-antifraud",
-      "name": "ScroogeFrog AI",
-      "url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:27Z"
-    },
-    {
-      "id": 5,
-      "canonical_key": "web:reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11",
-      "name": "The regulation of local AI could/should be viewe",
-      "url": "https://www.reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-12T17:31:26Z"
     }
   ],
   "weekly_reports": [
