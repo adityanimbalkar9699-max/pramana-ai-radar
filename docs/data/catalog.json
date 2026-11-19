@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-18T10:37:57Z",
+  "generated_at": "2026-11-19T10:42:39Z",
   "stats": {
-    "total_tools": 75,
-    "genuinely_free": 75,
-    "open_source": 43,
-    "free_api_count": 32,
-    "average_score": 85.7
+    "total_tools": 79,
+    "genuinely_free": 79,
+    "open_source": 46,
+    "free_api_count": 33,
+    "average_score": 85.6
   },
   "tools": [
     {
@@ -41,7 +41,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-13",
+      "last_verification_date": "2026-11-19",
       "official_documentation": "https://unsloth.ai/docs/desktop",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using unsloth's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -137,7 +137,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-13",
+      "last_verification_date": "2026-11-19",
       "official_documentation": "https://docs.comfy.org/development/overview",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using ComfyUI's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -3681,6 +3681,183 @@
       "free_quota_cadence": "Unlimited"
     },
     {
+      "id": 76,
+      "canonical_key": "gh:taoeffect/dez",
+      "name": "Dez",
+      "official_website": "https://github.com/taoeffect/dez",
+      "category": "AI and Machine Learning",
+      "subcategory": "Free LLM APIs",
+      "short_description": "Show HN: Dez – plaintext open source AI multimedia studio",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Dez – plaintext open source AI multimedia studio."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong free llm apis utility with direct workflow support.",
+      "free_plan_details": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 000 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (AGPL-3.0)",
+      "github_repository": "https://github.com/taoeffect/dez",
+      "supported_os": [
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-19",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Dez's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 86.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 12.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 86.0,
+        "explanation": "Score 86.0/100 — Free(24.0/25) + Usefulness(12.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Dez into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50547934",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 11,
+      "license_name": "AGPL-3.0",
+      "discovery_date": "2026-11-19",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-19T10:42:34Z",
+      "updated_at": "2026-11-19T10:42:34Z",
+      "direct_app_url": "https://github.com/taoeffect/dez",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 77,
+      "canonical_key": "gh:bashovski/reflektor",
+      "name": "Reflektor",
+      "official_website": "https://github.com/bashovski/reflektor",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI evaluation and observability",
+      "short_description": "Show HN: Reflektor – Turn AI PRs into something a human can review",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Reflektor – Turn AI PRs into something a human can review."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai evaluation and observability utility with direct workflow support.",
+      "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 000 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/bashovski/reflektor",
+      "supported_os": [
+        "Windows",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-19",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Reflektor's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 86.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 12.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 86.0,
+        "explanation": "Score 86.0/100 — Free(24.0/25) + Usefulness(12.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Reflektor into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50546530",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 105,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-19",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-19T10:42:34Z",
+      "updated_at": "2026-11-19T10:42:34Z",
+      "direct_app_url": "https://github.com/bashovski/reflektor",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 18,
       "canonical_key": "gh:danoszz/penthera",
       "name": "Penthera, offline pentest security scanner (open",
@@ -4397,6 +4574,93 @@
       "free_quota_cadence": "Starter Credits"
     },
     {
+      "id": 78,
+      "canonical_key": "gh:intrusiveai/operator_sandbox",
+      "name": "Intrusive.ai",
+      "official_website": "https://intrusive.ai/",
+      "category": "AI and Machine Learning",
+      "subcategory": "RAG and vector databases",
+      "short_description": "Show HN: Intrusive.ai – open-source AI attack simulation",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Intrusive.ai – open-source AI attack simulation."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong rag and vector databases utility with direct workflow support.",
+      "free_plan_details": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (AGPL-3.0)",
+      "github_repository": "https://github.com/intrusiveai/operator_sandbox",
+      "supported_os": [
+        "UNKNOWN"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-19",
+      "official_documentation": "https://docs.intrusive.ai",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Intrusive.ai's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 84.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 12.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 8.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 84.0,
+        "explanation": "Score 84.0/100 — Free(24.0/25) + Usefulness(12.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(8.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Intrusive.ai into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50550896",
+        "https://intrusive.ai/"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 1,
+      "license_name": "AGPL-3.0",
+      "discovery_date": "2026-11-19",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-19T10:42:34Z",
+      "updated_at": "2026-11-19T10:42:34Z",
+      "direct_app_url": "https://intrusive.ai/",
+      "pricing_url": "https://intrusive.ai/",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 72,
       "canonical_key": "gh:rainbowluocs/gamer",
       "name": "miHoYo Gamer",
@@ -4670,6 +4934,99 @@
       "pricing_url": "https://huggingface.co/NousResearch/Arete-27B",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 79,
+      "canonical_key": "gh:tencent-hunyuan/hy4-flash",
+      "name": "Hy4-flash",
+      "official_website": "https://huggingface.co/tencent/Hy4-flash",
+      "category": "Image and Design",
+      "subcategory": "AI image generation",
+      "short_description": "Trending open-weights model (tencent/Hy4-flash) for image-text-to-text; 159 downloads.",
+      "main_capabilities": [
+        "Transformers",
+        "Safetensors",
+        "Hy_V4_Flash",
+        "Text Generation"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai image generation utility with Free API workflow support.",
+      "free_plan_details": "Open-source (Source Available / Custom License) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 1,048,576 tokens; 2,048 tokens; 150 tokens",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Source Available (Source Available / Custom License)",
+      "github_repository": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+      "supported_os": [
+        "Linux"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-19",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Hy4-flash's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 83.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 14.0,
+        "reliability": 11.5,
+        "student_value": 12.0,
+        "ease_of_use": 8.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 83.0,
+        "explanation": "Score 83.0/100 — Free(24.0/25) + Usefulness(14.0/20) + Reliability(11.5/15) + Student(12.0/15) + Ease(8.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Hy4-flash into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation",
+          "Python"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://huggingface.co/tencent/Hy4-flash",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "transformers",
+        "safetensors",
+        "hy_v4_flash",
+        "text-generation",
+        "hunyuan",
+        "image",
+        "creative & multimodal ai"
+      ],
+      "stars": 68,
+      "license_name": "Source Available / Custom License",
+      "discovery_date": "2026-11-19",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-19T10:42:34Z",
+      "updated_at": "2026-11-19T10:42:34Z",
+      "direct_app_url": "https://huggingface.co/tencent/Hy4-flash",
+      "pricing_url": "https://huggingface.co/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 59,
@@ -6407,7 +6764,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-19",
       "official_documentation": "https://docs.embedl.com/embedl-deploy/latest/index.html?utm_source=embedl.com&utm_medium=model&utm_content=footer-docs",
       "best_student_use_case": "Build a portfolio-grade local ai & edge inference module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Freemium Useful Free",
@@ -6497,7 +6854,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-19",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade video editing module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Generous Free Tier",
@@ -6676,7 +7033,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-12",
+      "last_verification_date": "2026-11-19",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade text-to-video module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Generous Free Tier",
@@ -6826,6 +7183,54 @@
     }
   ],
   "pricing_history": [
+    {
+      "id": 80,
+      "canonical_key": "gh:tencent-hunyuan/hy4-flash",
+      "tool_name": "Hy4-flash",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Source Available / Custom License) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 1,048,576 tokens; 2,048 tokens; 150 tokens",
+      "change_type": "initial",
+      "source_url": "https://huggingface.co/tencent/Hy4-flash",
+      "detected_at": "2026-11-19T10:42:34Z"
+    },
+    {
+      "id": 79,
+      "canonical_key": "gh:intrusiveai/operator_sandbox",
+      "tool_name": "Intrusive.ai",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://intrusive.ai/",
+      "detected_at": "2026-11-19T10:42:34Z"
+    },
+    {
+      "id": 78,
+      "canonical_key": "gh:bashovski/reflektor",
+      "tool_name": "Reflektor",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (MIT) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 000 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/bashovski/reflektor",
+      "detected_at": "2026-11-19T10:42:34Z"
+    },
+    {
+      "id": 77,
+      "canonical_key": "gh:taoeffect/dez",
+      "tool_name": "Dez",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 000 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/taoeffect/dez",
+      "detected_at": "2026-11-19T10:42:34Z"
+    },
     {
       "id": 76,
       "canonical_key": "web:revix.ai",
@@ -7741,6 +8146,28 @@
   ],
   "discovery_runs": [
     {
+      "id": 18,
+      "run_type": "daily",
+      "started_at": "2026-11-19T10:42:14Z",
+      "finished_at": "2026-11-19T10:42:39Z",
+      "status": "success",
+      "candidates_scanned": 68,
+      "new_tools_added": 4,
+      "rejected_fake_free": 14,
+      "duplicates_skipped": 38,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [
+        "Reddit (0 items)"
+      ],
+      "summary": "Added 4 verified tools; rejected 14 non-free/low-score."
+    },
+    {
       "id": 17,
       "run_type": "daily",
       "started_at": "2026-11-18T10:37:29Z",
@@ -8089,6 +8516,160 @@
   ],
   "rejected_candidates": [
     {
+      "id": 164,
+      "canonical_key": "web:producthunt.com/products/context-dev",
+      "name": "Enrichable by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:31Z"
+    },
+    {
+      "id": 165,
+      "canonical_key": "web:producthunt.com/products/nuko",
+      "name": "Nuko",
+      "url": "https://www.producthunt.com/products/nuko",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:31Z"
+    },
+    {
+      "id": 163,
+      "canonical_key": "web:producthunt.com/products/tecla-3",
+      "name": "Tecla",
+      "url": "https://www.producthunt.com/products/tecla-3",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:29Z"
+    },
+    {
+      "id": 161,
+      "canonical_key": "web:producthunt.com/products/teaflask",
+      "name": "Teaflask",
+      "url": "https://www.producthunt.com/products/teaflask",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:28Z"
+    },
+    {
+      "id": 162,
+      "canonical_key": "web:producthunt.com/products/source-public-beta",
+      "name": "Source",
+      "url": "https://www.producthunt.com/products/source-public-beta",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:28Z"
+    },
+    {
+      "id": 160,
+      "canonical_key": "web:producthunt.com/products/rezora-io-ai-calling-assistant",
+      "name": "Rezora IO",
+      "url": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:27Z"
+    },
+    {
+      "id": 158,
+      "canonical_key": "web:producthunt.com/products/adside",
+      "name": "Adside",
+      "url": "https://www.producthunt.com/products/adside",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:24Z"
+    },
+    {
+      "id": 159,
+      "canonical_key": "web:producthunt.com/products/room-ai-2",
+      "name": "Room AI",
+      "url": "https://www.producthunt.com/products/room-ai-2",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:24Z"
+    },
+    {
+      "id": 157,
+      "canonical_key": "web:producthunt.com/products/fieldwork-code",
+      "name": "Fieldwork Code",
+      "url": "https://www.producthunt.com/products/fieldwork-code",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:23Z"
+    },
+    {
+      "id": 156,
+      "canonical_key": "web:producthunt.com/products/stripo-email",
+      "name": "Stripo Email Widgets",
+      "url": "https://www.producthunt.com/products/stripo-email",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:22Z"
+    },
+    {
+      "id": 154,
+      "canonical_key": "web:producthunt.com/products/testsprite",
+      "name": "TestSprite 4.0",
+      "url": "https://www.producthunt.com/products/testsprite",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:19Z"
+    },
+    {
+      "id": 155,
+      "canonical_key": "web:producthunt.com/products/netlify",
+      "name": "Netlify Server",
+      "url": "https://www.producthunt.com/products/netlify",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:19Z"
+    },
+    {
+      "id": 152,
+      "canonical_key": "web:producthunt.com/products/upsolve-ai",
+      "name": "Upsolve MCP Connections",
+      "url": "https://www.producthunt.com/products/upsolve-ai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:18Z"
+    },
+    {
+      "id": 153,
+      "canonical_key": "web:producthunt.com/products/heygen",
+      "name": "HeyGen Avatar 6",
+      "url": "https://www.producthunt.com/products/heygen",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-19T10:42:18Z"
+    },
+    {
       "id": 151,
       "canonical_key": "web:triptych.github.io/web-games-andrew/console",
       "name": "Pocket Garden",
@@ -8373,160 +8954,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-17T11:02:07Z"
-    },
-    {
-      "id": 124,
-      "canonical_key": "web:producthunt.com/products/inbox-hero-2",
-      "name": "Inbox Hero",
-      "url": "https://www.producthunt.com/products/inbox-hero-2",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-17T11:02:06Z"
-    },
-    {
-      "id": 125,
-      "canonical_key": "web:producthunt.com/products/infaiw",
-      "name": "infaiw",
-      "url": "https://www.producthunt.com/products/infaiw",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-17T11:02:06Z"
-    },
-    {
-      "id": 123,
-      "canonical_key": "web:producthunt.com/products/wispos",
-      "name": "WispOS",
-      "url": "https://www.producthunt.com/products/wispos",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-17T11:02:05Z"
-    },
-    {
-      "id": 122,
-      "canonical_key": "web:127.0.0.1",
-      "name": "I have created a tool to observe what happens in",
-      "url": "http://127.0.0.1",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:20Z"
-    },
-    {
-      "id": 120,
-      "canonical_key": "web:producthunt.com/products/boost-space",
-      "name": "Boost.space AgentOS",
-      "url": "https://www.producthunt.com/products/boost-space",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:18Z"
-    },
-    {
-      "id": 121,
-      "canonical_key": "web:producthunt.com/products/openframe-3",
-      "name": "OpenFrame",
-      "url": "https://www.producthunt.com/products/openframe-3",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:18Z"
-    },
-    {
-      "id": 119,
-      "canonical_key": "web:producthunt.com/products/bytevoice",
-      "name": "ByteVoice",
-      "url": "https://www.producthunt.com/products/bytevoice",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:16Z"
-    },
-    {
-      "id": 117,
-      "canonical_key": "web:producthunt.com/products/zoom",
-      "name": "Zoom Slides",
-      "url": "https://www.producthunt.com/products/zoom",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:15Z"
-    },
-    {
-      "id": 118,
-      "canonical_key": "web:producthunt.com/products/nexus-11",
-      "name": "Nexus",
-      "url": "https://www.producthunt.com/products/nexus-11",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:15Z"
-    },
-    {
-      "id": 116,
-      "canonical_key": "web:producthunt.com/products/chatgpt",
-      "name": "ChatGPT Wallet",
-      "url": "https://www.producthunt.com/products/chatgpt",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:14Z"
-    },
-    {
-      "id": 114,
-      "canonical_key": "web:producthunt.com/products/stateweave",
-      "name": "StateWeave",
-      "url": "https://www.producthunt.com/products/stateweave",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:11Z"
-    },
-    {
-      "id": 115,
-      "canonical_key": "web:producthunt.com/products/ui-sdk",
-      "name": "UI SDK by Vercel",
-      "url": "https://www.producthunt.com/products/ui-sdk",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:11Z"
-    },
-    {
-      "id": 113,
-      "canonical_key": "web:producthunt.com/products/sumsung",
-      "name": "Intelligent Eyewear",
-      "url": "https://www.producthunt.com/products/sumsung",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:10Z"
-    },
-    {
-      "id": 112,
-      "canonical_key": "web:producthunt.com/products/agentwatch-ai-traffic-tracker",
-      "name": "AgentWatch",
-      "url": "https://www.producthunt.com/products/agentwatch-ai-traffic-tracker",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-16T10:06:09Z"
     }
   ],
   "weekly_reports": [
