@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-22T11:48:21Z",
+  "generated_at": "2026-11-23T11:07:43Z",
   "stats": {
-    "total_tools": 96,
-    "genuinely_free": 96,
-    "open_source": 58,
-    "free_api_count": 40,
-    "average_score": 85.8
+    "total_tools": 101,
+    "genuinely_free": 101,
+    "open_source": 61,
+    "free_api_count": 41,
+    "average_score": 85.6
   },
   "tools": [
     {
@@ -3508,6 +3508,102 @@
       "free_quota_cadence": "Unlimited"
     },
     {
+      "id": 97,
+      "canonical_key": "gh:heygen-com/hyperframes",
+      "name": "hyperframes",
+      "official_website": "https://hyperframes.heygen.com/",
+      "category": "Image and Design",
+      "subcategory": "AI image generation",
+      "short_description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
+      "main_capabilities": [
+        "Agent Skills",
+        "Ai",
+        "Ai Agents",
+        "Ai Video"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai image generation utility with direct workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 25,000 credits; 05,000 credits; 000 credits",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/heygen-com/hyperframes",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-23",
+      "official_documentation": "https://hyperframes.heygen.com/quickstart",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using hyperframes's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 88.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.0,
+        "reliability": 14.0,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 88.5,
+        "explanation": "Score 88.5/100 — Free(24.0/25) + Usefulness(15.0/20) + Reliability(14.0/15) + Student(12.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate hyperframes into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/heygen-com/hyperframes",
+        "https://hyperframes.studio/pricing"
+      ],
+      "tags": [
+        "agent-skills",
+        "ai",
+        "ai-agents",
+        "ai-video",
+        "ai-video-editor",
+        "image",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 88588,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-23",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-23T11:07:39Z",
+      "updated_at": "2026-11-23T11:07:39Z",
+      "direct_app_url": "https://hyperframes.heygen.com/",
+      "pricing_url": "https://hyperframes.studio/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 40,
       "canonical_key": "gh:guandeh17/self-forcing",
       "name": "I'm releasing a Local World Model Ive been build",
@@ -4606,6 +4702,97 @@
       "free_quota_cadence": "Unlimited"
     },
     {
+      "id": 98,
+      "canonical_key": "gh:hermit-crm/hermit-crm",
+      "name": "Hermit CRM a free open",
+      "official_website": "https://hermitcrm.io/",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI agents and agent frameworks",
+      "short_description": "Show HN: Hermit CRM a free open-source CRM for solopreneurs",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Hermit CRM a free open-source CRM for solopreneurs."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai agents and agent frameworks utility with direct workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/Hermit-CRM/hermit-crm",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-23",
+      "official_documentation": "https://hermitcrm.io/docs/",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Hermit CRM a free open's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 86.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 12.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 86.0,
+        "explanation": "Score 86.0/100 — Free(24.0/25) + Usefulness(12.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Hermit CRM a free open into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50609708",
+        "https://hermitcrm.io/"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 4,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-23",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-23T11:07:39Z",
+      "updated_at": "2026-11-23T11:07:39Z",
+      "direct_app_url": "https://hermitcrm.io/",
+      "pricing_url": "https://hermitcrm.io/",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 84,
       "canonical_key": "gh:musset-app/musset",
       "name": "Musset, open",
@@ -4990,7 +5177,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-23",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Penthera, offline pentest security scanner (open's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -5165,7 +5352,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-23",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using How long are we gonna depend bunch of model crea's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -5253,7 +5440,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-23",
       "official_documentation": "https://docs.pctx.ai",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Port of Context's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -5343,7 +5530,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-23",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -5435,7 +5622,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-23",
       "official_documentation": "https://locan.ai/guides/how-to-optimize-google-business-profile/",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Websites for local businesses built fom reviews, kee's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -6677,6 +6864,96 @@
       "pricing_url": "https://huggingface.co/speridlabs/idol",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 99,
+      "canonical_key": "gh:steipete/markdansi",
+      "name": "Claktor",
+      "official_website": "https://claktor.com/",
+      "category": "Coding and Development",
+      "subcategory": "AI coding agents",
+      "short_description": "Show HN: Claktor – a refactoring CLI for coding agents",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Claktor – a refactoring CLI for coding agents."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai coding agents utility with direct workflow support.",
+      "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "Optional",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/steipete/Markdansi",
+      "supported_os": [
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "UNKNOWN",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "UNKNOWN",
+      "last_verification_date": "2026-11-23",
+      "official_documentation": "UNKNOWN",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Claktor's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 81.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 14.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 8.0,
+        "performance": 7.0,
+        "documentation": 2.0,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 81.5,
+        "explanation": "Score 81.5/100 — Free(24.0/25) + Usefulness(14.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(8.0/10) + Perf(7.0/10) + Docs(2.0/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Claktor into your agentic ai & multi-agent systems stack on Windows 11. Verify local Windows 11 / VRAM requirements in official docs. Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "UNKNOWN",
+        "cloud_usage_necessary": "UNKNOWN",
+        "hardware_fit_notes": "Verify local Windows 11 / VRAM requirements in official docs.",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50517415",
+        "https://claktor.com/"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "coding",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 68,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-23",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-23T11:07:39Z",
+      "updated_at": "2026-11-23T11:07:39Z",
+      "direct_app_url": "https://claktor.com/",
+      "pricing_url": "https://claktor.com/",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 50,
@@ -7938,6 +8215,183 @@
       "free_quota_cadence": "Starter Credits"
     },
     {
+      "id": 100,
+      "canonical_key": "web:vaticin.ai",
+      "name": "Prediction market competition where only agents can",
+      "official_website": "https://www.vaticin.ai/",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI agents and agent frameworks",
+      "short_description": "Show HN: Prediction market competition where only agents can trade",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Prediction market competition where only agents can trade."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Freemium Useful Free; delivers strong ai agents and agent frameworks utility with Free API workflow support.",
+      "free_plan_details": "Verified Freemium Useful Free via official site/pricing signals (no credit card).",
+      "free_usage_limits": "Observed free quota: 5 minutes",
+      "credit_card_required": "No",
+      "registration_required": "Yes",
+      "open_source_status": "Closed Source / Free Service",
+      "github_repository": "",
+      "supported_os": [
+        "UNKNOWN"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Verify rate limits on official docs before heavy hackathon traffic."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-23",
+      "official_documentation": "https://www.vaticin.ai/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Prediction market competition where only agents can's Freemium Useful Free.",
+      "free_tier_type": "Freemium Useful Free",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 77.0,
+      "score_breakdown": {
+        "free_functionality": 15.0,
+        "practical_usefulness": 15.5,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 6.5,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 77.0,
+        "explanation": "Score 77.0/100 — Free(15.0/25) + Usefulness(15.5/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(6.5/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Prediction market competition where only agents can into your agentic ai & multi-agent systems stack on Windows 11. Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM). Use its freemium useful free access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Check Docker/WSL2 on Windows 11)",
+        "cloud_usage_necessary": "Optional",
+        "hardware_fit_notes": "Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50574353",
+        "https://www.vaticin.ai/"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 2,
+      "license_name": "Proprietary",
+      "discovery_date": "2026-11-23",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-23T11:07:39Z",
+      "updated_at": "2026-11-23T11:07:39Z",
+      "direct_app_url": "https://www.vaticin.ai/",
+      "pricing_url": "https://www.vaticin.ai/",
+      "web_only": false,
+      "free_quota_cadence": "Starter Credits"
+    },
+    {
+      "id": 101,
+      "canonical_key": "web:taskless.io",
+      "name": "Taskless, turn AGENTS.md and PR comments into runnab",
+      "official_website": "https://www.taskless.io/",
+      "category": "Image and Design",
+      "subcategory": "UI/UX design",
+      "short_description": "Show HN: Taskless, turn AGENTS.md and PR comments into runnable checks",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Taskless, turn AGENTS.md and PR comments into runnable checks."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Freemium Useful Free; delivers strong ui/ux design utility with direct workflow support.",
+      "free_plan_details": "Verified Freemium Useful Free via official site/pricing signals (open source, open-source, mit license).",
+      "free_usage_limits": "UNKNOWN",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Closed Source / Free Service",
+      "github_repository": "",
+      "supported_os": [
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Verify rate limits on official docs before heavy hackathon traffic."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-23",
+      "official_documentation": "https://docs.taskless.io",
+      "best_student_use_case": "Build a portfolio-grade ui/ux design module or 24-hour hackathon MVP on your RTX 4050 laptop.",
+      "free_tier_type": "Freemium Useful Free",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 75.5,
+      "score_breakdown": {
+        "free_functionality": 15.0,
+        "practical_usefulness": 13.5,
+        "reliability": 11.5,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 75.5,
+        "explanation": "Score 75.5/100 — Free(15.0/25) + Usefulness(13.5/20) + Reliability(11.5/15) + Student(12.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Taskless, turn AGENTS.md and PR comments into runnab into your agentic ai & multi-agent systems stack on Windows 11. Runs in Windows 11 browser; compute handled on free cloud tier. Use its freemium useful free access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": false,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Browser)",
+        "cloud_usage_necessary": "Yes",
+        "hardware_fit_notes": "Runs in Windows 11 browser; compute handled on free cloud tier.",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50603421",
+        "https://www.taskless.io/"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "image",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 7,
+      "license_name": "Proprietary",
+      "discovery_date": "2026-11-23",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-23T11:07:39Z",
+      "updated_at": "2026-11-23T11:07:39Z",
+      "direct_app_url": "https://www.taskless.io/",
+      "pricing_url": "https://www.taskless.io/",
+      "web_only": true,
+      "free_quota_cadence": "Free Tier"
+    },
+    {
       "id": 33,
       "canonical_key": "web:deepsite.hf.co",
       "name": "deepsite",
@@ -8738,6 +9192,66 @@
     }
   ],
   "pricing_history": [
+    {
+      "id": 102,
+      "canonical_key": "web:taskless.io",
+      "tool_name": "Taskless, turn AGENTS.md and PR comments into runnab",
+      "old_free_plan": "",
+      "new_free_plan": "Verified Freemium Useful Free via official site/pricing signals (open source, open-source, mit license).",
+      "old_limits": "",
+      "new_limits": "UNKNOWN",
+      "change_type": "initial",
+      "source_url": "https://www.taskless.io/",
+      "detected_at": "2026-11-23T11:07:39Z"
+    },
+    {
+      "id": 101,
+      "canonical_key": "web:vaticin.ai",
+      "tool_name": "Prediction market competition where only agents can",
+      "old_free_plan": "",
+      "new_free_plan": "Verified Freemium Useful Free via official site/pricing signals (no credit card).",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 5 minutes",
+      "change_type": "initial",
+      "source_url": "https://www.vaticin.ai/",
+      "detected_at": "2026-11-23T11:07:39Z"
+    },
+    {
+      "id": 100,
+      "canonical_key": "gh:steipete/markdansi",
+      "tool_name": "Claktor",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (MIT) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://claktor.com/",
+      "detected_at": "2026-11-23T11:07:39Z"
+    },
+    {
+      "id": 99,
+      "canonical_key": "gh:hermit-crm/hermit-crm",
+      "tool_name": "Hermit CRM a free open",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://hermitcrm.io/",
+      "detected_at": "2026-11-23T11:07:39Z"
+    },
+    {
+      "id": 98,
+      "canonical_key": "gh:heygen-com/hyperframes",
+      "tool_name": "hyperframes",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 25,000 credits; 05,000 credits; 000 credits",
+      "change_type": "initial",
+      "source_url": "https://hyperframes.heygen.com/",
+      "detected_at": "2026-11-23T11:07:39Z"
+    },
     {
       "id": 97,
       "canonical_key": "gh:chidiwilliams/buzz",
@@ -9905,6 +10419,28 @@
   ],
   "discovery_runs": [
     {
+      "id": 24,
+      "run_type": "daily",
+      "started_at": "2026-11-23T11:07:21Z",
+      "finished_at": "2026-11-23T11:07:43Z",
+      "status": "success",
+      "candidates_scanned": 68,
+      "new_tools_added": 5,
+      "rejected_fake_free": 13,
+      "duplicates_skipped": 35,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [
+        "Reddit (0 items)"
+      ],
+      "summary": "Added 5 verified tools; rejected 13 non-free/low-score."
+    },
+    {
       "id": 23,
       "run_type": "weekly",
       "started_at": "2026-11-22T11:48:05Z",
@@ -10300,29 +10836,152 @@
       "sources_succeeded": [],
       "sources_failed": [],
       "summary": ""
-    },
-    {
-      "id": 4,
-      "run_type": "weekly",
-      "started_at": "2026-11-12T10:45:26Z",
-      "finished_at": "2026-11-12T10:47:05Z",
-      "status": "success",
-      "candidates_scanned": 50,
-      "new_tools_added": 6,
-      "rejected_fake_free": 4,
-      "duplicates_skipped": 40,
-      "pricing_changes_detected": 0,
-      "sources_succeeded": [
-        "Hugging Face",
-        "GitHub",
-        "Hacker News",
-        "Reddit"
-      ],
-      "sources_failed": [],
-      "summary": "Weekly report 2026-W46 generated with Top 10 rankings & PDF/CSV/XLSX."
     }
   ],
   "rejected_candidates": [
+    {
+      "id": 194,
+      "canonical_key": "web:producthunt.com/products/webless",
+      "name": "Webless Agents",
+      "url": "https://www.producthunt.com/products/webless",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:37Z"
+    },
+    {
+      "id": 195,
+      "canonical_key": "web:producthunt.com/products/squint",
+      "name": "Squint",
+      "url": "https://www.producthunt.com/products/squint",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:36Z"
+    },
+    {
+      "id": 196,
+      "canonical_key": "web:producthunt.com/products/oovi",
+      "name": "oovi",
+      "url": "https://www.producthunt.com/products/oovi",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:35Z"
+    },
+    {
+      "id": 199,
+      "canonical_key": "web:producthunt.com/products/teaserkit",
+      "name": "TeaserKit",
+      "url": "https://www.producthunt.com/products/teaserkit",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:35Z"
+    },
+    {
+      "id": 233,
+      "canonical_key": "web:producthunt.com/products/mobile-agent-testers",
+      "name": "Mobile Agent Testers",
+      "url": "https://www.producthunt.com/products/mobile-agent-testers",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:34Z"
+    },
+    {
+      "id": 232,
+      "canonical_key": "web:producthunt.com/products/freddy",
+      "name": "freddy",
+      "url": "https://www.producthunt.com/products/freddy",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:31Z"
+    },
+    {
+      "id": 230,
+      "canonical_key": "web:producthunt.com/products/replit",
+      "name": "Replit Missions",
+      "url": "https://www.producthunt.com/products/replit",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:30Z"
+    },
+    {
+      "id": 231,
+      "canonical_key": "web:producthunt.com/products/polylane",
+      "name": "Polylane Swarms",
+      "url": "https://www.producthunt.com/products/polylane",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:30Z"
+    },
+    {
+      "id": 229,
+      "canonical_key": "web:producthunt.com/products/ashwa",
+      "name": "Ashwa",
+      "url": "https://www.producthunt.com/products/ashwa",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:29Z"
+    },
+    {
+      "id": 227,
+      "canonical_key": "web:producthunt.com/products/chat-with-work",
+      "name": "Chat with Work",
+      "url": "https://www.producthunt.com/products/chat-with-work",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:26Z"
+    },
+    {
+      "id": 228,
+      "canonical_key": "web:producthunt.com/products/hydrilla",
+      "name": "Hydrilla",
+      "url": "https://www.producthunt.com/products/hydrilla",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:26Z"
+    },
+    {
+      "id": 226,
+      "canonical_key": "web:producthunt.com/products/gauth-ai-course",
+      "name": "Gauth Personal Study Agent",
+      "url": "https://www.producthunt.com/products/gauth-ai-course",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:25Z"
+    },
+    {
+      "id": 225,
+      "canonical_key": "web:producthunt.com/products/motionflare",
+      "name": "Motionflare",
+      "url": "https://www.producthunt.com/products/motionflare",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-23T11:07:24Z"
+    },
     {
       "id": 39,
       "canonical_key": "web:gamma.app",
@@ -10445,28 +11104,6 @@
       "rejected_at": "2026-11-22T11:47:47Z"
     },
     {
-      "id": 196,
-      "canonical_key": "web:producthunt.com/products/oovi",
-      "name": "oovi",
-      "url": "https://www.producthunt.com/products/oovi",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:46Z"
-    },
-    {
-      "id": 199,
-      "canonical_key": "web:producthunt.com/products/teaserkit",
-      "name": "TeaserKit",
-      "url": "https://www.producthunt.com/products/teaserkit",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:46Z"
-    },
-    {
       "id": 197,
       "canonical_key": "web:producthunt.com/products/omi-cli",
       "name": "Omi CLI",
@@ -10478,17 +11115,6 @@
       "rejected_at": "2026-11-22T11:47:43Z"
     },
     {
-      "id": 194,
-      "canonical_key": "web:producthunt.com/products/webless",
-      "name": "Webless Agents",
-      "url": "https://www.producthunt.com/products/webless",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:42Z"
-    },
-    {
       "id": 198,
       "canonical_key": "web:producthunt.com/products/ulika",
       "name": "Ulika",
@@ -10498,17 +11124,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-22T11:47:42Z"
-    },
-    {
-      "id": 195,
-      "canonical_key": "web:producthunt.com/products/squint",
-      "name": "Squint",
-      "url": "https://www.producthunt.com/products/squint",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:41Z"
     },
     {
       "id": 169,
@@ -10663,105 +11278,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-20T10:22:53Z"
-    },
-    {
-      "id": 164,
-      "canonical_key": "web:producthunt.com/products/context-dev",
-      "name": "Enrichable by Context.dev",
-      "url": "https://www.producthunt.com/products/context-dev",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-19T10:42:31Z"
-    },
-    {
-      "id": 165,
-      "canonical_key": "web:producthunt.com/products/nuko",
-      "name": "Nuko",
-      "url": "https://www.producthunt.com/products/nuko",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-19T10:42:31Z"
-    },
-    {
-      "id": 163,
-      "canonical_key": "web:producthunt.com/products/tecla-3",
-      "name": "Tecla",
-      "url": "https://www.producthunt.com/products/tecla-3",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-19T10:42:29Z"
-    },
-    {
-      "id": 161,
-      "canonical_key": "web:producthunt.com/products/teaflask",
-      "name": "Teaflask",
-      "url": "https://www.producthunt.com/products/teaflask",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-19T10:42:28Z"
-    },
-    {
-      "id": 162,
-      "canonical_key": "web:producthunt.com/products/source-public-beta",
-      "name": "Source",
-      "url": "https://www.producthunt.com/products/source-public-beta",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-19T10:42:28Z"
-    },
-    {
-      "id": 160,
-      "canonical_key": "web:producthunt.com/products/rezora-io-ai-calling-assistant",
-      "name": "Rezora IO",
-      "url": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-19T10:42:27Z"
-    },
-    {
-      "id": 158,
-      "canonical_key": "web:producthunt.com/products/adside",
-      "name": "Adside",
-      "url": "https://www.producthunt.com/products/adside",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-19T10:42:24Z"
-    },
-    {
-      "id": 159,
-      "canonical_key": "web:producthunt.com/products/room-ai-2",
-      "name": "Room AI",
-      "url": "https://www.producthunt.com/products/room-ai-2",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-19T10:42:24Z"
-    },
-    {
-      "id": 157,
-      "canonical_key": "web:producthunt.com/products/fieldwork-code",
-      "name": "Fieldwork Code",
-      "url": "https://www.producthunt.com/products/fieldwork-code",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-19T10:42:23Z"
     }
   ],
   "weekly_reports": [
