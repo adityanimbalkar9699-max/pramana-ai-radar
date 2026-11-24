@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-23T11:07:43Z",
+  "generated_at": "2026-11-24T12:52:48Z",
   "stats": {
-    "total_tools": 101,
-    "genuinely_free": 101,
-    "open_source": 61,
-    "free_api_count": 41,
-    "average_score": 85.6
+    "total_tools": 107,
+    "genuinely_free": 107,
+    "open_source": 67,
+    "free_api_count": 46,
+    "average_score": 86.0
   },
   "tools": [
     {
@@ -101,6 +101,103 @@
       "updated_at": "2026-11-22T11:47:59Z",
       "direct_app_url": "https://dify.ai/",
       "pricing_url": "https://dify.ai/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 102,
+      "canonical_key": "gh:openmontageinc/openmontage",
+      "name": "OpenMontage",
+      "official_website": "https://www.openmontage.video/",
+      "category": "Coding and Development",
+      "subcategory": "AI coding assistants",
+      "short_description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "main_capabilities": [
+        "Agent",
+        "Agentic Ai",
+        "Ai",
+        "Claude"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai coding assistants utility with Free API workflow support.",
+      "free_plan_details": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 58 seconds",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (AGPL-3.0)",
+      "github_repository": "https://github.com/OpenMontageInc/OpenMontage",
+      "supported_os": [
+        "Windows",
+        "Web",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-24",
+      "official_documentation": "https://www.openmontage.video/guides/",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using OpenMontage's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 95.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 18.5,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 95.0,
+        "explanation": "Score 95.0/100 — Free(24.0/25) + Usefulness(18.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate OpenMontage into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows",
+          "Python"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/OpenMontageInc/OpenMontage",
+        "https://www.openmontage.video/"
+      ],
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot",
+        "coding",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 82955,
+      "license_name": "AGPL-3.0",
+      "discovery_date": "2026-11-24",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-24T12:52:41Z",
+      "updated_at": "2026-11-24T12:52:41Z",
+      "direct_app_url": "https://www.openmontage.video/",
+      "pricing_url": "https://www.openmontage.video/",
       "web_only": false,
       "free_quota_cadence": "Unlimited"
     },
@@ -383,6 +480,200 @@
       "free_quota_cadence": "UNKNOWN"
     },
     {
+      "id": 103,
+      "canonical_key": "gh:browser-use/browser-use",
+      "name": "browser-use",
+      "official_website": "https://browser-use.com/",
+      "category": "Productivity and Research",
+      "subcategory": "Browser automation",
+      "short_description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+      "main_capabilities": [
+        "Ai Agents",
+        "Ai Tools",
+        "Browser Agent",
+        "Browser Automation"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong browser automation utility with Free API workflow support.",
+      "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/browser-use/browser-use",
+      "supported_os": [
+        "Web",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-24",
+      "official_documentation": "https://docs.browser-use.com/cloud/quickstart",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using browser-use's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 93.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 20.0,
+        "reliability": 14.0,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 93.5,
+        "explanation": "Score 93.5/100 — Free(24.0/25) + Usefulness(20.0/20) + Reliability(14.0/15) + Student(12.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate browser-use into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows",
+          "Python"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/browser-use/browser-use",
+        "https://browser-use.com/pricing"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-tools",
+        "browser-agent",
+        "browser-automation",
+        "browser-use",
+        "productivity",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 121913,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-24",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-24T12:52:41Z",
+      "updated_at": "2026-11-24T12:52:41Z",
+      "direct_app_url": "https://browser-use.com/",
+      "pricing_url": "https://browser-use.com/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 104,
+      "canonical_key": "gh:cloakhq/cloakbrowser",
+      "name": "CloakBrowser",
+      "official_website": "https://cloakbrowser.dev/",
+      "category": "Productivity and Research",
+      "subcategory": "Browser automation",
+      "short_description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 50+ tests passed.",
+      "main_capabilities": [
+        "Ai Agents",
+        "Anti Detect",
+        "Antidetect Browser",
+        "Bot Detection"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong browser automation utility with Free API workflow support.",
+      "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 10 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/CloakHQ/CloakBrowser",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-24",
+      "official_documentation": "https://cloakbrowser.dev/quickstart.md",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using CloakBrowser's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 93.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 20.0,
+        "reliability": 14.0,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 93.5,
+        "explanation": "Score 93.5/100 — Free(24.0/25) + Usefulness(20.0/20) + Reliability(14.0/15) + Student(12.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate CloakBrowser into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows",
+          "Python"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/CloakHQ/CloakBrowser",
+        "https://cloakbrowser.dev/"
+      ],
+      "tags": [
+        "ai-agents",
+        "anti-detect",
+        "antidetect-browser",
+        "bot-detection",
+        "browser-automation",
+        "productivity",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 33046,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-24",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-24T12:52:41Z",
+      "updated_at": "2026-11-24T12:52:41Z",
+      "direct_app_url": "https://cloakbrowser.dev/",
+      "pricing_url": "https://cloakbrowser.dev/",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 6,
       "canonical_key": "gh:justvugg/colibri",
       "name": "colibri",
@@ -560,6 +851,102 @@
       "pricing_url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 105,
+      "canonical_key": "gh:h4ckf0r0day/obscura",
+      "name": "obscura",
+      "official_website": "https://www.obscura.sh/",
+      "category": "Productivity and Research",
+      "subcategory": "Browser automation",
+      "short_description": "The headless browser for AI agents and web scraping",
+      "main_capabilities": [
+        "Antidetect",
+        "Antidetect Browser",
+        "Browser",
+        "Browser Automation"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong browser automation utility with API Available (Check Tier) workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/h4ckf0r0day/obscura",
+      "supported_os": [
+        "Linux",
+        "Web",
+        "Windows",
+        "macOS"
+      ],
+      "api_availability": "API Available (Check Tier)",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-24",
+      "official_documentation": "https://docs.obscura.sh/",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using obscura's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 93.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 18.5,
+        "reliability": 14.0,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 10.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 93.0,
+        "explanation": "Score 93.0/100 — Free(24.0/25) + Usefulness(18.5/20) + Reliability(14.0/15) + Student(12.0/15) + Ease(10.0/10) + Perf(10.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate obscura into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/h4ckf0r0day/obscura",
+        "https://www.obscura.sh/"
+      ],
+      "tags": [
+        "antidetect",
+        "antidetect-browser",
+        "browser",
+        "browser-automation",
+        "cdp",
+        "productivity",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 37199,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-24",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-24T12:52:41Z",
+      "updated_at": "2026-11-24T12:52:41Z",
+      "direct_app_url": "https://www.obscura.sh/",
+      "pricing_url": "https://www.obscura.sh/",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 88,
@@ -1022,6 +1409,192 @@
       "pricing_url": "https://github.com/Niko1221/Strata",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 106,
+      "canonical_key": "gh:feder-cr/jobs_applier_ai_agent",
+      "name": "Jobs_Applier_AI_Agent",
+      "official_website": "https://github.com/feder-cr/Jobs_Applier_AI_Agent",
+      "category": "Productivity and Research",
+      "subcategory": "Browser automation",
+      "short_description": "AIHawk: AI job application bot, automated job search, job hunting, auto-apply to resume-matching jobs while you sleep.",
+      "main_capabilities": [
+        "Agentic Ai",
+        "Ai Agent",
+        "Ai Automation",
+        "Aihawk"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong browser automation utility with Python Library / Local SDK workflow support.",
+      "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 000 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/feder-cr/Jobs_Applier_AI_Agent",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Python Library / Local SDK",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-24",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Jobs_Applier_AI_Agent's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 92.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 18.5,
+        "reliability": 14.0,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 92.0,
+        "explanation": "Score 92.0/100 — Free(24.0/25) + Usefulness(18.5/20) + Reliability(14.0/15) + Student(12.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Jobs_Applier_AI_Agent into your agentic ai & multi-agent systems stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows",
+          "Python"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/feder-cr/Jobs_Applier_AI_Agent",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "agentic-ai",
+        "ai-agent",
+        "ai-automation",
+        "aihawk",
+        "automation",
+        "productivity",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 32630,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-24",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-24T12:52:41Z",
+      "updated_at": "2026-11-24T12:52:41Z",
+      "direct_app_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 107,
+      "canonical_key": "gh:punkpeye/awesome-mcp-servers",
+      "name": "awesome-mcp-servers",
+      "official_website": "https://glama.ai/mcp/servers",
+      "category": "Coding and Development",
+      "subcategory": "AI coding assistants",
+      "short_description": "A collection of MCP servers.",
+      "main_capabilities": [
+        "Ai",
+        "Mcp",
+        "A collection of MCP servers."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai coding assistants utility with Free API workflow support.",
+      "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/punkpeye/awesome-mcp-servers",
+      "supported_os": [
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-24",
+      "official_documentation": "https://glama.ai/mcp/categories/documentation-access",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using awesome-mcp-servers's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 92.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.5,
+        "reliability": 14.0,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 92.0,
+        "explanation": "Score 92.0/100 — Free(24.0/25) + Usefulness(15.5/20) + Reliability(14.0/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate awesome-mcp-servers into your agentic ai & multi-agent systems stack on Windows 11. Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multi-Agent Orchestration",
+          "Tool Calling & MCP",
+          "Autonomous Workflows"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Check Docker/WSL2 on Windows 11)",
+        "cloud_usage_necessary": "Optional",
+        "hardware_fit_notes": "Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM).",
+        "priority_track": "Agentic AI & Multi-Agent Systems"
+      },
+      "sources": [
+        "https://github.com/punkpeye/awesome-mcp-servers",
+        "https://glama.ai/mcp/categories/payments-and-billing"
+      ],
+      "tags": [
+        "ai",
+        "mcp",
+        "coding",
+        "agentic ai & multi-agent systems"
+      ],
+      "stars": 98455,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-24",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-24T12:52:41Z",
+      "updated_at": "2026-11-24T12:52:41Z",
+      "direct_app_url": "https://glama.ai/mcp/servers",
+      "pricing_url": "https://glama.ai/mcp/categories/payments-and-billing",
+      "web_only": true,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 60,
@@ -5713,7 +6286,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-24",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Yogurt's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -5801,7 +6374,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-24",
       "official_documentation": "https://v0.app/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using v0 by Vercel's Generous Free Tier.",
       "free_tier_type": "Generous Free Tier",
@@ -6434,7 +7007,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-24",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Arete-27B's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -6709,7 +7282,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-24",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using MiniMax-H3-Image's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -6802,7 +7375,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-15",
+      "last_verification_date": "2026-11-24",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using idol's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -9193,6 +9766,78 @@
   ],
   "pricing_history": [
     {
+      "id": 108,
+      "canonical_key": "gh:punkpeye/awesome-mcp-servers",
+      "tool_name": "awesome-mcp-servers",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (MIT) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://glama.ai/mcp/servers",
+      "detected_at": "2026-11-24T12:52:41Z"
+    },
+    {
+      "id": 107,
+      "canonical_key": "gh:feder-cr/jobs_applier_ai_agent",
+      "tool_name": "Jobs_Applier_AI_Agent",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (MIT) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 000 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent",
+      "detected_at": "2026-11-24T12:52:41Z"
+    },
+    {
+      "id": 106,
+      "canonical_key": "gh:h4ckf0r0day/obscura",
+      "tool_name": "obscura",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://www.obscura.sh/",
+      "detected_at": "2026-11-24T12:52:41Z"
+    },
+    {
+      "id": 105,
+      "canonical_key": "gh:cloakhq/cloakbrowser",
+      "tool_name": "CloakBrowser",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (MIT) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 10 minutes",
+      "change_type": "initial",
+      "source_url": "https://cloakbrowser.dev/",
+      "detected_at": "2026-11-24T12:52:41Z"
+    },
+    {
+      "id": 104,
+      "canonical_key": "gh:browser-use/browser-use",
+      "tool_name": "browser-use",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (MIT) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://browser-use.com/",
+      "detected_at": "2026-11-24T12:52:41Z"
+    },
+    {
+      "id": 103,
+      "canonical_key": "gh:openmontageinc/openmontage",
+      "tool_name": "OpenMontage",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 58 seconds",
+      "change_type": "initial",
+      "source_url": "https://www.openmontage.video/",
+      "detected_at": "2026-11-24T12:52:41Z"
+    },
+    {
       "id": 102,
       "canonical_key": "web:taskless.io",
       "tool_name": "Taskless, turn AGENTS.md and PR comments into runnab",
@@ -10419,6 +11064,28 @@
   ],
   "discovery_runs": [
     {
+      "id": 25,
+      "run_type": "daily",
+      "started_at": "2026-11-24T12:52:14Z",
+      "finished_at": "2026-11-24T12:52:48Z",
+      "status": "success",
+      "candidates_scanned": 68,
+      "new_tools_added": 6,
+      "rejected_fake_free": 3,
+      "duplicates_skipped": 32,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Hugging Face",
+        "Hacker News",
+        "GitHub",
+        "Product Hunt"
+      ],
+      "sources_failed": [
+        "Reddit (0 items)"
+      ],
+      "summary": "Added 6 verified tools; rejected 3 non-free/low-score."
+    },
+    {
       "id": 24,
       "run_type": "daily",
       "started_at": "2026-11-23T11:07:21Z",
@@ -10821,24 +11488,42 @@
       ],
       "sources_failed": [],
       "summary": "Added 2 verified tools; rejected 3 non-free/low-score."
-    },
-    {
-      "id": 5,
-      "run_type": "daily",
-      "started_at": "2026-11-12T10:46:56Z",
-      "finished_at": null,
-      "status": "running",
-      "candidates_scanned": 0,
-      "new_tools_added": 0,
-      "rejected_fake_free": 0,
-      "duplicates_skipped": 0,
-      "pricing_changes_detected": 0,
-      "sources_succeeded": [],
-      "sources_failed": [],
-      "summary": ""
     }
   ],
   "rejected_candidates": [
+    {
+      "id": 240,
+      "canonical_key": "web:producthunt.com/products/ohhai",
+      "name": "Ohhai",
+      "url": "https://www.producthunt.com/products/ohhai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-24T12:52:41Z"
+    },
+    {
+      "id": 239,
+      "canonical_key": "web:producthunt.com/products/viktor",
+      "name": "Viktor Code",
+      "url": "https://www.producthunt.com/products/viktor",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-24T12:52:40Z"
+    },
+    {
+      "id": 238,
+      "canonical_key": "web:outloudreader.app",
+      "name": "Outloud Reader",
+      "url": "https://outloudreader.app/",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-24T12:52:33Z"
+    },
     {
       "id": 194,
       "canonical_key": "web:producthunt.com/products/webless",
@@ -11245,39 +11930,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-20T10:22:59Z"
-    },
-    {
-      "id": 170,
-      "canonical_key": "web:producthunt.com/products/undoguard",
-      "name": "UndoGuard",
-      "url": "https://www.producthunt.com/products/undoguard",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-20T10:22:57Z"
-    },
-    {
-      "id": 166,
-      "canonical_key": "web:producthunt.com/products/stormi",
-      "name": "Stormi",
-      "url": "https://www.producthunt.com/products/stormi",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-20T10:22:53Z"
-    },
-    {
-      "id": 167,
-      "canonical_key": "web:producthunt.com/products/memanto-by-moorcheh",
-      "name": "Memanto Cloud",
-      "url": "https://www.producthunt.com/products/memanto-by-moorcheh",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-20T10:22:53Z"
     }
   ],
   "weekly_reports": [
