@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T12:52:48Z",
+  "generated_at": "2026-11-25T11:39:33Z",
   "stats": {
-    "total_tools": 107,
-    "genuinely_free": 107,
-    "open_source": 67,
-    "free_api_count": 46,
-    "average_score": 86.0
+    "total_tools": 110,
+    "genuinely_free": 110,
+    "open_source": 69,
+    "free_api_count": 49,
+    "average_score": 86.1
   },
   "tools": [
     {
@@ -2284,7 +2284,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-16",
+      "last_verification_date": "2026-11-25",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using I'm starting to think a specialized 4B is enough's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2375,7 +2375,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-16",
+      "last_verification_date": "2026-11-25",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using [Release] Qwen3.8's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -2831,7 +2831,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-16",
+      "last_verification_date": "2026-11-25",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using BigMoeOnEdge outperforms Strata and colibri on 8's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -3261,6 +3261,94 @@
       "free_quota_cadence": "UNKNOWN"
     },
     {
+      "id": 108,
+      "canonical_key": "gh:digisensus/digisensus-recorder",
+      "name": "Call / meeting recorder for Mac. open source local m",
+      "official_website": "https://github.com/Digisensus/digisensus-recorder",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI evaluation and observability",
+      "short_description": "Show HN: Call / meeting recorder for Mac. open source local models or free cloud",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Call / meeting recorder for Mac. open source local models or free cloud."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai evaluation and observability utility with Free API workflow support.",
+      "free_plan_details": "Open-source (GPL-3.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 15 minutes; 10 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (GPL-3.0)",
+      "github_repository": "https://github.com/Digisensus/digisensus-recorder",
+      "supported_os": [
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-25",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Call / meeting recorder for Mac. open source local m's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 89.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.5,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 89.5,
+        "explanation": "Score 89.5/100 — Free(24.0/25) + Usefulness(15.5/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Call / meeting recorder for Mac. open source local m into your creative & multimodal ai stack on Windows 11. Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Check Docker/WSL2 on Windows 11)",
+        "cloud_usage_necessary": "Optional",
+        "hardware_fit_notes": "Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50634230",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 20,
+      "license_name": "GPL-3.0",
+      "discovery_date": "2026-11-25",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-25T11:39:28Z",
+      "updated_at": "2026-11-25T11:39:28Z",
+      "direct_app_url": "https://github.com/Digisensus/digisensus-recorder",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 69,
       "canonical_key": "gh:ajay9o9/llama.cpp",
       "name": "DSpine",
@@ -3617,6 +3705,94 @@
       "pricing_url": "https://github.com/DivyanshGolyan/rui",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 109,
+      "canonical_key": "gh:xiangechen/chili3d",
+      "name": "Chili3D",
+      "official_website": "https://github.com/xiangechen/chili3d",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI evaluation and observability",
+      "short_description": "Show HN: Chili3D – Open-source browser CAD with parametric/push-pull modeling",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Chili3D – Open-source browser CAD with parametric/push-pull modeling."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai evaluation and observability utility with Free API workflow support.",
+      "free_plan_details": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 000 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (AGPL-3.0)",
+      "github_repository": "https://github.com/xiangechen/chili3d",
+      "supported_os": [
+        "Linux",
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-25",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Chili3D's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 89.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 14.0,
+        "reliability": 12.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 89.0,
+        "explanation": "Score 89.0/100 — Free(24.0/25) + Usefulness(14.0/20) + Reliability(12.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Chili3D into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50629040",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 5029,
+      "license_name": "AGPL-3.0",
+      "discovery_date": "2026-11-25",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-25T11:39:28Z",
+      "updated_at": "2026-11-25T11:39:28Z",
+      "direct_app_url": "https://github.com/xiangechen/chili3d",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 89,
@@ -5271,6 +5447,100 @@
       "updated_at": "2026-11-15T11:22:03Z",
       "direct_app_url": "https://handy.computer/",
       "pricing_url": "https://handy.computer/",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 110,
+      "canonical_key": "gh:atomicbot-ai/atomic-chat",
+      "name": "Inkling-2-Mini-Uncensored-GGUF",
+      "official_website": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "category": "Image and Design",
+      "subcategory": "AI image generation",
+      "short_description": "Trending open-weights model (AtomicChat/Inkling-2-Mini-Uncensored-GGUF) for image-text-to-text; 762,491 downloads.",
+      "main_capabilities": [
+        "Gguf",
+        "Llama.Cpp",
+        "Inkling2",
+        "Uncensored"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai image generation utility with Local OpenAI-Compatible API workflow support.",
+      "free_plan_details": "Open-source (Source Available / Custom License) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 4096 tokens; 3,072 tokens",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Source Available (Source Available / Custom License)",
+      "github_repository": "https://github.com/AtomicBot-ai/Atomic-Chat",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "Local OpenAI-Compatible API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-25",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Inkling-2-Mini-Uncensored-GGUF's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 86.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 14.0,
+        "reliability": 12.5,
+        "student_value": 12.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 86.0,
+        "explanation": "Score 86.0/100 — Free(24.0/25) + Usefulness(14.0/20) + Reliability(12.5/15) + Student(12.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Inkling-2-Mini-Uncensored-GGUF into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": false,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "inkling2",
+        "uncensored",
+        "lora",
+        "image",
+        "creative & multimodal ai"
+      ],
+      "stars": 2091,
+      "license_name": "Source Available / Custom License",
+      "discovery_date": "2026-11-25",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-25T11:39:28Z",
+      "updated_at": "2026-11-25T11:39:28Z",
+      "direct_app_url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "pricing_url": "https://huggingface.co/pricing",
       "web_only": false,
       "free_quota_cadence": "Unlimited"
     },
@@ -7557,7 +7827,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-16",
+      "last_verification_date": "2026-11-25",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Ideogram's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -7740,7 +8010,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-16",
+      "last_verification_date": "2026-11-25",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -9766,6 +10036,42 @@
   ],
   "pricing_history": [
     {
+      "id": 111,
+      "canonical_key": "gh:atomicbot-ai/atomic-chat",
+      "tool_name": "Inkling-2-Mini-Uncensored-GGUF",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Source Available / Custom License) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 4096 tokens; 3,072 tokens",
+      "change_type": "initial",
+      "source_url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "detected_at": "2026-11-25T11:39:28Z"
+    },
+    {
+      "id": 110,
+      "canonical_key": "gh:xiangechen/chili3d",
+      "tool_name": "Chili3D",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 000 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/xiangechen/chili3d",
+      "detected_at": "2026-11-25T11:39:28Z"
+    },
+    {
+      "id": 109,
+      "canonical_key": "gh:digisensus/digisensus-recorder",
+      "tool_name": "Call / meeting recorder for Mac. open source local m",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (GPL-3.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 15 minutes; 10 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/Digisensus/digisensus-recorder",
+      "detected_at": "2026-11-25T11:39:28Z"
+    },
+    {
       "id": 108,
       "canonical_key": "gh:punkpeye/awesome-mcp-servers",
       "tool_name": "awesome-mcp-servers",
@@ -11064,6 +11370,28 @@
   ],
   "discovery_runs": [
     {
+      "id": 26,
+      "run_type": "daily",
+      "started_at": "2026-11-25T11:39:08Z",
+      "finished_at": "2026-11-25T11:39:33Z",
+      "status": "success",
+      "candidates_scanned": 68,
+      "new_tools_added": 3,
+      "rejected_fake_free": 15,
+      "duplicates_skipped": 32,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [
+        "Reddit (0 items)"
+      ],
+      "summary": "Added 3 verified tools; rejected 15 non-free/low-score."
+    },
+    {
       "id": 25,
       "run_type": "daily",
       "started_at": "2026-11-24T12:52:14Z",
@@ -11468,29 +11796,174 @@
       ],
       "sources_failed": [],
       "summary": "Added 0 verified tools; rejected 3 non-free/low-score."
-    },
-    {
-      "id": 6,
-      "run_type": "daily",
-      "started_at": "2026-11-12T15:44:22Z",
-      "finished_at": "2026-11-12T15:44:50Z",
-      "status": "success",
-      "candidates_scanned": 46,
-      "new_tools_added": 2,
-      "rejected_fake_free": 3,
-      "duplicates_skipped": 41,
-      "pricing_changes_detected": 0,
-      "sources_succeeded": [
-        "Hugging Face",
-        "Hacker News",
-        "Reddit",
-        "GitHub"
-      ],
-      "sources_failed": [],
-      "summary": "Added 2 verified tools; rejected 3 non-free/low-score."
     }
   ],
   "rejected_candidates": [
+    {
+      "id": 255,
+      "canonical_key": "web:provost.unlimitedweb.space",
+      "name": "Archiver that opens every format",
+      "url": "https://provost.unlimitedweb.space/",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:27Z"
+    },
+    {
+      "id": 253,
+      "canonical_key": "web:producthunt.com/products/vibecode-surf",
+      "name": "VibeCode.surf",
+      "url": "https://www.producthunt.com/products/vibecode-surf",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:26Z"
+    },
+    {
+      "id": 254,
+      "canonical_key": "web:producthunt.com/products/qube-6",
+      "name": "Qube",
+      "url": "https://www.producthunt.com/products/qube-6",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:26Z"
+    },
+    {
+      "id": 252,
+      "canonical_key": "web:producthunt.com/products/hai-4",
+      "name": "Hai",
+      "url": "https://www.producthunt.com/products/hai-4",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:24Z"
+    },
+    {
+      "id": 250,
+      "canonical_key": "web:producthunt.com/products/magi-1",
+      "name": "MAGI-2",
+      "url": "https://www.producthunt.com/products/magi-1",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:23Z"
+    },
+    {
+      "id": 251,
+      "canonical_key": "web:producthunt.com/products/unify-5",
+      "name": "Continual-ARC",
+      "url": "https://www.producthunt.com/products/unify-5",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:23Z"
+    },
+    {
+      "id": 249,
+      "canonical_key": "web:producthunt.com/products/myclaw-3-0",
+      "name": "MyClaw 3.0",
+      "url": "https://www.producthunt.com/products/myclaw-3-0",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:22Z"
+    },
+    {
+      "id": 248,
+      "canonical_key": "web:producthunt.com/products/partgenie",
+      "name": "PartGenie 2.0",
+      "url": "https://www.producthunt.com/products/partgenie",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:19Z"
+    },
+    {
+      "id": 246,
+      "canonical_key": "web:producthunt.com/products/eluna",
+      "name": "eluna",
+      "url": "https://www.producthunt.com/products/eluna",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:18Z"
+    },
+    {
+      "id": 247,
+      "canonical_key": "web:producthunt.com/products/memoryworks",
+      "name": "MemoryWorks",
+      "url": "https://www.producthunt.com/products/memoryworks",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:18Z"
+    },
+    {
+      "id": 245,
+      "canonical_key": "web:producthunt.com/products/koed",
+      "name": "Koed",
+      "url": "https://www.producthunt.com/products/koed",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:17Z"
+    },
+    {
+      "id": 243,
+      "canonical_key": "web:producthunt.com/products/3way-social",
+      "name": "3way.Social MCP",
+      "url": "https://www.producthunt.com/products/3way-social",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:14Z"
+    },
+    {
+      "id": 244,
+      "canonical_key": "web:producthunt.com/products/steerlatch",
+      "name": "SteerLatch",
+      "url": "https://www.producthunt.com/products/steerlatch",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:14Z"
+    },
+    {
+      "id": 242,
+      "canonical_key": "web:producthunt.com/products/airbots",
+      "name": "Airbot",
+      "url": "https://www.producthunt.com/products/airbots",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:13Z"
+    },
+    {
+      "id": 241,
+      "canonical_key": "web:producthunt.com/products/tendeck",
+      "name": "Tendeck",
+      "url": "https://www.producthunt.com/products/tendeck",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-25T11:39:12Z"
+    },
     {
       "id": 240,
       "canonical_key": "web:producthunt.com/products/ohhai",
@@ -11765,171 +12238,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-22T11:47:51Z"
-    },
-    {
-      "id": 203,
-      "canonical_key": "web:producthunt.com/products/stitch-loop",
-      "name": "Stitch Loop",
-      "url": "https://www.producthunt.com/products/stitch-loop",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:48Z"
-    },
-    {
-      "id": 182,
-      "canonical_key": "web:producthunt.com/products/prompt-puncher",
-      "name": "Prompt Puncher",
-      "url": "https://www.producthunt.com/products/prompt-puncher",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:47Z"
-    },
-    {
-      "id": 197,
-      "canonical_key": "web:producthunt.com/products/omi-cli",
-      "name": "Omi CLI",
-      "url": "https://www.producthunt.com/products/omi-cli",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:43Z"
-    },
-    {
-      "id": 198,
-      "canonical_key": "web:producthunt.com/products/ulika",
-      "name": "Ulika",
-      "url": "https://www.producthunt.com/products/ulika",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:42Z"
-    },
-    {
-      "id": 169,
-      "canonical_key": "web:producthunt.com/products/mailpipe-2",
-      "name": "Mailpipe",
-      "url": "https://www.producthunt.com/products/mailpipe-2",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-21T10:06:57Z"
-    },
-    {
-      "id": 174,
-      "canonical_key": "web:producthunt.com/products/volcano-3",
-      "name": "Volcano",
-      "url": "https://www.producthunt.com/products/volcano-3",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-21T10:06:56Z"
-    },
-    {
-      "id": 172,
-      "canonical_key": "web:producthunt.com/products/zethos",
-      "name": "Zethos",
-      "url": "https://www.producthunt.com/products/zethos",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-21T10:06:54Z"
-    },
-    {
-      "id": 179,
-      "canonical_key": "web:producthunt.com/products/badya-ai-language-immersion",
-      "name": "Badya",
-      "url": "https://www.producthunt.com/products/badya-ai-language-immersion",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-21T10:06:54Z"
-    },
-    {
-      "id": 171,
-      "canonical_key": "web:producthunt.com/products/storiara",
-      "name": "Storiara",
-      "url": "https://www.producthunt.com/products/storiara",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-21T10:06:53Z"
-    },
-    {
-      "id": 177,
-      "canonical_key": "web:producthunt.com/products/tinytldr",
-      "name": "tinytldr",
-      "url": "https://www.producthunt.com/products/tinytldr",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-21T10:06:53Z"
-    },
-    {
-      "id": 175,
-      "canonical_key": "web:producthunt.com/products/deep-waste",
-      "name": "DWaste",
-      "url": "https://www.producthunt.com/products/deep-waste",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-21T10:06:50Z"
-    },
-    {
-      "id": 168,
-      "canonical_key": "web:producthunt.com/products/tensorviz",
-      "name": "tensorViz",
-      "url": "https://www.producthunt.com/products/tensorviz",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-21T10:06:49Z"
-    },
-    {
-      "id": 178,
-      "canonical_key": "web:producthunt.com/products/groundwork-6",
-      "name": "Groundwork",
-      "url": "https://www.producthunt.com/products/groundwork-6",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-20T10:23:06Z"
-    },
-    {
-      "id": 176,
-      "canonical_key": "web:producthunt.com/products/tamekoshi",
-      "name": "Tamekoshi",
-      "url": "https://www.producthunt.com/products/tamekoshi",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-20T10:23:03Z"
-    },
-    {
-      "id": 173,
-      "canonical_key": "web:producthunt.com/products/lomi-local-model-intelligence",
-      "name": "LOMI",
-      "url": "https://www.producthunt.com/products/lomi-local-model-intelligence",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-20T10:22:59Z"
     }
   ],
   "weekly_reports": [
