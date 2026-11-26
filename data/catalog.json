@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-25T11:39:33Z",
+  "generated_at": "2026-11-26T11:24:51Z",
   "stats": {
-    "total_tools": 110,
-    "genuinely_free": 110,
-    "open_source": 69,
-    "free_api_count": 49,
+    "total_tools": 112,
+    "genuinely_free": 112,
+    "open_source": 71,
+    "free_api_count": 50,
     "average_score": 86.1
   },
   "tools": [
@@ -3379,7 +3379,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-17",
+      "last_verification_date": "2026-11-26",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using DSpine's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -3468,7 +3468,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-17",
+      "last_verification_date": "2026-11-26",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using maxwell's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -4440,6 +4440,96 @@
       "pricing_url": "https://huggingface.co/lucidml/gta",
       "web_only": false,
       "free_quota_cadence": "UNKNOWN"
+    },
+    {
+      "id": 111,
+      "canonical_key": "gh:raymond-van/animama",
+      "name": "Animama",
+      "official_website": "https://github.com/raymond-van/animama",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI evaluation and observability",
+      "short_description": "Show HN: Animama – Open-source AI desktop companion with 3D avatars",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Animama – Open-source AI desktop companion with 3D avatars."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai evaluation and observability utility with Free API workflow support.",
+      "free_plan_details": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 20 free minutes; 000 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (AGPL-3.0)",
+      "github_repository": "https://github.com/raymond-van/animama",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-26",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Animama's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 88.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 14.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 88.0,
+        "explanation": "Score 88.0/100 — Free(24.0/25) + Usefulness(14.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Animama into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50643708",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 123,
+      "license_name": "AGPL-3.0",
+      "discovery_date": "2026-11-26",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-26T11:24:45Z",
+      "updated_at": "2026-11-26T11:24:45Z",
+      "direct_app_url": "https://github.com/raymond-van/animama",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
     },
     {
       "id": 16,
@@ -5448,6 +5538,95 @@
       "direct_app_url": "https://handy.computer/",
       "pricing_url": "https://handy.computer/",
       "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 112,
+      "canonical_key": "gh:clockoli/clockoli",
+      "name": "We replaced our time tracking SaaS with a Git reposi",
+      "official_website": "https://github.com/clockoli/clockoli",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI evaluation and observability",
+      "short_description": "Show HN: We replaced our time tracking SaaS with a Git repository",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: We replaced our time tracking SaaS with a Git repository."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai evaluation and observability utility with direct workflow support.",
+      "free_plan_details": "Open-source (GPL-3.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 000 minutes",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (GPL-3.0)",
+      "github_repository": "https://github.com/Clockoli/clockoli",
+      "supported_os": [
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-26",
+      "official_documentation": "https://docs.github.com/en",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using We replaced our time tracking SaaS with a Git reposi's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 86.0,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 12.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 86.0,
+        "explanation": "Score 86.0/100 — Free(24.0/25) + Usefulness(12.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate We replaced our time tracking SaaS with a Git reposi into your full-stack & dev automation stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Software Engineering",
+          "API & Backend Design",
+          "Developer Productivity"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Full-Stack & Dev Automation"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50627008",
+        "https://github.com/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "full-stack & dev automation"
+      ],
+      "stars": 258,
+      "license_name": "GPL-3.0",
+      "discovery_date": "2026-11-26",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-26T11:24:45Z",
+      "updated_at": "2026-11-26T11:24:45Z",
+      "direct_app_url": "https://github.com/clockoli/clockoli",
+      "pricing_url": "https://github.com/pricing",
+      "web_only": true,
       "free_quota_cadence": "Unlimited"
     },
     {
@@ -8195,7 +8374,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-16",
+      "last_verification_date": "2026-11-26",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -8283,7 +8462,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-16",
+      "last_verification_date": "2026-11-26",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -8372,7 +8551,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-16",
+      "last_verification_date": "2026-11-26",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -10036,6 +10215,30 @@
   ],
   "pricing_history": [
     {
+      "id": 113,
+      "canonical_key": "gh:clockoli/clockoli",
+      "tool_name": "We replaced our time tracking SaaS with a Git reposi",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (GPL-3.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 000 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/clockoli/clockoli",
+      "detected_at": "2026-11-26T11:24:45Z"
+    },
+    {
+      "id": 112,
+      "canonical_key": "gh:raymond-van/animama",
+      "tool_name": "Animama",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (AGPL-3.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 20 free minutes; 000 minutes",
+      "change_type": "initial",
+      "source_url": "https://github.com/raymond-van/animama",
+      "detected_at": "2026-11-26T11:24:45Z"
+    },
+    {
       "id": 111,
       "canonical_key": "gh:atomicbot-ai/atomic-chat",
       "tool_name": "Inkling-2-Mini-Uncensored-GGUF",
@@ -11370,6 +11573,28 @@
   ],
   "discovery_runs": [
     {
+      "id": 27,
+      "run_type": "daily",
+      "started_at": "2026-11-26T11:24:25Z",
+      "finished_at": "2026-11-26T11:24:51Z",
+      "status": "success",
+      "candidates_scanned": 68,
+      "new_tools_added": 2,
+      "rejected_fake_free": 16,
+      "duplicates_skipped": 41,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [
+        "Reddit (0 items)"
+      ],
+      "summary": "Added 2 verified tools; rejected 16 non-free/low-score."
+    },
+    {
       "id": 26,
       "run_type": "daily",
       "started_at": "2026-11-25T11:39:08Z",
@@ -11776,26 +12001,6 @@
       ],
       "sources_failed": [],
       "summary": "Weekly report 2026-W46 generated with Top 10 rankings & PDF/CSV/XLSX."
-    },
-    {
-      "id": 7,
-      "run_type": "daily",
-      "started_at": "2026-11-12T16:47:52Z",
-      "finished_at": "2026-11-12T16:48:00Z",
-      "status": "success",
-      "candidates_scanned": 45,
-      "new_tools_added": 0,
-      "rejected_fake_free": 3,
-      "duplicates_skipped": 42,
-      "pricing_changes_detected": 0,
-      "sources_succeeded": [
-        "Hugging Face",
-        "Reddit",
-        "Hacker News",
-        "GitHub"
-      ],
-      "sources_failed": [],
-      "summary": "Added 0 verified tools; rejected 3 non-free/low-score."
     }
   ],
   "rejected_candidates": [
@@ -11808,7 +12013,172 @@
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
-      "rejected_at": "2026-11-25T11:39:27Z"
+      "rejected_at": "2026-11-26T11:24:45Z"
+    },
+    {
+      "id": 269,
+      "canonical_key": "web:producthunt.com/products/bifura",
+      "name": "Bifura",
+      "url": "https://www.producthunt.com/products/bifura",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:43Z"
+    },
+    {
+      "id": 270,
+      "canonical_key": "web:rocketcrab.com",
+      "name": "Rocketcrab Nova",
+      "url": "https://rocketcrab.com/",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:43Z"
+    },
+    {
+      "id": 152,
+      "canonical_key": "web:producthunt.com/products/upsolve-ai",
+      "name": "Upsolve MCP Connections",
+      "url": "https://www.producthunt.com/products/upsolve-ai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:42Z"
+    },
+    {
+      "id": 266,
+      "canonical_key": "web:producthunt.com/products/claude-mem",
+      "name": "Claude-Mem Cloud Sync",
+      "url": "https://www.producthunt.com/products/claude-mem",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:40Z"
+    },
+    {
+      "id": 267,
+      "canonical_key": "web:producthunt.com/products/openchat-5",
+      "name": "OpenChat",
+      "url": "https://www.producthunt.com/products/openchat-5",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:40Z"
+    },
+    {
+      "id": 264,
+      "canonical_key": "web:producthunt.com/products/superframes-ai-video-editor",
+      "name": "Superframes",
+      "url": "https://www.producthunt.com/products/superframes-ai-video-editor",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:39Z"
+    },
+    {
+      "id": 265,
+      "canonical_key": "web:producthunt.com/products/pydantic",
+      "name": "Pax by Pydantic",
+      "url": "https://www.producthunt.com/products/pydantic",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:39Z"
+    },
+    {
+      "id": 263,
+      "canonical_key": "web:producthunt.com/products/whipdesk",
+      "name": "WhipDesk",
+      "url": "https://www.producthunt.com/products/whipdesk",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:36Z"
+    },
+    {
+      "id": 262,
+      "canonical_key": "web:producthunt.com/products/iwantmy-app",
+      "name": "iwantmy.app",
+      "url": "https://www.producthunt.com/products/iwantmy-app",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:35Z"
+    },
+    {
+      "id": 260,
+      "canonical_key": "web:producthunt.com/products/flurra",
+      "name": "Flurra",
+      "url": "https://www.producthunt.com/products/flurra",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:34Z"
+    },
+    {
+      "id": 261,
+      "canonical_key": "web:producthunt.com/products/hub-20",
+      "name": "Hub",
+      "url": "https://www.producthunt.com/products/hub-20",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:34Z"
+    },
+    {
+      "id": 259,
+      "canonical_key": "web:producthunt.com/products/ottante",
+      "name": "Ottante",
+      "url": "https://www.producthunt.com/products/ottante",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:31Z"
+    },
+    {
+      "id": 257,
+      "canonical_key": "web:producthunt.com/products/kagi",
+      "name": "Kagi Mail",
+      "url": "https://www.producthunt.com/products/kagi",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:30Z"
+    },
+    {
+      "id": 258,
+      "canonical_key": "web:producthunt.com/products/deskfleet",
+      "name": "DeskFleet",
+      "url": "https://www.producthunt.com/products/deskfleet",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:30Z"
+    },
+    {
+      "id": 256,
+      "canonical_key": "web:producthunt.com/products/nexus-42",
+      "name": "NEXUS",
+      "url": "https://www.producthunt.com/products/nexus-42",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-26T11:24:29Z"
     },
     {
       "id": 253,
@@ -12073,171 +12443,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-23T11:07:30Z"
-    },
-    {
-      "id": 231,
-      "canonical_key": "web:producthunt.com/products/polylane",
-      "name": "Polylane Swarms",
-      "url": "https://www.producthunt.com/products/polylane",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:30Z"
-    },
-    {
-      "id": 229,
-      "canonical_key": "web:producthunt.com/products/ashwa",
-      "name": "Ashwa",
-      "url": "https://www.producthunt.com/products/ashwa",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:29Z"
-    },
-    {
-      "id": 227,
-      "canonical_key": "web:producthunt.com/products/chat-with-work",
-      "name": "Chat with Work",
-      "url": "https://www.producthunt.com/products/chat-with-work",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:26Z"
-    },
-    {
-      "id": 228,
-      "canonical_key": "web:producthunt.com/products/hydrilla",
-      "name": "Hydrilla",
-      "url": "https://www.producthunt.com/products/hydrilla",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:26Z"
-    },
-    {
-      "id": 226,
-      "canonical_key": "web:producthunt.com/products/gauth-ai-course",
-      "name": "Gauth Personal Study Agent",
-      "url": "https://www.producthunt.com/products/gauth-ai-course",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:25Z"
-    },
-    {
-      "id": 225,
-      "canonical_key": "web:producthunt.com/products/motionflare",
-      "name": "Motionflare",
-      "url": "https://www.producthunt.com/products/motionflare",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:24Z"
-    },
-    {
-      "id": 39,
-      "canonical_key": "web:gamma.app",
-      "name": "Gamma",
-      "url": "https://gamma.app",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:59Z"
-    },
-    {
-      "id": 151,
-      "canonical_key": "web:triptych.github.io/web-games-andrew/console",
-      "name": "Pocket Garden",
-      "url": "https://triptych.github.io/web-games-andrew/console/",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:55Z"
-    },
-    {
-      "id": 184,
-      "canonical_key": "web:producthunt.com/products/openvorld",
-      "name": "OpenVorld",
-      "url": "https://www.producthunt.com/products/openvorld",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:55Z"
-    },
-    {
-      "id": 222,
-      "canonical_key": "web:vaticin.ai",
-      "name": "Prediction market competition where only agents can",
-      "url": "https://www.vaticin.ai",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:55Z"
-    },
-    {
-      "id": 180,
-      "canonical_key": "web:producthunt.com/products/ai-context-flow",
-      "name": "AI Context Flow MCP",
-      "url": "https://www.producthunt.com/products/ai-context-flow",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:54Z"
-    },
-    {
-      "id": 183,
-      "canonical_key": "web:producthunt.com/products/alter-contacts-ai-client-relationships",
-      "name": "Alter Contacts",
-      "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:52Z"
-    },
-    {
-      "id": 206,
-      "canonical_key": "web:producthunt.com/products/supermailbox",
-      "name": "SuperMailbox",
-      "url": "https://www.producthunt.com/products/supermailbox",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:52Z"
-    },
-    {
-      "id": 181,
-      "canonical_key": "web:producthunt.com/products/shipyard",
-      "name": "Shipyard",
-      "url": "https://www.producthunt.com/products/shipyard",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:51Z"
-    },
-    {
-      "id": 185,
-      "canonical_key": "web:producthunt.com/products/glassmail",
-      "name": "Glassmail",
-      "url": "https://www.producthunt.com/products/glassmail",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-22T11:47:51Z"
     }
   ],
   "weekly_reports": [
