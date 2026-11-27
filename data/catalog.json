@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-26T11:24:51Z",
+  "generated_at": "2026-11-27T11:19:41Z",
   "stats": {
-    "total_tools": 112,
-    "genuinely_free": 112,
+    "total_tools": 113,
+    "genuinely_free": 113,
     "open_source": 71,
     "free_api_count": 50,
-    "average_score": 86.1
+    "average_score": 86.0
   },
   "tools": [
     {
@@ -6286,7 +6286,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-17",
+      "last_verification_date": "2026-11-27",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Clover 2's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -7187,7 +7187,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-17",
+      "last_verification_date": "2026-11-27",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using miHoYo Gamer's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -7244,6 +7244,98 @@
       "updated_at": "2026-11-17T11:02:21Z",
       "direct_app_url": "https://mihoyo-gamer.github.io/",
       "pricing_url": "https://mihoyo-gamer.github.io/",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 113,
+      "canonical_key": "web:huggingface.co/sulphurai/sulphur-3",
+      "name": "Sulphur-3",
+      "official_website": "https://huggingface.co/SulphurAI/Sulphur-3",
+      "category": "AI and Machine Learning",
+      "subcategory": "Open-source AI models",
+      "short_description": "Trending open-weights model (SulphurAI/Sulphur-3) for text-generation; 189,735 downloads.",
+      "main_capabilities": [
+        "Minimax H3",
+        "Base_Model:Minimaxai/Minimax H3",
+        "Base_Model:Finetune:Minimaxai/Minimax H3",
+        "License:Other"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong open-source ai models utility with direct workflow support.",
+      "free_plan_details": "Open-source (other) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Weights",
+      "github_repository": "",
+      "supported_os": [
+        "UNKNOWN"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "UNKNOWN",
+      "last_verification_date": "2026-11-27",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Sulphur-3's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 83.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 12.0,
+        "reliability": 11.0,
+        "student_value": 15.0,
+        "ease_of_use": 8.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 83.5,
+        "explanation": "Score 83.5/100 — Free(24.0/25) + Usefulness(12.0/20) + Reliability(11.0/15) + Student(15.0/15) + Ease(8.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Sulphur-3 into your creative & multimodal ai stack on Windows 11. Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Check Docker/WSL2 on Windows 11)",
+        "cloud_usage_necessary": "Optional",
+        "hardware_fit_notes": "Runs locally via WSL2 / Docker Desktop on Windows 11 (16GB RAM).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://huggingface.co/SulphurAI/Sulphur-3",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "minimax-h3",
+        "base_model:minimaxai/minimax-h3",
+        "base_model:finetune:minimaxai/minimax-h3",
+        "license:other",
+        "region:us",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 1288,
+      "license_name": "other",
+      "discovery_date": "2026-11-27",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-27T11:19:36Z",
+      "updated_at": "2026-11-27T11:19:36Z",
+      "direct_app_url": "https://huggingface.co/SulphurAI/Sulphur-3",
+      "pricing_url": "https://huggingface.co/pricing",
       "web_only": false,
       "free_quota_cadence": "Unlimited"
     },
@@ -8643,7 +8735,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-17",
+      "last_verification_date": "2026-11-27",
       "official_documentation": "https://thunderphone.com/docs",
       "best_student_use_case": "Build a portfolio-grade ai coding agents module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Generous Free Tier",
@@ -8732,7 +8824,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-17",
+      "last_verification_date": "2026-11-27",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -8820,7 +8912,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-17",
+      "last_verification_date": "2026-11-27",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -10215,6 +10307,18 @@
   ],
   "pricing_history": [
     {
+      "id": 114,
+      "canonical_key": "web:huggingface.co/sulphurai/sulphur-3",
+      "tool_name": "Sulphur-3",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (other) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://huggingface.co/SulphurAI/Sulphur-3",
+      "detected_at": "2026-11-27T11:19:36Z"
+    },
+    {
       "id": 113,
       "canonical_key": "gh:clockoli/clockoli",
       "tool_name": "We replaced our time tracking SaaS with a Git reposi",
@@ -11573,6 +11677,28 @@
   ],
   "discovery_runs": [
     {
+      "id": 28,
+      "run_type": "daily",
+      "started_at": "2026-11-27T11:19:17Z",
+      "finished_at": "2026-11-27T11:19:41Z",
+      "status": "success",
+      "candidates_scanned": 68,
+      "new_tools_added": 1,
+      "rejected_fake_free": 17,
+      "duplicates_skipped": 32,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [
+        "Reddit (0 items)"
+      ],
+      "summary": "Added 1 verified tools; rejected 17 non-free/low-score."
+    },
+    {
       "id": 27,
       "run_type": "daily",
       "started_at": "2026-11-26T11:24:25Z",
@@ -11981,29 +12107,20 @@
       ],
       "sources_failed": [],
       "summary": "Added 6 verified tools; rejected 23 non-free/low-score."
-    },
-    {
-      "id": 8,
-      "run_type": "weekly",
-      "started_at": "2026-11-12T16:48:00Z",
-      "finished_at": "2026-11-12T16:48:15Z",
-      "status": "success",
-      "candidates_scanned": 45,
-      "new_tools_added": 0,
-      "rejected_fake_free": 3,
-      "duplicates_skipped": 42,
-      "pricing_changes_detected": 0,
-      "sources_succeeded": [
-        "Hugging Face",
-        "Reddit",
-        "Hacker News",
-        "GitHub"
-      ],
-      "sources_failed": [],
-      "summary": "Weekly report 2026-W46 generated with Top 10 rankings & PDF/CSV/XLSX."
     }
   ],
   "rejected_candidates": [
+    {
+      "id": 238,
+      "canonical_key": "web:outloudreader.app",
+      "name": "Outloud Reader",
+      "url": "https://outloudreader.app/",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:36Z"
+    },
     {
       "id": 255,
       "canonical_key": "web:provost.unlimitedweb.space",
@@ -12013,24 +12130,178 @@
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
-      "rejected_at": "2026-11-26T11:24:45Z"
+      "rejected_at": "2026-11-27T11:19:36Z"
     },
     {
-      "id": 269,
-      "canonical_key": "web:producthunt.com/products/bifura",
-      "name": "Bifura",
-      "url": "https://www.producthunt.com/products/bifura",
+      "id": 261,
+      "canonical_key": "web:producthunt.com/products/hub-20",
+      "name": "Hub",
+      "url": "https://www.producthunt.com/products/hub-20",
       "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
-      "rejected_at": "2026-11-26T11:24:43Z"
+      "rejected_at": "2026-11-27T11:19:35Z"
     },
     {
       "id": 270,
       "canonical_key": "web:rocketcrab.com",
       "name": "Rocketcrab Nova",
       "url": "https://rocketcrab.com/",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:35Z"
+    },
+    {
+      "id": 256,
+      "canonical_key": "web:producthunt.com/products/nexus-42",
+      "name": "NEXUS",
+      "url": "https://www.producthunt.com/products/nexus-42",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:34Z"
+    },
+    {
+      "id": 258,
+      "canonical_key": "web:producthunt.com/products/deskfleet",
+      "name": "DeskFleet",
+      "url": "https://www.producthunt.com/products/deskfleet",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:32Z"
+    },
+    {
+      "id": 265,
+      "canonical_key": "web:producthunt.com/products/pydantic",
+      "name": "Pax by Pydantic",
+      "url": "https://www.producthunt.com/products/pydantic",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:32Z"
+    },
+    {
+      "id": 280,
+      "canonical_key": "web:producthunt.com/products/pushary",
+      "name": "Pushary Calls",
+      "url": "https://www.producthunt.com/products/pushary",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:31Z"
+    },
+    {
+      "id": 281,
+      "canonical_key": "web:producthunt.com/products/contral",
+      "name": "Contral",
+      "url": "https://www.producthunt.com/products/contral",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:31Z"
+    },
+    {
+      "id": 279,
+      "canonical_key": "web:producthunt.com/products/wizstar",
+      "name": "Wizstar R1",
+      "url": "https://www.producthunt.com/products/wizstar",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:28Z"
+    },
+    {
+      "id": 278,
+      "canonical_key": "web:producthunt.com/products/woomool",
+      "name": "Woomool",
+      "url": "https://www.producthunt.com/products/woomool",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:27Z"
+    },
+    {
+      "id": 276,
+      "canonical_key": "web:producthunt.com/products/ploid",
+      "name": "Ploid",
+      "url": "https://www.producthunt.com/products/ploid",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:26Z"
+    },
+    {
+      "id": 277,
+      "canonical_key": "web:producthunt.com/products/spark-ai-7",
+      "name": "Spark AI",
+      "url": "https://www.producthunt.com/products/spark-ai-7",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:26Z"
+    },
+    {
+      "id": 275,
+      "canonical_key": "web:producthunt.com/products/slay-3",
+      "name": "slay",
+      "url": "https://www.producthunt.com/products/slay-3",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:23Z"
+    },
+    {
+      "id": 273,
+      "canonical_key": "web:producthunt.com/products/depost-ai",
+      "name": "Depost AI",
+      "url": "https://www.producthunt.com/products/depost-ai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:22Z"
+    },
+    {
+      "id": 274,
+      "canonical_key": "web:producthunt.com/products/onset",
+      "name": "Onset",
+      "url": "https://www.producthunt.com/products/onset",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:22Z"
+    },
+    {
+      "id": 272,
+      "canonical_key": "web:producthunt.com/products/snibl",
+      "name": "snibl",
+      "url": "https://www.producthunt.com/products/snibl",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-27T11:19:21Z"
+    },
+    {
+      "id": 269,
+      "canonical_key": "web:producthunt.com/products/bifura",
+      "name": "Bifura",
+      "url": "https://www.producthunt.com/products/bifura",
       "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
       "fake_free_flags": [
         "Could not empirically confirm permanent free tier from inspected pages"
@@ -12082,17 +12353,6 @@
       "rejected_at": "2026-11-26T11:24:39Z"
     },
     {
-      "id": 265,
-      "canonical_key": "web:producthunt.com/products/pydantic",
-      "name": "Pax by Pydantic",
-      "url": "https://www.producthunt.com/products/pydantic",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-26T11:24:39Z"
-    },
-    {
       "id": 263,
       "canonical_key": "web:producthunt.com/products/whipdesk",
       "name": "WhipDesk",
@@ -12126,17 +12386,6 @@
       "rejected_at": "2026-11-26T11:24:34Z"
     },
     {
-      "id": 261,
-      "canonical_key": "web:producthunt.com/products/hub-20",
-      "name": "Hub",
-      "url": "https://www.producthunt.com/products/hub-20",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-26T11:24:34Z"
-    },
-    {
       "id": 259,
       "canonical_key": "web:producthunt.com/products/ottante",
       "name": "Ottante",
@@ -12157,28 +12406,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-26T11:24:30Z"
-    },
-    {
-      "id": 258,
-      "canonical_key": "web:producthunt.com/products/deskfleet",
-      "name": "DeskFleet",
-      "url": "https://www.producthunt.com/products/deskfleet",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-26T11:24:30Z"
-    },
-    {
-      "id": 256,
-      "canonical_key": "web:producthunt.com/products/nexus-42",
-      "name": "NEXUS",
-      "url": "https://www.producthunt.com/products/nexus-42",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-26T11:24:29Z"
     },
     {
       "id": 253,
@@ -12322,127 +12549,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-25T11:39:13Z"
-    },
-    {
-      "id": 241,
-      "canonical_key": "web:producthunt.com/products/tendeck",
-      "name": "Tendeck",
-      "url": "https://www.producthunt.com/products/tendeck",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-25T11:39:12Z"
-    },
-    {
-      "id": 240,
-      "canonical_key": "web:producthunt.com/products/ohhai",
-      "name": "Ohhai",
-      "url": "https://www.producthunt.com/products/ohhai",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-24T12:52:41Z"
-    },
-    {
-      "id": 239,
-      "canonical_key": "web:producthunt.com/products/viktor",
-      "name": "Viktor Code",
-      "url": "https://www.producthunt.com/products/viktor",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-24T12:52:40Z"
-    },
-    {
-      "id": 238,
-      "canonical_key": "web:outloudreader.app",
-      "name": "Outloud Reader",
-      "url": "https://outloudreader.app/",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-24T12:52:33Z"
-    },
-    {
-      "id": 194,
-      "canonical_key": "web:producthunt.com/products/webless",
-      "name": "Webless Agents",
-      "url": "https://www.producthunt.com/products/webless",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:37Z"
-    },
-    {
-      "id": 195,
-      "canonical_key": "web:producthunt.com/products/squint",
-      "name": "Squint",
-      "url": "https://www.producthunt.com/products/squint",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:36Z"
-    },
-    {
-      "id": 196,
-      "canonical_key": "web:producthunt.com/products/oovi",
-      "name": "oovi",
-      "url": "https://www.producthunt.com/products/oovi",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:35Z"
-    },
-    {
-      "id": 199,
-      "canonical_key": "web:producthunt.com/products/teaserkit",
-      "name": "TeaserKit",
-      "url": "https://www.producthunt.com/products/teaserkit",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:35Z"
-    },
-    {
-      "id": 233,
-      "canonical_key": "web:producthunt.com/products/mobile-agent-testers",
-      "name": "Mobile Agent Testers",
-      "url": "https://www.producthunt.com/products/mobile-agent-testers",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:34Z"
-    },
-    {
-      "id": 232,
-      "canonical_key": "web:producthunt.com/products/freddy",
-      "name": "freddy",
-      "url": "https://www.producthunt.com/products/freddy",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:31Z"
-    },
-    {
-      "id": 230,
-      "canonical_key": "web:producthunt.com/products/replit",
-      "name": "Replit Missions",
-      "url": "https://www.producthunt.com/products/replit",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-23T11:07:30Z"
     }
   ],
   "weekly_reports": [
