@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-27T11:19:41Z",
+  "generated_at": "2026-11-28T10:47:42Z",
   "stats": {
-    "total_tools": 113,
-    "genuinely_free": 113,
-    "open_source": 71,
-    "free_api_count": 50,
+    "total_tools": 116,
+    "genuinely_free": 116,
+    "open_source": 73,
+    "free_api_count": 52,
     "average_score": 86.0
   },
   "tools": [
@@ -2616,6 +2616,100 @@
       "free_quota_cadence": "UNKNOWN"
     },
     {
+      "id": 114,
+      "canonical_key": "gh:prismml-eng/bonsai-demo",
+      "name": "Ternary-Bonsai-2.5-27B-GGUF",
+      "official_website": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "category": "AI and Machine Learning",
+      "subcategory": "Open-source AI models",
+      "short_description": "Trending open-weights model (prism-ml/Ternary-Bonsai-2.5-27B-GGUF) for text-generation; 382,546 downloads.",
+      "main_capabilities": [
+        "Llama.Cpp",
+        "Gguf",
+        "Ternary",
+        "2 Bit"
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong open-source ai models utility with Local OpenAI-Compatible API workflow support.",
+      "free_plan_details": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "free_usage_limits": "Observed free quota: 300 tokens; 256 tokens",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (Apache-2.0)",
+      "github_repository": "https://github.com/PrismML-Eng/Bonsai-demo",
+      "supported_os": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "api_availability": "Local OpenAI-Compatible API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-28",
+      "official_documentation": "https://huggingface.co/docs",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Ternary-Bonsai-2.5-27B-GGUF's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 90.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 15.5,
+        "reliability": 12.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 90.5,
+        "explanation": "Score 90.5/100 — Free(24.0/25) + Usefulness(15.5/20) + Reliability(12.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Ternary-Bonsai-2.5-27B-GGUF into your creative & multimodal ai stack on Windows 11. 27B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs. Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Partial (Needs Cloud or Heavy Quantization >6GB VRAM)",
+        "cloud_usage_necessary": "Recommended for >13B weights",
+        "hardware_fit_notes": "27B parameter model exceeds 6GB RTX 4050 VRAM at standard precision; offload layers to 16GB system RAM or use free cloud APIs.",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+        "https://huggingface.co/pricing"
+      ],
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "ternary",
+        "2-bit",
+        "llama-cpp",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 3629,
+      "license_name": "Apache-2.0",
+      "discovery_date": "2026-11-28",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-28T10:47:38Z",
+      "updated_at": "2026-11-28T10:47:38Z",
+      "direct_app_url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "pricing_url": "https://huggingface.co/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
       "id": 13,
       "canonical_key": "gh:jamiepine/voicebox",
       "name": "voicebox",
@@ -4010,7 +4104,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-18",
+      "last_verification_date": "2026-11-28",
       "official_documentation": "https://docs.github.com/en",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using TrnRT's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -5443,6 +5537,93 @@
       "updated_at": "2026-11-20T10:23:09Z",
       "direct_app_url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
       "pricing_url": "https://huggingface.co/pricing",
+      "web_only": false,
+      "free_quota_cadence": "Unlimited"
+    },
+    {
+      "id": 115,
+      "canonical_key": "gh:sombrace/bobe",
+      "name": "Open",
+      "official_website": "https://www.bobebot.com/body",
+      "category": "AI and Machine Learning",
+      "subcategory": "AI chatbots and assistants",
+      "short_description": "Show HN: Open-source ESP32 desk body for a local AI assistant",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: Open-source ESP32 desk body for a local AI assistant."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Free Open Source; delivers strong ai chatbots and assistants utility with direct workflow support.",
+      "free_plan_details": "Open-source (MIT) — free for local & commercial/student use.",
+      "free_usage_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Open Source (MIT)",
+      "github_repository": "https://github.com/Sombrace/BoBe",
+      "supported_os": [
+        "Linux"
+      ],
+      "api_availability": "UNKNOWN",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
+      ],
+      "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
+      "last_verification_date": "2026-11-28",
+      "official_documentation": "https://github.com/Sombrace/BoBe/blob/main/docs/using-bobe.md#install",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Open's Free Open Source.",
+      "free_tier_type": "Free Open Source",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 86.5,
+      "score_breakdown": {
+        "free_functionality": 24.0,
+        "practical_usefulness": 13.5,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 8.0,
+        "performance": 10.0,
+        "documentation": 4.5,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 86.5,
+        "explanation": "Score 86.5/100 — Free(24.0/25) + Usefulness(13.5/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(8.0/10) + Perf(10.0/10) + Docs(4.5/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate Open into your creative & multimodal ai stack on Windows 11. Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB). Use its free open source access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Native Windows 11)",
+        "cloud_usage_necessary": "No",
+        "hardware_fit_notes": "Compatible with Windows 11 (AMD Ryzen 7 7435HS, 16GB RAM, RTX 4050 6GB).",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50668024",
+        "https://www.bobebot.com/body"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 11,
+      "license_name": "MIT",
+      "discovery_date": "2026-11-28",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-28T10:47:38Z",
+      "updated_at": "2026-11-28T10:47:38Z",
+      "direct_app_url": "https://www.bobebot.com/body",
+      "pricing_url": "https://www.bobebot.com/body",
       "web_only": false,
       "free_quota_cadence": "Unlimited"
     },
@@ -8374,7 +8555,7 @@
         "Bounded locally by 6GB RTX 4050 VRAM / 16GB RAM."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-18",
+      "last_verification_date": "2026-11-28",
       "official_documentation": "https://huggingface.co/docs",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using Haru-4B's Free Open Source.",
       "free_tier_type": "Free Open Source",
@@ -9001,7 +9182,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-17",
+      "last_verification_date": "2026-11-28",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -9089,7 +9270,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
-      "last_verification_date": "2026-11-17",
+      "last_verification_date": "2026-11-28",
       "official_documentation": "UNKNOWN",
       "best_student_use_case": "Build a portfolio-grade ai model hosting module or 24-hour hackathon MVP on your RTX 4050 laptop.",
       "free_tier_type": "Completely Free",
@@ -9178,7 +9359,7 @@
         "Verify rate limits on official docs before heavy hackathon traffic."
       ],
       "privacy_considerations": "Runs locally on device; data stays private unless optional cloud APIs are connected.",
-      "last_verification_date": "2026-11-18",
+      "last_verification_date": "2026-11-28",
       "official_documentation": "https://elevenlabs.io/docs/overview/intro",
       "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using ElevenLabs's Generous Free Tier.",
       "free_tier_type": "Generous Free Tier",
@@ -9415,6 +9596,94 @@
       "pricing_url": "https://www.vaticin.ai/",
       "web_only": false,
       "free_quota_cadence": "Starter Credits"
+    },
+    {
+      "id": 116,
+      "canonical_key": "web:spawn.co/@ilkkah/the-velvet-point",
+      "name": "A free browser backgammon club, gnubg's net under th",
+      "official_website": "https://www.spawn.co/@ilkkah/the-velvet-point",
+      "category": "AI and Machine Learning",
+      "subcategory": "RAG and vector databases",
+      "short_description": "Show HN: A free browser backgammon club, gnubg's net under the hood",
+      "main_capabilities": [
+        "Show Hn",
+        "Ai",
+        "Show HN: A free browser backgammon club, gnubg's net under the hood."
+      ],
+      "what_makes_it_useful": "Eliminates paywalls via Freemium Useful Free; delivers strong rag and vector databases utility with Free API workflow support.",
+      "free_plan_details": "Verified Freemium Useful Free via official site/pricing signals (open source).",
+      "free_usage_limits": "Observed free quota: 60 seconds",
+      "credit_card_required": "No",
+      "registration_required": "No",
+      "open_source_status": "Closed Source / Free Service",
+      "github_repository": "",
+      "supported_os": [
+        "macOS",
+        "Web"
+      ],
+      "api_availability": "Free API",
+      "local_installation_available": "Yes",
+      "important_limitations": [
+        "Verify rate limits on official docs before heavy hackathon traffic."
+      ],
+      "privacy_considerations": "Cloud service: verify whether free-tier inputs are used for model improvement before uploading sensitive data.",
+      "last_verification_date": "2026-11-28",
+      "official_documentation": "UNKNOWN",
+      "best_student_use_case": "Ship a zero-infrastructure-cost hackathon MVP or SaaS prototype using A free browser backgammon club, gnubg's net under th's Freemium Useful Free.",
+      "free_tier_type": "Freemium Useful Free",
+      "is_genuinely_free": true,
+      "india_available": "Yes",
+      "score": 76.5,
+      "score_breakdown": {
+        "free_functionality": 15.0,
+        "practical_usefulness": 14.0,
+        "reliability": 11.5,
+        "student_value": 15.0,
+        "ease_of_use": 10.0,
+        "performance": 9.0,
+        "documentation": 2.0,
+        "penalties": 0.0,
+        "penalty_reasons": [],
+        "total_score": 76.5,
+        "explanation": "Score 76.5/100 — Free(15.0/25) + Usefulness(14.0/20) + Reliability(11.5/15) + Student(15.0/15) + Ease(10.0/10) + Perf(9.0/10) + Docs(2.0/5) with 0 penalties."
+      },
+      "personalization": {
+        "how_to_use": "Integrate A free browser backgammon club, gnubg's net under th into your creative & multimodal ai stack on Windows 11. Runs in Windows 11 browser; compute handled on free cloud tier. Use its freemium useful free access to prototype without burning your student budget.",
+        "skills_developed": [
+          "Multimodal Prototyping",
+          "Demo & Pitch Creation"
+        ],
+        "helps_ai_engineering_career": true,
+        "useful_for_college_projects": true,
+        "helps_startup_building": true,
+        "improves_productivity": true,
+        "can_run_on_laptop": "Yes (Browser)",
+        "cloud_usage_necessary": "Yes",
+        "hardware_fit_notes": "Runs in Windows 11 browser; compute handled on free cloud tier.",
+        "priority_track": "Creative & Multimodal AI"
+      },
+      "sources": [
+        "https://news.ycombinator.com/item?id=50670977",
+        "https://www.spawn.co/@ilkkah/the-velvet-point/pricing"
+      ],
+      "tags": [
+        "show-hn",
+        "ai",
+        "creative & multimodal ai"
+      ],
+      "stars": 2,
+      "license_name": "Proprietary",
+      "discovery_date": "2026-11-28",
+      "status": "active",
+      "user_rating": null,
+      "is_saved": false,
+      "previous_pricing_info": "",
+      "created_at": "2026-11-28T10:47:38Z",
+      "updated_at": "2026-11-28T10:47:38Z",
+      "direct_app_url": "https://www.spawn.co/@ilkkah/the-velvet-point",
+      "pricing_url": "https://www.spawn.co/@ilkkah/the-velvet-point/pricing",
+      "web_only": true,
+      "free_quota_cadence": "Free Tier"
     },
     {
       "id": 101,
@@ -10306,6 +10575,42 @@
     }
   ],
   "pricing_history": [
+    {
+      "id": 117,
+      "canonical_key": "web:spawn.co/@ilkkah/the-velvet-point",
+      "tool_name": "A free browser backgammon club, gnubg's net under th",
+      "old_free_plan": "",
+      "new_free_plan": "Verified Freemium Useful Free via official site/pricing signals (open source).",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 60 seconds",
+      "change_type": "initial",
+      "source_url": "https://www.spawn.co/@ilkkah/the-velvet-point",
+      "detected_at": "2026-11-28T10:47:38Z"
+    },
+    {
+      "id": 116,
+      "canonical_key": "gh:sombrace/bobe",
+      "tool_name": "Open",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (MIT) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Unlimited local execution (bounded only by your hardware / RTX 4050 6GB VRAM).",
+      "change_type": "initial",
+      "source_url": "https://www.bobebot.com/body",
+      "detected_at": "2026-11-28T10:47:38Z"
+    },
+    {
+      "id": 115,
+      "canonical_key": "gh:prismml-eng/bonsai-demo",
+      "tool_name": "Ternary-Bonsai-2.5-27B-GGUF",
+      "old_free_plan": "",
+      "new_free_plan": "Open-source (Apache-2.0) — free for local & commercial/student use.",
+      "old_limits": "",
+      "new_limits": "Observed free quota: 300 tokens; 256 tokens",
+      "change_type": "initial",
+      "source_url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "detected_at": "2026-11-28T10:47:38Z"
+    },
     {
       "id": 114,
       "canonical_key": "web:huggingface.co/sulphurai/sulphur-3",
@@ -11677,6 +11982,28 @@
   ],
   "discovery_runs": [
     {
+      "id": 29,
+      "run_type": "daily",
+      "started_at": "2026-11-28T10:47:19Z",
+      "finished_at": "2026-11-28T10:47:42Z",
+      "status": "success",
+      "candidates_scanned": 68,
+      "new_tools_added": 3,
+      "rejected_fake_free": 15,
+      "duplicates_skipped": 29,
+      "pricing_changes_detected": 0,
+      "sources_succeeded": [
+        "Product Hunt",
+        "Hugging Face",
+        "Hacker News",
+        "GitHub"
+      ],
+      "sources_failed": [
+        "Reddit (0 items)"
+      ],
+      "summary": "Added 3 verified tools; rejected 15 non-free/low-score."
+    },
+    {
       "id": 28,
       "run_type": "daily",
       "started_at": "2026-11-27T11:19:17Z",
@@ -12086,30 +12413,174 @@
       ],
       "sources_failed": [],
       "summary": "Added 3 verified tools; rejected 15 non-free/low-score."
-    },
-    {
-      "id": 9,
-      "run_type": "daily",
-      "started_at": "2026-11-12T17:30:53Z",
-      "finished_at": "2026-11-12T17:32:34Z",
-      "status": "success",
-      "candidates_scanned": 72,
-      "new_tools_added": 6,
-      "rejected_fake_free": 23,
-      "duplicates_skipped": 43,
-      "pricing_changes_detected": 0,
-      "sources_succeeded": [
-        "Product Hunt",
-        "Hugging Face",
-        "GitHub",
-        "Reddit",
-        "Hacker News"
-      ],
-      "sources_failed": [],
-      "summary": "Added 6 verified tools; rejected 23 non-free/low-score."
     }
   ],
   "rejected_candidates": [
+    {
+      "id": 274,
+      "canonical_key": "web:producthunt.com/products/onset",
+      "name": "Onset",
+      "url": "https://www.producthunt.com/products/onset",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:36Z"
+    },
+    {
+      "id": 278,
+      "canonical_key": "web:producthunt.com/products/woomool",
+      "name": "Woomool",
+      "url": "https://www.producthunt.com/products/woomool",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:36Z"
+    },
+    {
+      "id": 303,
+      "canonical_key": "web:damn.academy",
+      "name": "Started open source course for DevOps engineers with",
+      "url": "https://damn.academy/?lang=en#/profession/devops",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:36Z"
+    },
+    {
+      "id": 277,
+      "canonical_key": "web:producthunt.com/products/spark-ai-7",
+      "name": "Spark AI",
+      "url": "https://www.producthunt.com/products/spark-ai-7",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:34Z"
+    },
+    {
+      "id": 275,
+      "canonical_key": "web:producthunt.com/products/slay-3",
+      "name": "slay",
+      "url": "https://www.producthunt.com/products/slay-3",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:33Z"
+    },
+    {
+      "id": 279,
+      "canonical_key": "web:producthunt.com/products/wizstar",
+      "name": "Wizstar R1",
+      "url": "https://www.producthunt.com/products/wizstar",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:33Z"
+    },
+    {
+      "id": 273,
+      "canonical_key": "web:producthunt.com/products/depost-ai",
+      "name": "Depost AI",
+      "url": "https://www.producthunt.com/products/depost-ai",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:32Z"
+    },
+    {
+      "id": 276,
+      "canonical_key": "web:producthunt.com/products/ploid",
+      "name": "Ploid",
+      "url": "https://www.producthunt.com/products/ploid",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:29Z"
+    },
+    {
+      "id": 294,
+      "canonical_key": "web:producthunt.com/products/stacktrace",
+      "name": "Stacktrace",
+      "url": "https://www.producthunt.com/products/stacktrace",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:28Z"
+    },
+    {
+      "id": 295,
+      "canonical_key": "web:producthunt.com/products/opencrawl",
+      "name": "OpenCrawl",
+      "url": "https://www.producthunt.com/products/opencrawl",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:28Z"
+    },
+    {
+      "id": 293,
+      "canonical_key": "web:producthunt.com/products/airoom",
+      "name": "airoom",
+      "url": "https://www.producthunt.com/products/airoom",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:27Z"
+    },
+    {
+      "id": 291,
+      "canonical_key": "web:producthunt.com/products/graypass",
+      "name": "GrayPass",
+      "url": "https://www.producthunt.com/products/graypass",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:24Z"
+    },
+    {
+      "id": 292,
+      "canonical_key": "web:producthunt.com/products/cognition-swe-2-1",
+      "name": "Cognition SWE-2.1",
+      "url": "https://www.producthunt.com/products/cognition-swe-2-1",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:24Z"
+    },
+    {
+      "id": 290,
+      "canonical_key": "web:producthunt.com/products/retainiq-2",
+      "name": "RetainIQ",
+      "url": "https://www.producthunt.com/products/retainiq-2",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:23Z"
+    },
+    {
+      "id": 289,
+      "canonical_key": "web:producthunt.com/products/gutcheck-2",
+      "name": "gutcheck",
+      "url": "https://www.producthunt.com/products/gutcheck-2",
+      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
+      "fake_free_flags": [
+        "Could not empirically confirm permanent free tier from inspected pages"
+      ],
+      "rejected_at": "2026-11-28T10:47:22Z"
+    },
     {
       "id": 238,
       "canonical_key": "web:outloudreader.app",
@@ -12208,83 +12679,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-27T11:19:31Z"
-    },
-    {
-      "id": 279,
-      "canonical_key": "web:producthunt.com/products/wizstar",
-      "name": "Wizstar R1",
-      "url": "https://www.producthunt.com/products/wizstar",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-27T11:19:28Z"
-    },
-    {
-      "id": 278,
-      "canonical_key": "web:producthunt.com/products/woomool",
-      "name": "Woomool",
-      "url": "https://www.producthunt.com/products/woomool",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-27T11:19:27Z"
-    },
-    {
-      "id": 276,
-      "canonical_key": "web:producthunt.com/products/ploid",
-      "name": "Ploid",
-      "url": "https://www.producthunt.com/products/ploid",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-27T11:19:26Z"
-    },
-    {
-      "id": 277,
-      "canonical_key": "web:producthunt.com/products/spark-ai-7",
-      "name": "Spark AI",
-      "url": "https://www.producthunt.com/products/spark-ai-7",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-27T11:19:26Z"
-    },
-    {
-      "id": 275,
-      "canonical_key": "web:producthunt.com/products/slay-3",
-      "name": "slay",
-      "url": "https://www.producthunt.com/products/slay-3",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-27T11:19:23Z"
-    },
-    {
-      "id": 273,
-      "canonical_key": "web:producthunt.com/products/depost-ai",
-      "name": "Depost AI",
-      "url": "https://www.producthunt.com/products/depost-ai",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-27T11:19:22Z"
-    },
-    {
-      "id": 274,
-      "canonical_key": "web:producthunt.com/products/onset",
-      "name": "Onset",
-      "url": "https://www.producthunt.com/products/onset",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-27T11:19:22Z"
     },
     {
       "id": 272,
@@ -12461,94 +12855,6 @@
         "Could not empirically confirm permanent free tier from inspected pages"
       ],
       "rejected_at": "2026-11-25T11:39:23Z"
-    },
-    {
-      "id": 249,
-      "canonical_key": "web:producthunt.com/products/myclaw-3-0",
-      "name": "MyClaw 3.0",
-      "url": "https://www.producthunt.com/products/myclaw-3-0",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-25T11:39:22Z"
-    },
-    {
-      "id": 248,
-      "canonical_key": "web:producthunt.com/products/partgenie",
-      "name": "PartGenie 2.0",
-      "url": "https://www.producthunt.com/products/partgenie",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-25T11:39:19Z"
-    },
-    {
-      "id": 246,
-      "canonical_key": "web:producthunt.com/products/eluna",
-      "name": "eluna",
-      "url": "https://www.producthunt.com/products/eluna",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-25T11:39:18Z"
-    },
-    {
-      "id": 247,
-      "canonical_key": "web:producthunt.com/products/memoryworks",
-      "name": "MemoryWorks",
-      "url": "https://www.producthunt.com/products/memoryworks",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-25T11:39:18Z"
-    },
-    {
-      "id": 245,
-      "canonical_key": "web:producthunt.com/products/koed",
-      "name": "Koed",
-      "url": "https://www.producthunt.com/products/koed",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-25T11:39:17Z"
-    },
-    {
-      "id": 243,
-      "canonical_key": "web:producthunt.com/products/3way-social",
-      "name": "3way.Social MCP",
-      "url": "https://www.producthunt.com/products/3way-social",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-25T11:39:14Z"
-    },
-    {
-      "id": 244,
-      "canonical_key": "web:producthunt.com/products/steerlatch",
-      "name": "SteerLatch",
-      "url": "https://www.producthunt.com/products/steerlatch",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-25T11:39:14Z"
-    },
-    {
-      "id": 242,
-      "canonical_key": "web:producthunt.com/products/airbots",
-      "name": "Airbot",
-      "url": "https://www.producthunt.com/products/airbots",
-      "reason": "Rejected as non-free / trial-only / unverified free tier: Could not empirically confirm permanent free tier from inspected pages",
-      "fake_free_flags": [
-        "Could not empirically confirm permanent free tier from inspected pages"
-      ],
-      "rejected_at": "2026-11-25T11:39:13Z"
     }
   ],
   "weekly_reports": [
